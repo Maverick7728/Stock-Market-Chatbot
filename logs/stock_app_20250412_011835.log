@@ -1,0 +1,306 @@
+2025-04-12 01:18:35,590 [INFO] [__main__:43] --- Application starting up ---
+2025-04-12 01:18:35,591 [INFO] [__main__:72] Created data directory: stock_data
+2025-04-12 01:18:36,059 [INFO] [__main__:313] Initializing LLM models...
+2025-04-12 01:18:36,949 [INFO] [__main__:339] Successfully initialized model: Llama-3.1-70B (llama-3.1-70b-versatile)
+2025-04-12 01:18:37,609 [INFO] [__main__:339] Successfully initialized model: Llama-3.1-8B (llama-3.1-8b-instant)
+2025-04-12 01:18:38,250 [INFO] [__main__:339] Successfully initialized model: Gemma-2-9B (gemma2-9b-it)
+2025-04-12 01:18:38,251 [INFO] [__main__:349] Successfully initialized 3 models: ['Llama-3.1-70B', 'Llama-3.1-8B', 'Gemma-2-9B']
+2025-04-12 01:18:38,251 [INFO] [__main__:1279] Models initialized and stored in session state: ['Llama-3.1-70B', 'Llama-3.1-8B', 'Gemma-2-9B']
+2025-04-12 01:18:38,259 [INFO] [__main__:791] Generating market overview chart for period: 3mo
+2025-04-12 01:18:39,710 [ERROR] [yfinance:1687] Failed to get ticker '^RUT' reason: Expecting value: line 1 column 1 (char 0)
+2025-04-12 01:18:39,744 [ERROR] [yfinance:1687] Failed to get ticker '^DJI' reason: Expecting value: line 1 column 1 (char 0)
+2025-04-12 01:18:39,753 [ERROR] [yfinance:1687] Failed to get ticker '^GSPC' reason: Expecting value: line 1 column 1 (char 0)
+2025-04-12 01:18:40,717 [ERROR] [yfinance:1687] Failed to get ticker '^VIX' reason: Expecting value: line 1 column 1 (char 0)
+2025-04-12 01:18:40,843 [ERROR] [yfinance:1687] Failed to get ticker '^IXIC' reason: Expecting value: line 1 column 1 (char 0)
+2025-04-12 01:18:42,224 [ERROR] [yfinance:182] 
+5 Failed downloads:
+2025-04-12 01:18:42,224 [ERROR] [yfinance:195] ['^RUT', '^GSPC', '^DJI', '^VIX', '^IXIC']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-04-12 01:18:42,251 [ERROR] [__main__:810] Failed to download any market index data from Yahoo Finance.
+2025-04-12 01:18:42,253 [INFO] [__main__:1913] --- Streamlit script execution finished ---
+2025-04-12 01:18:47,961 [INFO] [__main__:43] --- Application starting up ---
+2025-04-12 01:18:47,967 [INFO] [__main__:791] Generating market overview chart for period: 1mo
+2025-04-12 01:18:47,972 [ERROR] [yfinance:1687] Failed to get ticker '^DJI' reason: Expecting value: line 1 column 1 (char 0)
+2025-04-12 01:18:47,974 [ERROR] [yfinance:1687] Failed to get ticker '^IXIC' reason: Expecting value: line 1 column 1 (char 0)
+2025-04-12 01:18:47,976 [ERROR] [yfinance:1687] Failed to get ticker '^RUT' reason: Expecting value: line 1 column 1 (char 0)
+2025-04-12 01:18:47,978 [ERROR] [yfinance:1687] Failed to get ticker '^VIX' reason: Expecting value: line 1 column 1 (char 0)
+2025-04-12 01:18:47,981 [ERROR] [yfinance:1687] Failed to get ticker '^GSPC' reason: Expecting value: line 1 column 1 (char 0)
+2025-04-12 01:18:48,943 [ERROR] [yfinance:182] 
+5 Failed downloads:
+2025-04-12 01:18:48,943 [ERROR] [yfinance:195] ['^IXIC', '^RUT', '^DJI', '^GSPC', '^VIX']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-04-12 01:18:48,947 [ERROR] [__main__:810] Failed to download any market index data from Yahoo Finance.
+2025-04-12 01:18:48,949 [INFO] [__main__:1913] --- Streamlit script execution finished ---
+2025-04-12 01:18:52,561 [INFO] [__main__:43] --- Application starting up ---
+2025-04-12 01:18:52,564 [INFO] [__main__:1364] Data source changed to: Yahoo Finance
+2025-04-12 01:18:52,571 [INFO] [__main__:791] Generating market overview chart for period: 1mo
+2025-04-12 01:18:52,574 [ERROR] [yfinance:1687] Failed to get ticker '^DJI' reason: Expecting value: line 1 column 1 (char 0)
+2025-04-12 01:18:52,576 [ERROR] [yfinance:1687] Failed to get ticker '^IXIC' reason: Expecting value: line 1 column 1 (char 0)
+2025-04-12 01:18:52,578 [ERROR] [yfinance:1687] Failed to get ticker '^RUT' reason: Expecting value: line 1 column 1 (char 0)
+2025-04-12 01:18:52,579 [ERROR] [yfinance:1687] Failed to get ticker '^VIX' reason: Expecting value: line 1 column 1 (char 0)
+2025-04-12 01:18:52,581 [ERROR] [yfinance:1687] Failed to get ticker '^GSPC' reason: Expecting value: line 1 column 1 (char 0)
+2025-04-12 01:18:54,258 [ERROR] [yfinance:182] 
+5 Failed downloads:
+2025-04-12 01:18:54,258 [ERROR] [yfinance:195] ['^GSPC', '^RUT', '^DJI', '^IXIC', '^VIX']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-04-12 01:18:54,260 [ERROR] [__main__:810] Failed to download any market index data from Yahoo Finance.
+2025-04-12 01:18:54,262 [INFO] [__main__:1913] --- Streamlit script execution finished ---
+2025-04-12 01:18:55,640 [INFO] [__main__:43] --- Application starting up ---
+2025-04-12 01:18:55,647 [INFO] [__main__:791] Generating market overview chart for period: 1mo
+2025-04-12 01:18:55,651 [ERROR] [yfinance:1687] Failed to get ticker '^DJI' reason: Expecting value: line 1 column 1 (char 0)
+2025-04-12 01:18:55,653 [ERROR] [yfinance:1687] Failed to get ticker '^IXIC' reason: Expecting value: line 1 column 1 (char 0)
+2025-04-12 01:18:55,654 [ERROR] [yfinance:1687] Failed to get ticker '^RUT' reason: Expecting value: line 1 column 1 (char 0)
+2025-04-12 01:18:55,657 [ERROR] [yfinance:1687] Failed to get ticker '^VIX' reason: Expecting value: line 1 column 1 (char 0)
+2025-04-12 01:18:55,659 [ERROR] [yfinance:1687] Failed to get ticker '^GSPC' reason: Expecting value: line 1 column 1 (char 0)
+2025-04-12 01:18:57,041 [INFO] [__main__:43] --- Application starting up ---
+2025-04-12 01:18:57,043 [INFO] [__main__:1364] Data source changed to: Saved Excel Files
+2025-04-12 01:18:57,049 [INFO] [__main__:791] Generating market overview chart for period: 1mo
+2025-04-12 01:18:57,055 [ERROR] [yfinance:1687] Failed to get ticker '^DJI' reason: Expecting value: line 1 column 1 (char 0)
+2025-04-12 01:18:57,058 [ERROR] [yfinance:1687] Failed to get ticker '^IXIC' reason: Expecting value: line 1 column 1 (char 0)
+2025-04-12 01:18:57,059 [ERROR] [yfinance:1687] Failed to get ticker '^RUT' reason: Expecting value: line 1 column 1 (char 0)
+2025-04-12 01:18:57,061 [ERROR] [yfinance:1687] Failed to get ticker '^VIX' reason: Expecting value: line 1 column 1 (char 0)
+2025-04-12 01:18:57,066 [ERROR] [yfinance:1687] Failed to get ticker '^GSPC' reason: Expecting value: line 1 column 1 (char 0)
+2025-04-12 01:18:57,501 [ERROR] [yfinance:182] 
+5 Failed downloads:
+2025-04-12 01:18:57,501 [ERROR] [yfinance:195] ['^IXIC', '^RUT', '^GSPC', '^DJI', '^VIX']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-04-12 01:18:57,504 [ERROR] [__main__:810] Failed to download any market index data from Yahoo Finance.
+2025-04-12 01:18:57,506 [INFO] [__main__:1913] --- Streamlit script execution finished ---
+2025-04-12 01:18:57,578 [ERROR] [yfinance:182] 
+5 Failed downloads:
+2025-04-12 01:18:57,580 [ERROR] [yfinance:195] ['^IXIC', '^RUT', '^GSPC', '^DJI', '^VIX']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-04-12 01:18:57,584 [ERROR] [__main__:810] Failed to download any market index data from Yahoo Finance.
+2025-04-12 01:19:06,132 [INFO] [__main__:43] --- Application starting up ---
+2025-04-12 01:19:06,134 [INFO] [__main__:43] --- Application starting up ---
+2025-04-12 01:19:06,135 [INFO] [__main__:313] Initializing LLM models...
+2025-04-12 01:19:06,138 [INFO] [__main__:313] Initializing LLM models...
+2025-04-12 01:19:07,126 [INFO] [__main__:339] Successfully initialized model: Llama-3.1-70B (llama-3.1-70b-versatile)
+2025-04-12 01:19:07,127 [INFO] [__main__:339] Successfully initialized model: Llama-3.1-70B (llama-3.1-70b-versatile)
+2025-04-12 01:19:08,072 [INFO] [__main__:339] Successfully initialized model: Llama-3.1-8B (llama-3.1-8b-instant)
+2025-04-12 01:19:08,088 [INFO] [__main__:339] Successfully initialized model: Llama-3.1-8B (llama-3.1-8b-instant)
+2025-04-12 01:19:08,990 [INFO] [__main__:339] Successfully initialized model: Gemma-2-9B (gemma2-9b-it)
+2025-04-12 01:19:08,990 [INFO] [__main__:349] Successfully initialized 3 models: ['Llama-3.1-70B', 'Llama-3.1-8B', 'Gemma-2-9B']
+2025-04-12 01:19:08,990 [INFO] [__main__:1279] Models initialized and stored in session state: ['Llama-3.1-70B', 'Llama-3.1-8B', 'Gemma-2-9B']
+2025-04-12 01:19:08,997 [INFO] [__main__:791] Generating market overview chart for period: 3mo
+2025-04-12 01:19:09,000 [ERROR] [yfinance:1687] Failed to get ticker '^DJI' reason: Expecting value: line 1 column 1 (char 0)
+2025-04-12 01:19:09,003 [ERROR] [yfinance:1687] Failed to get ticker '^IXIC' reason: Expecting value: line 1 column 1 (char 0)
+2025-04-12 01:19:09,004 [ERROR] [yfinance:1687] Failed to get ticker '^RUT' reason: Expecting value: line 1 column 1 (char 0)
+2025-04-12 01:19:09,006 [ERROR] [yfinance:1687] Failed to get ticker '^VIX' reason: Expecting value: line 1 column 1 (char 0)
+2025-04-12 01:19:09,009 [ERROR] [yfinance:1687] Failed to get ticker '^GSPC' reason: Expecting value: line 1 column 1 (char 0)
+2025-04-12 01:19:09,021 [INFO] [__main__:339] Successfully initialized model: Gemma-2-9B (gemma2-9b-it)
+2025-04-12 01:19:09,021 [INFO] [__main__:349] Successfully initialized 3 models: ['Llama-3.1-70B', 'Llama-3.1-8B', 'Gemma-2-9B']
+2025-04-12 01:19:09,022 [INFO] [__main__:1279] Models initialized and stored in session state: ['Llama-3.1-70B', 'Llama-3.1-8B', 'Gemma-2-9B']
+2025-04-12 01:19:09,028 [INFO] [__main__:791] Generating market overview chart for period: 3mo
+2025-04-12 01:19:09,034 [ERROR] [yfinance:1687] Failed to get ticker '^DJI' reason: Expecting value: line 1 column 1 (char 0)
+2025-04-12 01:19:09,034 [ERROR] [yfinance:1687] Failed to get ticker '^IXIC' reason: Expecting value: line 1 column 1 (char 0)
+2025-04-12 01:19:09,038 [ERROR] [yfinance:1687] Failed to get ticker '^RUT' reason: Expecting value: line 1 column 1 (char 0)
+2025-04-12 01:19:09,039 [ERROR] [yfinance:1687] Failed to get ticker '^VIX' reason: Expecting value: line 1 column 1 (char 0)
+2025-04-12 01:19:09,041 [ERROR] [yfinance:1687] Failed to get ticker '^GSPC' reason: Expecting value: line 1 column 1 (char 0)
+2025-04-12 01:19:12,532 [ERROR] [yfinance:182] 
+5 Failed downloads:
+2025-04-12 01:19:12,532 [ERROR] [yfinance:195] ['^DJI', '^RUT', '^GSPC', '^IXIC', '^VIX']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-04-12 01:19:12,535 [ERROR] [__main__:810] Failed to download any market index data from Yahoo Finance.
+2025-04-12 01:19:12,535 [ERROR] [yfinance:182] 
+5 Failed downloads:
+2025-04-12 01:19:12,535 [ERROR] [yfinance:195] ['^DJI', '^RUT', '^GSPC', '^IXIC', '^VIX']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-04-12 01:19:12,538 [ERROR] [__main__:810] Failed to download any market index data from Yahoo Finance.
+2025-04-12 01:19:12,539 [INFO] [__main__:1913] --- Streamlit script execution finished ---
+2025-04-12 01:19:12,612 [INFO] [__main__:1913] --- Streamlit script execution finished ---
+2025-04-12 01:19:15,685 [INFO] [__main__:43] --- Application starting up ---
+2025-04-12 01:19:15,693 [INFO] [__main__:791] Generating market overview chart for period: 1mo
+2025-04-12 01:19:15,697 [ERROR] [yfinance:1687] Failed to get ticker '^DJI' reason: Expecting value: line 1 column 1 (char 0)
+2025-04-12 01:19:15,699 [ERROR] [yfinance:1687] Failed to get ticker '^IXIC' reason: Expecting value: line 1 column 1 (char 0)
+2025-04-12 01:19:15,700 [ERROR] [yfinance:1687] Failed to get ticker '^RUT' reason: Expecting value: line 1 column 1 (char 0)
+2025-04-12 01:19:15,703 [ERROR] [yfinance:1687] Failed to get ticker '^VIX' reason: Expecting value: line 1 column 1 (char 0)
+2025-04-12 01:19:15,703 [ERROR] [yfinance:1687] Failed to get ticker '^GSPC' reason: Expecting value: line 1 column 1 (char 0)
+2025-04-12 01:19:20,577 [ERROR] [yfinance:182] 
+5 Failed downloads:
+2025-04-12 01:19:20,577 [ERROR] [yfinance:195] ['^RUT', '^VIX', '^IXIC', '^GSPC', '^DJI']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-04-12 01:19:20,580 [ERROR] [__main__:810] Failed to download any market index data from Yahoo Finance.
+2025-04-12 01:19:20,582 [INFO] [__main__:1872] User prompt: 'which is the best stock in current market '
+2025-04-12 01:19:20,587 [INFO] [__main__:986] General market terms detected without specific symbols, adding default indices.
+2025-04-12 01:19:20,587 [INFO] [__main__:990] Keyword extraction result: {'keywords': ['market', 'stock'], 'symbols': ['^GSPC', '^IXIC']}
+2025-04-12 01:19:20,588 [INFO] [__main__:1165] Generating AI response using model: llama-3.1-70b-versatile for query: 'which is the best stock in current market ...'
+2025-04-12 01:19:20,588 [INFO] [__main__:1240] Prompt for llama-3.1-70b-versatile: Context provided (No). Query: 'which is the best stock in current market ...'
+2025-04-12 01:19:20,813 [INFO] [httpx:1025] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-04-12 01:19:20,814 [ERROR] [__main__:1256] Error getting AI response from llama-3.1-70b-versatile: Error code: 400 - {'error': {'message': 'The model `llama-3.1-70b-versatile` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+Traceback (most recent call last):
+  File "C:\Users\manan\OneDrive\Desktop\GenAI project\latest.py", line 1244, in get_ai_response
+    response = model.invoke(prompt)
+               ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\manan\OneDrive\Desktop\GenAI project\venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 307, in invoke
+    self.generate_prompt(
+  File "C:\Users\manan\OneDrive\Desktop\GenAI project\venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 843, in generate_prompt
+    return self.generate(prompt_messages, stop=stop, callbacks=callbacks, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\manan\OneDrive\Desktop\GenAI project\venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 683, in generate
+    self._generate_with_cache(
+  File "C:\Users\manan\OneDrive\Desktop\GenAI project\venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 908, in _generate_with_cache
+    result = self._generate(
+             ^^^^^^^^^^^^^^^
+  File "C:\Users\manan\OneDrive\Desktop\GenAI project\venv\Lib\site-packages\langchain_groq\chat_models.py", line 498, in _generate
+    response = self.client.create(messages=message_dicts, **params)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\manan\OneDrive\Desktop\GenAI project\venv\Lib\site-packages\groq\resources\chat\completions.py", line 322, in create
+    return self._post(
+           ^^^^^^^^^^^
+  File "C:\Users\manan\OneDrive\Desktop\GenAI project\venv\Lib\site-packages\groq\_base_client.py", line 1225, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\manan\OneDrive\Desktop\GenAI project\venv\Lib\site-packages\groq\_base_client.py", line 917, in request
+    return self._request(
+           ^^^^^^^^^^^^^^
+  File "C:\Users\manan\OneDrive\Desktop\GenAI project\venv\Lib\site-packages\groq\_base_client.py", line 1020, in _request
+    raise self._make_status_error_from_response(err.response) from None
+groq.BadRequestError: Error code: 400 - {'error': {'message': 'The model `llama-3.1-70b-versatile` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2025-04-12 01:19:20,856 [INFO] [__main__:1898] AI response generated (length: 451)
+2025-04-12 01:19:20,856 [INFO] [__main__:1913] --- Streamlit script execution finished ---
+2025-04-12 01:19:33,464 [INFO] [__main__:43] --- Application starting up ---
+2025-04-12 01:19:33,471 [INFO] [__main__:791] Generating market overview chart for period: 1mo
+2025-04-12 01:19:33,476 [ERROR] [yfinance:1687] Failed to get ticker '^DJI' reason: Expecting value: line 1 column 1 (char 0)
+2025-04-12 01:19:33,477 [ERROR] [yfinance:1687] Failed to get ticker '^IXIC' reason: Expecting value: line 1 column 1 (char 0)
+2025-04-12 01:19:33,479 [ERROR] [yfinance:1687] Failed to get ticker '^RUT' reason: Expecting value: line 1 column 1 (char 0)
+2025-04-12 01:19:33,481 [ERROR] [yfinance:1687] Failed to get ticker '^VIX' reason: Expecting value: line 1 column 1 (char 0)
+2025-04-12 01:19:33,483 [ERROR] [yfinance:1687] Failed to get ticker '^GSPC' reason: Expecting value: line 1 column 1 (char 0)
+2025-04-12 01:19:37,582 [ERROR] [yfinance:182] 
+5 Failed downloads:
+2025-04-12 01:19:37,582 [ERROR] [yfinance:195] ['^VIX', '^DJI', '^GSPC', '^RUT', '^IXIC']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-04-12 01:19:37,584 [ERROR] [__main__:810] Failed to download any market index data from Yahoo Finance.
+2025-04-12 01:19:37,587 [INFO] [__main__:1913] --- Streamlit script execution finished ---
+2025-04-12 01:20:17,556 [INFO] [__main__:43] --- Application starting up ---
+2025-04-12 01:20:17,559 [INFO] [__main__:1364] Data source changed to: Yahoo Finance
+2025-04-12 01:20:17,564 [INFO] [__main__:791] Generating market overview chart for period: 1mo
+2025-04-12 01:20:17,568 [ERROR] [yfinance:1687] Failed to get ticker '^DJI' reason: Expecting value: line 1 column 1 (char 0)
+2025-04-12 01:20:17,569 [ERROR] [yfinance:1687] Failed to get ticker '^IXIC' reason: Expecting value: line 1 column 1 (char 0)
+2025-04-12 01:20:17,571 [ERROR] [yfinance:1687] Failed to get ticker '^RUT' reason: Expecting value: line 1 column 1 (char 0)
+2025-04-12 01:20:17,573 [ERROR] [yfinance:1687] Failed to get ticker '^VIX' reason: Expecting value: line 1 column 1 (char 0)
+2025-04-12 01:20:17,575 [ERROR] [yfinance:1687] Failed to get ticker '^GSPC' reason: Expecting value: line 1 column 1 (char 0)
+2025-04-12 01:20:18,873 [ERROR] [yfinance:182] 
+5 Failed downloads:
+2025-04-12 01:20:18,873 [ERROR] [yfinance:195] ['^IXIC', '^GSPC', '^VIX', '^DJI', '^RUT']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-04-12 01:20:18,875 [ERROR] [__main__:810] Failed to download any market index data from Yahoo Finance.
+2025-04-12 01:20:18,878 [INFO] [__main__:1913] --- Streamlit script execution finished ---
+2025-04-12 01:20:26,865 [INFO] [__main__:43] --- Application starting up ---
+2025-04-12 01:20:26,873 [INFO] [__main__:791] Generating market overview chart for period: YTD
+2025-04-12 01:20:26,876 [ERROR] [yfinance:1687] Failed to get ticker '^DJI' reason: Expecting value: line 1 column 1 (char 0)
+2025-04-12 01:20:26,878 [ERROR] [yfinance:1687] Failed to get ticker '^IXIC' reason: Expecting value: line 1 column 1 (char 0)
+2025-04-12 01:20:26,882 [ERROR] [yfinance:1687] Failed to get ticker '^RUT' reason: Expecting value: line 1 column 1 (char 0)
+2025-04-12 01:20:26,883 [ERROR] [yfinance:1687] Failed to get ticker '^VIX' reason: Expecting value: line 1 column 1 (char 0)
+2025-04-12 01:20:26,885 [ERROR] [yfinance:1687] Failed to get ticker '^GSPC' reason: Expecting value: line 1 column 1 (char 0)
+2025-04-12 01:20:30,224 [ERROR] [yfinance:182] 
+5 Failed downloads:
+2025-04-12 01:20:30,224 [ERROR] [yfinance:195] ['^VIX', '^IXIC', '^DJI', '^RUT', '^GSPC']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-04-12 01:20:30,227 [ERROR] [__main__:810] Failed to download any market index data from Yahoo Finance.
+2025-04-12 01:20:30,230 [INFO] [__main__:1913] --- Streamlit script execution finished ---
+2025-04-12 01:20:40,032 [INFO] [__main__:43] --- Application starting up ---
+2025-04-12 01:20:40,039 [INFO] [__main__:791] Generating market overview chart for period: YTD
+2025-04-12 01:20:40,043 [ERROR] [yfinance:1687] Failed to get ticker '^DJI' reason: Expecting value: line 1 column 1 (char 0)
+2025-04-12 01:20:40,045 [ERROR] [yfinance:1687] Failed to get ticker '^IXIC' reason: Expecting value: line 1 column 1 (char 0)
+2025-04-12 01:20:40,048 [ERROR] [yfinance:1687] Failed to get ticker '^RUT' reason: Expecting value: line 1 column 1 (char 0)
+2025-04-12 01:20:40,050 [ERROR] [yfinance:1687] Failed to get ticker '^VIX' reason: Expecting value: line 1 column 1 (char 0)
+2025-04-12 01:20:40,053 [ERROR] [yfinance:1687] Failed to get ticker '^GSPC' reason: Expecting value: line 1 column 1 (char 0)
+2025-04-12 01:20:41,397 [ERROR] [yfinance:182] 
+5 Failed downloads:
+2025-04-12 01:20:41,397 [ERROR] [yfinance:195] ['^VIX', '^DJI', '^RUT', '^IXIC', '^GSPC']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-04-12 01:20:41,400 [ERROR] [__main__:810] Failed to download any market index data from Yahoo Finance.
+2025-04-12 01:20:41,403 [INFO] [__main__:1913] --- Streamlit script execution finished ---
+2025-04-12 01:20:42,121 [INFO] [__main__:43] --- Application starting up ---
+2025-04-12 01:20:42,126 [INFO] [__main__:1424] Fetch/Load requested for symbols: ['AAPL'] from Yahoo Finance
+2025-04-12 01:20:42,223 [INFO] [__main__:43] --- Application starting up ---
+2025-04-12 01:20:42,229 [INFO] [__main__:1538] Processing request triggered for 1 symbols from Yahoo Finance.
+2025-04-12 01:20:42,231 [INFO] [__main__:1564] Fetching data for symbol: AAPL from Yahoo Finance
+2025-04-12 01:20:43,544 [ERROR] [yfinance:1687] Failed to get ticker 'AAPL' reason: Expecting value: line 1 column 1 (char 0)
+2025-04-12 01:20:44,317 [ERROR] [yfinance:263] AAPL: No price data found, symbol may be delisted (period=1mo)
+2025-04-12 01:20:44,318 [WARNING] [__main__:1639] No data returned from Yahoo Finance for AAPL (1mo).
+2025-04-12 01:20:44,318 [ERROR] [__main__:1645] Failed to process AAPL: No data returned from Yahoo Finance for AAPL (1mo).
+2025-04-12 01:20:47,718 [INFO] [__main__:43] --- Application starting up ---
+2025-04-12 01:20:47,722 [INFO] [__main__:1364] Data source changed to: Alpha Vantage
+2025-04-12 01:20:47,727 [INFO] [__main__:791] Generating market overview chart for period: 3mo
+2025-04-12 01:20:47,731 [ERROR] [yfinance:1687] Failed to get ticker '^DJI' reason: Expecting value: line 1 column 1 (char 0)
+2025-04-12 01:20:47,734 [ERROR] [yfinance:1687] Failed to get ticker '^IXIC' reason: Expecting value: line 1 column 1 (char 0)
+2025-04-12 01:20:47,737 [ERROR] [yfinance:1687] Failed to get ticker '^RUT' reason: Expecting value: line 1 column 1 (char 0)
+2025-04-12 01:20:47,739 [ERROR] [yfinance:1687] Failed to get ticker '^VIX' reason: Expecting value: line 1 column 1 (char 0)
+2025-04-12 01:20:47,741 [ERROR] [yfinance:1687] Failed to get ticker '^GSPC' reason: Expecting value: line 1 column 1 (char 0)
+2025-04-12 01:20:48,710 [ERROR] [yfinance:182] 
+5 Failed downloads:
+2025-04-12 01:20:48,710 [ERROR] [yfinance:195] ['^IXIC', '^DJI', '^GSPC', '^RUT', '^VIX']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-04-12 01:20:48,713 [ERROR] [__main__:810] Failed to download any market index data from Yahoo Finance.
+2025-04-12 01:20:48,715 [INFO] [__main__:1913] --- Streamlit script execution finished ---
+2025-04-12 01:21:05,623 [INFO] [__main__:43] --- Application starting up ---
+2025-04-12 01:21:05,630 [INFO] [__main__:1487] Switched AI model to: Gemma-2-9B
+2025-04-12 01:21:05,632 [INFO] [__main__:791] Generating market overview chart for period: 3mo
+2025-04-12 01:21:05,636 [ERROR] [yfinance:1687] Failed to get ticker '^DJI' reason: Expecting value: line 1 column 1 (char 0)
+2025-04-12 01:21:05,639 [ERROR] [yfinance:1687] Failed to get ticker '^IXIC' reason: Expecting value: line 1 column 1 (char 0)
+2025-04-12 01:21:05,640 [ERROR] [yfinance:1687] Failed to get ticker '^RUT' reason: Expecting value: line 1 column 1 (char 0)
+2025-04-12 01:21:05,643 [ERROR] [yfinance:1687] Failed to get ticker '^VIX' reason: Expecting value: line 1 column 1 (char 0)
+2025-04-12 01:21:05,644 [ERROR] [yfinance:1687] Failed to get ticker '^GSPC' reason: Expecting value: line 1 column 1 (char 0)
+2025-04-12 01:21:06,775 [ERROR] [yfinance:182] 
+5 Failed downloads:
+2025-04-12 01:21:06,775 [ERROR] [yfinance:195] ['^IXIC', '^VIX', '^RUT', '^GSPC', '^DJI']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-04-12 01:21:06,778 [ERROR] [__main__:810] Failed to download any market index data from Yahoo Finance.
+2025-04-12 01:21:06,781 [INFO] [__main__:1913] --- Streamlit script execution finished ---
+2025-04-12 01:21:23,922 [INFO] [__main__:43] --- Application starting up ---
+2025-04-12 01:21:23,927 [INFO] [__main__:1424] Fetch/Load requested for symbols: ['AAPL'] from Alpha Vantage
+2025-04-12 01:21:24,024 [INFO] [__main__:43] --- Application starting up ---
+2025-04-12 01:21:24,032 [INFO] [__main__:1538] Processing request triggered for 1 symbols from Alpha Vantage.
+2025-04-12 01:21:24,033 [INFO] [__main__:1564] Fetching data for symbol: AAPL from Alpha Vantage
+2025-04-12 01:21:24,033 [INFO] [__main__:359] Fetching Alpha Vantage data for AAPL (function: TIME_SERIES_DAILY, size: compact, interval: None)
+2025-04-12 01:21:24,310 [ERROR] [__main__:418] Could not find expected time series data key in response for AAPL. Found keys: ['Information']
+2025-04-12 01:21:24,311 [ERROR] [__main__:1645] Failed to process AAPL: Could not find expected time series data key in response for AAPL. Found keys: ['Information']
+2025-04-12 01:21:42,898 [INFO] [__main__:43] --- Application starting up ---
+2025-04-12 01:21:42,910 [INFO] [__main__:791] Generating market overview chart for period: 3mo
+2025-04-12 01:21:42,914 [ERROR] [yfinance:1687] Failed to get ticker '^DJI' reason: Expecting value: line 1 column 1 (char 0)
+2025-04-12 01:21:42,915 [ERROR] [yfinance:1687] Failed to get ticker '^IXIC' reason: Expecting value: line 1 column 1 (char 0)
+2025-04-12 01:21:42,918 [ERROR] [yfinance:1687] Failed to get ticker '^RUT' reason: Expecting value: line 1 column 1 (char 0)
+2025-04-12 01:21:42,920 [ERROR] [yfinance:1687] Failed to get ticker '^VIX' reason: Expecting value: line 1 column 1 (char 0)
+2025-04-12 01:21:42,922 [ERROR] [yfinance:1687] Failed to get ticker '^GSPC' reason: Expecting value: line 1 column 1 (char 0)
+2025-04-12 01:21:44,125 [ERROR] [yfinance:182] 
+5 Failed downloads:
+2025-04-12 01:21:44,125 [ERROR] [yfinance:195] ['^RUT', '^IXIC', '^DJI', '^VIX', '^GSPC']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-04-12 01:21:44,128 [ERROR] [__main__:810] Failed to download any market index data from Yahoo Finance.
+2025-04-12 01:21:44,130 [INFO] [__main__:1913] --- Streamlit script execution finished ---
+2025-04-12 01:21:45,380 [INFO] [__main__:43] --- Application starting up ---
+2025-04-12 01:21:45,386 [INFO] [__main__:1424] Fetch/Load requested for symbols: ['AAPL'] from Alpha Vantage
+2025-04-12 01:21:45,484 [INFO] [__main__:43] --- Application starting up ---
+2025-04-12 01:21:45,491 [INFO] [__main__:1538] Processing request triggered for 1 symbols from Alpha Vantage.
+2025-04-12 01:21:45,493 [INFO] [__main__:1564] Fetching data for symbol: AAPL from Alpha Vantage
+2025-04-12 01:21:45,493 [INFO] [__main__:359] Fetching Alpha Vantage data for AAPL (function: TIME_SERIES_DAILY, size: full, interval: None)
+2025-04-12 01:21:46,195 [ERROR] [__main__:418] Could not find expected time series data key in response for AAPL. Found keys: ['Information']
+2025-04-12 01:21:46,197 [ERROR] [__main__:1645] Failed to process AAPL: Could not find expected time series data key in response for AAPL. Found keys: ['Information']
+2025-04-12 01:21:49,506 [INFO] [__main__:43] --- Application starting up ---
+2025-04-12 01:21:49,513 [INFO] [__main__:1424] Fetch/Load requested for symbols: ['AAPL'] from Alpha Vantage
+2025-04-12 01:21:49,622 [INFO] [__main__:43] --- Application starting up ---
+2025-04-12 01:21:49,630 [INFO] [__main__:1538] Processing request triggered for 1 symbols from Alpha Vantage.
+2025-04-12 01:21:49,631 [INFO] [__main__:1564] Fetching data for symbol: AAPL from Alpha Vantage
+2025-04-12 01:21:49,632 [INFO] [__main__:359] Fetching Alpha Vantage data for AAPL (function: TIME_SERIES_DAILY, size: full, interval: None)
+2025-04-12 01:21:50,492 [ERROR] [__main__:418] Could not find expected time series data key in response for AAPL. Found keys: ['Information']
+2025-04-12 01:21:50,493 [ERROR] [__main__:1645] Failed to process AAPL: Could not find expected time series data key in response for AAPL. Found keys: ['Information']
+2025-04-12 01:21:56,103 [INFO] [__main__:43] --- Application starting up ---
+2025-04-12 01:21:56,113 [INFO] [__main__:791] Generating market overview chart for period: 3mo
+2025-04-12 01:21:56,119 [ERROR] [yfinance:1687] Failed to get ticker '^DJI' reason: Expecting value: line 1 column 1 (char 0)
+2025-04-12 01:21:56,121 [ERROR] [yfinance:1687] Failed to get ticker '^IXIC' reason: Expecting value: line 1 column 1 (char 0)
+2025-04-12 01:21:56,122 [ERROR] [yfinance:1687] Failed to get ticker '^RUT' reason: Expecting value: line 1 column 1 (char 0)
+2025-04-12 01:21:56,126 [ERROR] [yfinance:1687] Failed to get ticker '^VIX' reason: Expecting value: line 1 column 1 (char 0)
+2025-04-12 01:21:56,127 [ERROR] [yfinance:1687] Failed to get ticker '^GSPC' reason: Expecting value: line 1 column 1 (char 0)
+2025-04-12 01:21:58,178 [ERROR] [yfinance:182] 
+5 Failed downloads:
+2025-04-12 01:21:58,179 [ERROR] [yfinance:195] ['^DJI', '^VIX', '^GSPC', '^RUT', '^IXIC']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-04-12 01:21:58,181 [ERROR] [__main__:810] Failed to download any market index data from Yahoo Finance.
+2025-04-12 01:21:58,183 [INFO] [__main__:1913] --- Streamlit script execution finished ---
+2025-04-12 01:22:02,436 [INFO] [__main__:43] --- Application starting up ---
+2025-04-12 01:22:02,441 [INFO] [__main__:1424] Fetch/Load requested for symbols: ['AAPL'] from Alpha Vantage
+2025-04-12 01:22:02,540 [INFO] [__main__:43] --- Application starting up ---
+2025-04-12 01:22:02,548 [INFO] [__main__:1538] Processing request triggered for 1 symbols from Alpha Vantage.
+2025-04-12 01:22:02,549 [INFO] [__main__:1564] Fetching data for symbol: AAPL from Alpha Vantage
+2025-04-12 01:22:02,549 [INFO] [__main__:359] Fetching Alpha Vantage data for AAPL (function: TIME_SERIES_INTRADAY, size: full, interval: 60min)
+2025-04-12 01:22:03,562 [ERROR] [__main__:418] Could not find expected time series data key in response for AAPL. Found keys: ['Information']
+2025-04-12 01:22:03,563 [ERROR] [__main__:1645] Failed to process AAPL: Could not find expected time series data key in response for AAPL. Found keys: ['Information']
+2025-04-12 01:22:10,683 [INFO] [__main__:43] --- Application starting up ---
+2025-04-12 01:22:10,795 [INFO] [__main__:43] --- Application starting up ---
+2025-04-12 01:22:10,804 [INFO] [__main__:791] Generating market overview chart for period: 3mo
+2025-04-12 01:22:10,811 [ERROR] [yfinance:1687] Failed to get ticker '^DJI' reason: Expecting value: line 1 column 1 (char 0)
+2025-04-12 01:22:10,813 [ERROR] [yfinance:1687] Failed to get ticker '^IXIC' reason: Expecting value: line 1 column 1 (char 0)
+2025-04-12 01:22:10,816 [ERROR] [yfinance:1687] Failed to get ticker '^RUT' reason: Expecting value: line 1 column 1 (char 0)
+2025-04-12 01:22:10,819 [ERROR] [yfinance:1687] Failed to get ticker '^VIX' reason: Expecting value: line 1 column 1 (char 0)
+2025-04-12 01:22:10,823 [ERROR] [yfinance:1687] Failed to get ticker '^GSPC' reason: Expecting value: line 1 column 1 (char 0)
+2025-04-12 01:22:11,939 [ERROR] [yfinance:182] 
+5 Failed downloads:
+2025-04-12 01:22:11,939 [ERROR] [yfinance:195] ['^IXIC', '^VIX', '^DJI', '^RUT', '^GSPC']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-04-12 01:22:11,942 [ERROR] [__main__:810] Failed to download any market index data from Yahoo Finance.
+2025-04-12 01:22:11,944 [INFO] [__main__:1913] --- Streamlit script execution finished ---

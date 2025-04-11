@@ -1,0 +1,71 @@
+2025-04-12 00:06:00,351 [INFO] Application starting up
+2025-04-12 00:06:00,351 [DEBUG] Configuring request session with retry strategy
+2025-04-12 00:06:00,351 [DEBUG] Setting up Streamlit page configuration
+2025-04-12 00:06:00,691 [INFO] Stock input set to: AAPL
+2025-04-12 00:06:00,691 [INFO] Selected time period: 1 Month (1mo)
+2025-04-12 00:06:00,691 [DEBUG] Setting valid intervals based on selected period
+2025-04-12 00:06:00,691 [INFO] Selected interval: 1 Week (1wk)
+2025-04-12 00:06:00,692 [INFO] Selected chart type: Candlestick
+2025-04-12 00:06:00,692 [DEBUG] Selected MA periods: [20, 50]
+2025-04-12 00:06:00,694 [INFO] Performing initial data load
+2025-04-12 00:06:00,694 [INFO] Updating data and charts
+2025-04-12 00:06:00,695 [INFO] Fetching data for AAPL (period: 1mo, interval: 1wk)
+2025-04-12 00:06:00,695 [DEBUG] Download attempt 1/3 for ticker AAPL
+2025-04-12 00:06:00,695 [DEBUG] Entering history()
+2025-04-12 00:06:00,698 [DEBUG] ('CREATE TABLE IF NOT EXISTS "_kv" ("key" VARCHAR(255) NOT NULL PRIMARY KEY, "value" VARCHAR(255)) WITHOUT ROWID', [])
+2025-04-12 00:06:00,699 [DEBUG] ('SELECT "t1"."key", "t1"."value" FROM "_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['AAPL', 1, 0])
+2025-04-12 00:06:00,700 [DEBUG]  Entering _fetch_ticker_tz()
+2025-04-12 00:06:00,700 [DEBUG]   Entering get()
+2025-04-12 00:06:00,700 [DEBUG] url=https://query2.finance.yahoo.com/v8/finance/chart/AAPL
+2025-04-12 00:06:00,700 [DEBUG] params=frozendict.frozendict({'range': '1d', 'interval': '1d'})
+2025-04-12 00:06:00,700 [DEBUG]    Entering _get_cookie_and_crumb()
+2025-04-12 00:06:00,700 [DEBUG] cookie_mode = 'basic'
+2025-04-12 00:06:00,700 [DEBUG]     Entering _get_cookie_and_crumb_basic()
+2025-04-12 00:06:00,703 [DEBUG] ('CREATE TABLE IF NOT EXISTS "_cookieschema" ("strategy" VARCHAR(255) NOT NULL PRIMARY KEY, "fetch_date" DATETIME NOT NULL, "cookie_bytes" BLOB NOT NULL) WITHOUT ROWID', [])
+2025-04-12 00:06:00,704 [DEBUG] ('SELECT "t1"."strategy", "t1"."fetch_date", "t1"."cookie_bytes" FROM "_cookieschema" AS "t1" WHERE ("t1"."strategy" = ?) LIMIT ? OFFSET ?', ['basic', 1, 0])
+2025-04-12 00:06:00,704 [DEBUG] loaded persistent cookie
+2025-04-12 00:06:00,705 [DEBUG] reusing cookie
+2025-04-12 00:06:00,708 [DEBUG] Starting new HTTPS connection (1): query1.finance.yahoo.com:443
+2025-04-12 00:06:01,304 [DEBUG] https://query1.finance.yahoo.com:443 "GET /v1/test/getcrumb HTTP/1.1" 429 23
+2025-04-12 00:06:01,304 [DEBUG] Incremented Retry for (url='/v1/test/getcrumb'): Retry(total=4, connect=None, read=None, redirect=None, status=None)
+2025-04-12 00:06:01,305 [DEBUG] Retry: /v1/test/getcrumb
+2025-04-12 00:06:01,305 [DEBUG] Resetting dropped connection: query1.finance.yahoo.com
+2025-04-12 00:06:01,849 [DEBUG] https://query1.finance.yahoo.com:443 "GET /v1/test/getcrumb HTTP/1.1" 429 23
+2025-04-12 00:06:01,850 [DEBUG] Incremented Retry for (url='/v1/test/getcrumb'): Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2025-04-12 00:06:03,851 [DEBUG] Retry: /v1/test/getcrumb
+2025-04-12 00:06:03,851 [DEBUG] Resetting dropped connection: query1.finance.yahoo.com
+2025-04-12 00:06:03,990 [DEBUG] https://query1.finance.yahoo.com:443 "GET /v1/test/getcrumb HTTP/1.1" 429 23
+2025-04-12 00:06:03,991 [DEBUG] Incremented Retry for (url='/v1/test/getcrumb'): Retry(total=2, connect=None, read=None, redirect=None, status=None)
+2025-04-12 00:06:07,991 [DEBUG] Retry: /v1/test/getcrumb
+2025-04-12 00:06:07,991 [DEBUG] Resetting dropped connection: query1.finance.yahoo.com
+2025-04-12 00:06:08,130 [DEBUG] https://query1.finance.yahoo.com:443 "GET /v1/test/getcrumb HTTP/1.1" 429 23
+2025-04-12 00:06:08,131 [DEBUG] Incremented Retry for (url='/v1/test/getcrumb'): Retry(total=1, connect=None, read=None, redirect=None, status=None)
+2025-04-12 00:06:16,132 [DEBUG] Retry: /v1/test/getcrumb
+2025-04-12 00:06:16,133 [DEBUG] Resetting dropped connection: query1.finance.yahoo.com
+2025-04-12 00:06:16,325 [DEBUG] https://query1.finance.yahoo.com:443 "GET /v1/test/getcrumb HTTP/1.1" 429 23
+2025-04-12 00:06:16,325 [DEBUG] Incremented Retry for (url='/v1/test/getcrumb'): Retry(total=0, connect=None, read=None, redirect=None, status=None)
+2025-04-12 00:06:32,327 [DEBUG] Retry: /v1/test/getcrumb
+2025-04-12 00:06:32,327 [DEBUG] Resetting dropped connection: query1.finance.yahoo.com
+2025-04-12 00:06:32,501 [DEBUG] https://query1.finance.yahoo.com:443 "GET /v1/test/getcrumb HTTP/1.1" 429 23
+2025-04-12 00:06:32,501 [ERROR] Failed to get ticker 'AAPL' reason: HTTPSConnectionPool(host='query1.finance.yahoo.com', port=443): Max retries exceeded with url: /v1/test/getcrumb (Caused by ResponseError('too many 429 error responses'))
+2025-04-12 00:06:32,502 [DEBUG]  Exiting _fetch_ticker_tz()
+2025-04-12 00:06:32,502 [DEBUG] AAPL: Yahoo GET parameters: {'range': '1mo', 'interval': '1wk', 'includePrePost': True, 'events': 'div,splits,capitalGains'}
+2025-04-12 00:06:32,502 [DEBUG]  Entering get()
+2025-04-12 00:06:32,502 [DEBUG] url=https://query2.finance.yahoo.com/v8/finance/chart/AAPL
+2025-04-12 00:06:32,502 [DEBUG] params={'range': '1mo', 'interval': '1wk', 'includePrePost': True, 'events': 'div,splits,capitalGains'}
+2025-04-12 00:06:32,502 [DEBUG]   Entering _get_cookie_and_crumb()
+2025-04-12 00:06:32,503 [DEBUG] cookie_mode = 'basic'
+2025-04-12 00:06:32,503 [DEBUG]    Entering _get_cookie_and_crumb_basic()
+2025-04-12 00:06:32,503 [DEBUG] reusing cookie
+2025-04-12 00:06:32,503 [DEBUG] reusing cookie
+2025-04-12 00:06:32,504 [DEBUG] Resetting dropped connection: query1.finance.yahoo.com
+2025-04-12 00:06:32,737 [DEBUG] https://query1.finance.yahoo.com:443 "GET /v1/test/getcrumb HTTP/1.1" 429 23
+2025-04-12 00:06:32,738 [DEBUG] Incremented Retry for (url='/v1/test/getcrumb'): Retry(total=4, connect=None, read=None, redirect=None, status=None)
+2025-04-12 00:06:32,738 [DEBUG] Retry: /v1/test/getcrumb
+2025-04-12 00:06:32,739 [DEBUG] Resetting dropped connection: query1.finance.yahoo.com
+2025-04-12 00:06:33,118 [DEBUG] https://query1.finance.yahoo.com:443 "GET /v1/test/getcrumb HTTP/1.1" 429 23
+2025-04-12 00:06:33,119 [DEBUG] Incremented Retry for (url='/v1/test/getcrumb'): Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2025-04-12 00:06:35,120 [DEBUG] Retry: /v1/test/getcrumb
+2025-04-12 00:06:35,121 [DEBUG] Resetting dropped connection: query1.finance.yahoo.com
+2025-04-12 00:06:35,239 [DEBUG] https://query1.finance.yahoo.com:443 "GET /v1/test/getcrumb HTTP/1.1" 429 23
+2025-04-12 00:06:35,239 [DEBUG] Incremented Retry for (url='/v1/test/getcrumb'): Retry(total=2, connect=None, read=None, redirect=None, status=None)

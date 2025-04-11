@@ -1,0 +1,209 @@
+2025-04-12 01:31:10,570 [INFO] [__main__:42] --- Application starting up ---
+2025-04-12 01:31:11,074 [INFO] [__main__:190] Initializing LLM models...
+2025-04-12 01:31:11,918 [INFO] [__main__:216] Successfully initialized model: Llama-3.1-70B (llama-3.1-70b-versatile)
+2025-04-12 01:31:12,579 [INFO] [__main__:216] Successfully initialized model: Gemma-2-9B (gemma2-9b-it)
+2025-04-12 01:31:13,245 [INFO] [__main__:216] Successfully initialized model: Llama-3.1-8B (llama-3.1-8b-instant)
+2025-04-12 01:31:13,245 [INFO] [__main__:225] Successfully initialized 3 models: ['Llama-3.1-70B', 'Gemma-2-9B', 'Llama-3.1-8B']
+2025-04-12 01:31:13,246 [INFO] [__main__:838] Models loaded into session state: ['Llama-3.1-70B', 'Gemma-2-9B', 'Llama-3.1-8B']
+2025-04-12 01:31:13,255 [INFO] [__main__:661] Generating market overview chart for period: 6mo
+2025-04-12 01:31:15,411 [INFO] [__main__:42] --- Application starting up ---
+2025-04-12 01:31:15,412 [INFO] [__main__:190] Initializing LLM models...
+2025-04-12 01:31:15,743 [INFO] [__main__:42] --- Application starting up ---
+2025-04-12 01:31:15,745 [INFO] [__main__:190] Initializing LLM models...
+2025-04-12 01:31:16,256 [INFO] [__main__:216] Successfully initialized model: Llama-3.1-70B (llama-3.1-70b-versatile)
+2025-04-12 01:31:16,666 [INFO] [__main__:216] Successfully initialized model: Llama-3.1-70B (llama-3.1-70b-versatile)
+2025-04-12 01:31:17,188 [INFO] [__main__:216] Successfully initialized model: Gemma-2-9B (gemma2-9b-it)
+2025-04-12 01:31:17,272 [ERROR] [yfinance:1687] Failed to get ticker '^GSPC' reason: Expecting value: line 1 column 1 (char 0)
+2025-04-12 01:31:17,272 [ERROR] [yfinance:1687] Failed to get ticker '^DJI' reason: Expecting value: line 1 column 1 (char 0)
+2025-04-12 01:31:17,333 [ERROR] [yfinance:1687] Failed to get ticker '^IXIC' reason: Expecting value: line 1 column 1 (char 0)
+2025-04-12 01:31:17,340 [ERROR] [yfinance:1687] Failed to get ticker '^VIX' reason: Expecting value: line 1 column 1 (char 0)
+2025-04-12 01:31:17,354 [ERROR] [yfinance:1687] Failed to get ticker '^RUT' reason: Expecting value: line 1 column 1 (char 0)
+2025-04-12 01:31:17,588 [INFO] [__main__:216] Successfully initialized model: Gemma-2-9B (gemma2-9b-it)
+2025-04-12 01:31:18,125 [INFO] [__main__:216] Successfully initialized model: Llama-3.1-8B (llama-3.1-8b-instant)
+2025-04-12 01:31:18,125 [INFO] [__main__:225] Successfully initialized 3 models: ['Llama-3.1-70B', 'Gemma-2-9B', 'Llama-3.1-8B']
+2025-04-12 01:31:18,125 [INFO] [__main__:838] Models loaded into session state: ['Llama-3.1-70B', 'Gemma-2-9B', 'Llama-3.1-8B']
+2025-04-12 01:31:18,133 [INFO] [__main__:661] Generating market overview chart for period: 6mo
+2025-04-12 01:31:18,137 [ERROR] [yfinance:1687] Failed to get ticker '^GSPC' reason: Expecting value: line 1 column 1 (char 0)
+2025-04-12 01:31:18,137 [ERROR] [yfinance:1687] Failed to get ticker '^RUT' reason: Expecting value: line 1 column 1 (char 0)
+2025-04-12 01:31:18,138 [ERROR] [yfinance:1687] Failed to get ticker '^DJI' reason: Expecting value: line 1 column 1 (char 0)
+2025-04-12 01:31:18,139 [ERROR] [yfinance:1687] Failed to get ticker '^VIX' reason: Expecting value: line 1 column 1 (char 0)
+2025-04-12 01:31:18,140 [ERROR] [yfinance:1687] Failed to get ticker '^IXIC' reason: Expecting value: line 1 column 1 (char 0)
+2025-04-12 01:31:18,428 [INFO] [__main__:216] Successfully initialized model: Llama-3.1-8B (llama-3.1-8b-instant)
+2025-04-12 01:31:18,428 [INFO] [__main__:225] Successfully initialized 3 models: ['Llama-3.1-70B', 'Gemma-2-9B', 'Llama-3.1-8B']
+2025-04-12 01:31:18,428 [INFO] [__main__:838] Models loaded into session state: ['Llama-3.1-70B', 'Gemma-2-9B', 'Llama-3.1-8B']
+2025-04-12 01:31:18,437 [INFO] [__main__:661] Generating market overview chart for period: 6mo
+2025-04-12 01:31:18,441 [ERROR] [yfinance:1687] Failed to get ticker '^GSPC' reason: Expecting value: line 1 column 1 (char 0)
+2025-04-12 01:31:18,442 [ERROR] [yfinance:1687] Failed to get ticker '^RUT' reason: Expecting value: line 1 column 1 (char 0)
+2025-04-12 01:31:18,442 [ERROR] [yfinance:1687] Failed to get ticker '^DJI' reason: Expecting value: line 1 column 1 (char 0)
+2025-04-12 01:31:18,444 [ERROR] [yfinance:1687] Failed to get ticker '^VIX' reason: Expecting value: line 1 column 1 (char 0)
+2025-04-12 01:31:18,444 [ERROR] [yfinance:1687] Failed to get ticker '^IXIC' reason: Expecting value: line 1 column 1 (char 0)
+2025-04-12 01:31:18,948 [WARNING] [urllib3.connectionpool:327] Connection pool is full, discarding connection: query2.finance.yahoo.com. Connection pool size: 10
+2025-04-12 01:31:19,014 [WARNING] [urllib3.connectionpool:327] Connection pool is full, discarding connection: query2.finance.yahoo.com. Connection pool size: 10
+2025-04-12 01:31:19,051 [WARNING] [urllib3.connectionpool:327] Connection pool is full, discarding connection: query2.finance.yahoo.com. Connection pool size: 10
+2025-04-12 01:31:19,187 [WARNING] [urllib3.connectionpool:327] Connection pool is full, discarding connection: query2.finance.yahoo.com. Connection pool size: 10
+2025-04-12 01:31:19,261 [WARNING] [urllib3.connectionpool:327] Connection pool is full, discarding connection: query2.finance.yahoo.com. Connection pool size: 10
+2025-04-12 01:31:19,268 [ERROR] [yfinance:182] 
+5 Failed downloads:
+2025-04-12 01:31:19,268 [ERROR] [yfinance:182] 
+5 Failed downloads:
+2025-04-12 01:31:19,268 [ERROR] [yfinance:195] ['^GSPC', '^VIX', '^IXIC', '^RUT', '^DJI']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-04-12 01:31:19,268 [ERROR] [yfinance:195] ['^GSPC', '^VIX', '^IXIC', '^RUT', '^DJI']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-04-12 01:31:19,276 [ERROR] [yfinance:182] 
+5 Failed downloads:
+2025-04-12 01:31:19,300 [ERROR] [yfinance:195] ['^GSPC', '^VIX', '^IXIC', '^RUT', '^DJI']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-04-12 01:31:19,305 [INFO] [__main__:1242] --- Streamlit script execution finished ---
+2025-04-12 01:31:19,398 [INFO] [__main__:1242] --- Streamlit script execution finished ---
+2025-04-12 01:31:19,399 [INFO] [__main__:1242] --- Streamlit script execution finished ---
+2025-04-12 01:31:23,558 [INFO] [__main__:42] --- Application starting up ---
+2025-04-12 01:31:23,564 [INFO] [__main__:937] Fetch/Load requested for ['AAPL', 'MSFT'] from Alpha Vantage
+2025-04-12 01:31:23,673 [INFO] [__main__:42] --- Application starting up ---
+2025-04-12 01:31:23,680 [INFO] [__main__:1019] Processing request triggered for 2 symbols from Alpha Vantage.
+2025-04-12 01:31:23,682 [INFO] [__main__:1041] Fetching data for symbol: AAPL from Alpha Vantage
+2025-04-12 01:31:23,682 [INFO] [__main__:237] Fetching Alpha Vantage data for AAPL (func: TIME_SERIES_DAILY, size: compact, interval: None)
+2025-04-12 01:31:26,723 [INFO] [__main__:42] --- Application starting up ---
+2025-04-12 01:31:26,724 [INFO] [__main__:190] Initializing LLM models...
+2025-04-12 01:31:27,423 [INFO] [__main__:216] Successfully initialized model: Llama-3.1-70B (llama-3.1-70b-versatile)
+2025-04-12 01:31:28,044 [INFO] [__main__:216] Successfully initialized model: Gemma-2-9B (gemma2-9b-it)
+2025-04-12 01:31:28,668 [INFO] [__main__:216] Successfully initialized model: Llama-3.1-8B (llama-3.1-8b-instant)
+2025-04-12 01:31:28,669 [INFO] [__main__:225] Successfully initialized 3 models: ['Llama-3.1-70B', 'Gemma-2-9B', 'Llama-3.1-8B']
+2025-04-12 01:31:28,669 [INFO] [__main__:838] Models loaded into session state: ['Llama-3.1-70B', 'Gemma-2-9B', 'Llama-3.1-8B']
+2025-04-12 01:31:28,678 [INFO] [__main__:661] Generating market overview chart for period: 6mo
+2025-04-12 01:31:28,681 [ERROR] [yfinance:1687] Failed to get ticker '^GSPC' reason: Expecting value: line 1 column 1 (char 0)
+2025-04-12 01:31:28,684 [ERROR] [yfinance:1687] Failed to get ticker '^RUT' reason: Expecting value: line 1 column 1 (char 0)
+2025-04-12 01:31:28,684 [ERROR] [yfinance:1687] Failed to get ticker '^DJI' reason: Expecting value: line 1 column 1 (char 0)
+2025-04-12 01:31:28,687 [ERROR] [yfinance:1687] Failed to get ticker '^VIX' reason: Expecting value: line 1 column 1 (char 0)
+2025-04-12 01:31:28,688 [ERROR] [yfinance:1687] Failed to get ticker '^IXIC' reason: Expecting value: line 1 column 1 (char 0)
+2025-04-12 01:31:30,251 [ERROR] [yfinance:182] 
+5 Failed downloads:
+2025-04-12 01:31:30,251 [ERROR] [yfinance:195] ['^VIX', '^GSPC', '^RUT', '^DJI', '^IXIC']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-04-12 01:31:30,259 [INFO] [__main__:1242] --- Streamlit script execution finished ---
+2025-04-12 01:31:30,906 [INFO] [__main__:42] --- Application starting up ---
+2025-04-12 01:31:30,913 [INFO] [__main__:982] Switched AI model to: Gemma-2-9B
+2025-04-12 01:31:30,914 [INFO] [__main__:1019] Processing request triggered for 2 symbols from Alpha Vantage.
+2025-04-12 01:31:30,915 [INFO] [__main__:1041] Fetching data for symbol: AAPL from Alpha Vantage
+2025-04-12 01:31:30,916 [INFO] [__main__:237] Fetching Alpha Vantage data for AAPL (func: TIME_SERIES_DAILY, size: compact, interval: None)
+2025-04-12 01:31:31,954 [INFO] [__main__:42] --- Application starting up ---
+2025-04-12 01:31:32,068 [INFO] [__main__:42] --- Application starting up ---
+2025-04-12 01:31:32,078 [INFO] [__main__:1019] Processing request triggered for 2 symbols from Alpha Vantage.
+2025-04-12 01:31:32,080 [INFO] [__main__:1041] Fetching data for symbol: AAPL from Alpha Vantage
+2025-04-12 01:31:32,080 [INFO] [__main__:237] Fetching Alpha Vantage data for AAPL (func: TIME_SERIES_DAILY, size: compact, interval: None)
+2025-04-12 01:31:33,202 [INFO] [__main__:331] Successfully parsed time series data for AAPL. Rows: 100
+2025-04-12 01:31:37,000 [INFO] [__main__:42] --- Application starting up ---
+2025-04-12 01:31:37,008 [INFO] [__main__:1019] Processing request triggered for 2 symbols from Alpha Vantage.
+2025-04-12 01:31:37,010 [INFO] [__main__:1041] Fetching data for symbol: AAPL from Alpha Vantage
+2025-04-12 01:31:37,010 [INFO] [__main__:237] Fetching Alpha Vantage data for AAPL (func: TIME_SERIES_DAILY, size: compact, interval: None)
+2025-04-12 01:31:38,118 [INFO] [__main__:331] Successfully parsed time series data for AAPL. Rows: 100
+2025-04-12 01:31:39,214 [INFO] [__main__:42] --- Application starting up ---
+2025-04-12 01:31:39,221 [INFO] [__main__:1019] Processing request triggered for 2 symbols from Alpha Vantage.
+2025-04-12 01:31:39,222 [INFO] [__main__:1041] Fetching data for symbol: AAPL from Alpha Vantage
+2025-04-12 01:31:39,222 [INFO] [__main__:237] Fetching Alpha Vantage data for AAPL (func: TIME_SERIES_DAILY, size: compact, interval: None)
+2025-04-12 01:31:40,177 [INFO] [__main__:331] Successfully parsed time series data for AAPL. Rows: 100
+2025-04-12 01:31:40,570 [INFO] [__main__:42] --- Application starting up ---
+2025-04-12 01:31:40,575 [INFO] [__main__:937] Fetch/Load requested for ['AAPL', 'MSFT'] from Yahoo Finance
+2025-04-12 01:31:40,669 [INFO] [__main__:42] --- Application starting up ---
+2025-04-12 01:31:40,676 [INFO] [__main__:1019] Processing request triggered for 2 symbols from Yahoo Finance.
+2025-04-12 01:31:40,677 [INFO] [__main__:1041] Fetching data for symbol: AAPL from Yahoo Finance
+2025-04-12 01:31:40,677 [INFO] [__main__:413] Fetching Yahoo Finance data for AAPL (Period: 1y, Start: None, End: None)
+2025-04-12 01:31:42,268 [ERROR] [yfinance:1687] Failed to get ticker 'AAPL' reason: Expecting value: line 1 column 1 (char 0)
+2025-04-12 01:31:44,540 [ERROR] [yfinance:263] AAPL: No price data found, symbol may be delisted (period=1y)
+2025-04-12 01:31:44,541 [ERROR] [__main__:1063] Failed AAPL: No data returned from Yahoo Finance for AAPL (1y).
+2025-04-12 01:31:44,542 [INFO] [__main__:1041] Fetching data for symbol: MSFT from Yahoo Finance
+2025-04-12 01:31:44,542 [INFO] [__main__:413] Fetching Yahoo Finance data for MSFT (Period: 1y, Start: None, End: None)
+2025-04-12 01:31:46,510 [ERROR] [yfinance:1687] Failed to get ticker 'MSFT' reason: Expecting value: line 1 column 1 (char 0)
+2025-04-12 01:31:47,949 [INFO] [__main__:42] --- Application starting up ---
+2025-04-12 01:31:47,959 [INFO] [__main__:1019] Processing request triggered for 2 symbols from Yahoo Finance.
+2025-04-12 01:31:47,960 [INFO] [__main__:1041] Fetching data for symbol: AAPL from Yahoo Finance
+2025-04-12 01:31:47,960 [INFO] [__main__:413] Fetching Yahoo Finance data for AAPL (Period: 1y, Start: None, End: None)
+2025-04-12 01:31:47,963 [ERROR] [yfinance:1687] Failed to get ticker 'AAPL' reason: Expecting value: line 1 column 1 (char 0)
+2025-04-12 01:31:48,511 [ERROR] [yfinance:263] MSFT: No price data found, symbol may be delisted (period=1y)
+2025-04-12 01:31:49,484 [INFO] [__main__:1075] Successfully processed data for AAPL from Alpha Vantage. Rows: 100
+2025-04-12 01:31:49,833 [ERROR] [yfinance:263] AAPL: No price data found, symbol may be delisted (period=1y)
+2025-04-12 01:31:49,834 [ERROR] [__main__:1063] Failed AAPL: No data returned from Yahoo Finance for AAPL (1y).
+2025-04-12 01:31:49,835 [INFO] [__main__:1041] Fetching data for symbol: MSFT from Yahoo Finance
+2025-04-12 01:31:49,837 [INFO] [__main__:413] Fetching Yahoo Finance data for MSFT (Period: 1y, Start: None, End: None)
+2025-04-12 01:31:49,838 [ERROR] [yfinance:1687] Failed to get ticker 'MSFT' reason: Expecting value: line 1 column 1 (char 0)
+2025-04-12 01:31:50,682 [INFO] [__main__:42] --- Application starting up ---
+2025-04-12 01:31:50,688 [INFO] [__main__:937] Fetch/Load requested for ['AAPL', 'MSFT'] from Yahoo Finance
+2025-04-12 01:31:50,784 [INFO] [__main__:42] --- Application starting up ---
+2025-04-12 01:31:50,791 [INFO] [__main__:1019] Processing request triggered for 2 symbols from Yahoo Finance.
+2025-04-12 01:31:50,792 [INFO] [__main__:1041] Fetching data for symbol: AAPL from Yahoo Finance
+2025-04-12 01:31:50,792 [INFO] [__main__:413] Fetching Yahoo Finance data for AAPL (Period: 1y, Start: None, End: None)
+2025-04-12 01:31:50,794 [ERROR] [yfinance:1687] Failed to get ticker 'AAPL' reason: Expecting value: line 1 column 1 (char 0)
+2025-04-12 01:31:51,097 [INFO] [__main__:1075] Successfully processed data for AAPL from Alpha Vantage. Rows: 100
+2025-04-12 01:31:53,167 [INFO] [__main__:1075] Successfully processed data for AAPL from Alpha Vantage. Rows: 100
+2025-04-12 01:31:54,882 [ERROR] [yfinance:263] MSFT: No price data found, symbol may be delisted (period=1y)
+2025-04-12 01:31:55,830 [ERROR] [yfinance:263] AAPL: No price data found, symbol may be delisted (period=1y)
+2025-04-12 01:31:55,831 [ERROR] [__main__:1063] Failed AAPL: No data returned from Yahoo Finance for AAPL (1y).
+2025-04-12 01:31:55,831 [INFO] [__main__:1041] Fetching data for symbol: MSFT from Yahoo Finance
+2025-04-12 01:31:55,831 [INFO] [__main__:413] Fetching Yahoo Finance data for MSFT (Period: 1y, Start: None, End: None)
+2025-04-12 01:31:55,833 [ERROR] [yfinance:1687] Failed to get ticker 'MSFT' reason: Expecting value: line 1 column 1 (char 0)
+2025-04-12 01:31:56,414 [INFO] [__main__:42] --- Application starting up ---
+2025-04-12 01:31:56,422 [INFO] [__main__:1019] Processing request triggered for 2 symbols from Yahoo Finance.
+2025-04-12 01:31:56,423 [INFO] [__main__:1041] Fetching data for symbol: AAPL from Yahoo Finance
+2025-04-12 01:31:56,423 [INFO] [__main__:413] Fetching Yahoo Finance data for AAPL (Period: 1y, Start: None, End: None)
+2025-04-12 01:31:56,426 [ERROR] [yfinance:1687] Failed to get ticker 'AAPL' reason: Expecting value: line 1 column 1 (char 0)
+2025-04-12 01:31:56,875 [ERROR] [yfinance:263] MSFT: No price data found, symbol may be delisted (period=1y)
+2025-04-12 01:31:58,672 [ERROR] [yfinance:263] AAPL: No price data found, symbol may be delisted (period=1y)
+2025-04-12 01:31:58,673 [ERROR] [__main__:1063] Failed AAPL: No data returned from Yahoo Finance for AAPL (1y).
+2025-04-12 01:31:58,674 [INFO] [__main__:1041] Fetching data for symbol: MSFT from Yahoo Finance
+2025-04-12 01:31:58,674 [INFO] [__main__:413] Fetching Yahoo Finance data for MSFT (Period: 1y, Start: None, End: None)
+2025-04-12 01:31:58,674 [ERROR] [yfinance:1687] Failed to get ticker 'MSFT' reason: Expecting value: line 1 column 1 (char 0)
+2025-04-12 01:32:01,188 [ERROR] [yfinance:263] MSFT: No price data found, symbol may be delisted (period=1y)
+2025-04-12 01:32:01,189 [ERROR] [__main__:1063] Failed MSFT: No data returned from Yahoo Finance for MSFT (1y).
+2025-04-12 01:32:02,759 [INFO] [__main__:42] --- Application starting up ---
+2025-04-12 01:32:02,768 [INFO] [__main__:661] Generating market overview chart for period: 6mo
+2025-04-12 01:32:02,772 [ERROR] [yfinance:1687] Failed to get ticker '^GSPC' reason: Expecting value: line 1 column 1 (char 0)
+2025-04-12 01:32:02,773 [ERROR] [yfinance:1687] Failed to get ticker '^RUT' reason: Expecting value: line 1 column 1 (char 0)
+2025-04-12 01:32:02,776 [ERROR] [yfinance:1687] Failed to get ticker '^DJI' reason: Expecting value: line 1 column 1 (char 0)
+2025-04-12 01:32:02,778 [ERROR] [yfinance:1687] Failed to get ticker '^VIX' reason: Expecting value: line 1 column 1 (char 0)
+2025-04-12 01:32:02,779 [ERROR] [yfinance:1687] Failed to get ticker '^IXIC' reason: Expecting value: line 1 column 1 (char 0)
+2025-04-12 01:32:04,421 [ERROR] [yfinance:182] 
+5 Failed downloads:
+2025-04-12 01:32:04,421 [ERROR] [yfinance:195] ['^RUT', '^IXIC', '^GSPC', '^VIX', '^DJI']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-04-12 01:32:04,425 [INFO] [__main__:1242] --- Streamlit script execution finished ---
+2025-04-12 01:32:07,747 [INFO] [__main__:42] --- Application starting up ---
+2025-04-12 01:32:07,755 [INFO] [__main__:661] Generating market overview chart for period: 1mo
+2025-04-12 01:32:07,758 [ERROR] [yfinance:1687] Failed to get ticker '^GSPC' reason: Expecting value: line 1 column 1 (char 0)
+2025-04-12 01:32:07,759 [ERROR] [yfinance:1687] Failed to get ticker '^RUT' reason: Expecting value: line 1 column 1 (char 0)
+2025-04-12 01:32:07,762 [ERROR] [yfinance:1687] Failed to get ticker '^DJI' reason: Expecting value: line 1 column 1 (char 0)
+2025-04-12 01:32:07,765 [ERROR] [yfinance:1687] Failed to get ticker '^VIX' reason: Expecting value: line 1 column 1 (char 0)
+2025-04-12 01:32:07,766 [ERROR] [yfinance:1687] Failed to get ticker '^IXIC' reason: Expecting value: line 1 column 1 (char 0)
+2025-04-12 01:32:08,979 [INFO] [__main__:42] --- Application starting up ---
+2025-04-12 01:32:08,983 [INFO] [__main__:937] Fetch/Load requested for ['AAPL'] from Yahoo Finance
+2025-04-12 01:32:09,093 [INFO] [__main__:42] --- Application starting up ---
+2025-04-12 01:32:09,104 [INFO] [__main__:1019] Processing request triggered for 1 symbols from Yahoo Finance.
+2025-04-12 01:32:09,105 [INFO] [__main__:1041] Fetching data for symbol: AAPL from Yahoo Finance
+2025-04-12 01:32:09,106 [INFO] [__main__:413] Fetching Yahoo Finance data for AAPL (Period: 1y, Start: None, End: None)
+2025-04-12 01:32:09,108 [ERROR] [yfinance:1687] Failed to get ticker 'AAPL' reason: Expecting value: line 1 column 1 (char 0)
+2025-04-12 01:32:10,328 [ERROR] [yfinance:182] 
+5 Failed downloads:
+2025-04-12 01:32:10,328 [ERROR] [yfinance:195] ['^RUT', '^GSPC', '^DJI', '^VIX', '^IXIC']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-04-12 01:32:11,777 [ERROR] [yfinance:263] AAPL: No price data found, symbol may be delisted (period=1y)
+2025-04-12 01:32:11,779 [ERROR] [__main__:1063] Failed AAPL: No data returned from Yahoo Finance for AAPL (1y).
+2025-04-12 01:32:13,347 [INFO] [__main__:42] --- Application starting up ---
+2025-04-12 01:32:13,354 [INFO] [__main__:661] Generating market overview chart for period: 6mo
+2025-04-12 01:32:13,358 [ERROR] [yfinance:1687] Failed to get ticker '^GSPC' reason: Expecting value: line 1 column 1 (char 0)
+2025-04-12 01:32:13,360 [ERROR] [yfinance:1687] Failed to get ticker '^RUT' reason: Expecting value: line 1 column 1 (char 0)
+2025-04-12 01:32:13,362 [ERROR] [yfinance:1687] Failed to get ticker '^DJI' reason: Expecting value: line 1 column 1 (char 0)
+2025-04-12 01:32:13,364 [ERROR] [yfinance:1687] Failed to get ticker '^VIX' reason: Expecting value: line 1 column 1 (char 0)
+2025-04-12 01:32:13,366 [ERROR] [yfinance:1687] Failed to get ticker '^IXIC' reason: Expecting value: line 1 column 1 (char 0)
+2025-04-12 01:32:15,862 [ERROR] [yfinance:182] 
+5 Failed downloads:
+2025-04-12 01:32:15,862 [ERROR] [yfinance:195] ['^DJI', '^GSPC', '^IXIC', '^RUT', '^VIX']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-04-12 01:32:15,869 [INFO] [__main__:1242] --- Streamlit script execution finished ---
+2025-04-12 01:32:33,884 [INFO] [__main__:42] --- Application starting up ---
+2025-04-12 01:32:33,892 [INFO] [__main__:661] Generating market overview chart for period: 1mo
+2025-04-12 01:32:33,897 [ERROR] [yfinance:1687] Failed to get ticker '^GSPC' reason: Expecting value: line 1 column 1 (char 0)
+2025-04-12 01:32:33,899 [ERROR] [yfinance:1687] Failed to get ticker '^RUT' reason: Expecting value: line 1 column 1 (char 0)
+2025-04-12 01:32:33,902 [ERROR] [yfinance:1687] Failed to get ticker '^DJI' reason: Expecting value: line 1 column 1 (char 0)
+2025-04-12 01:32:33,902 [ERROR] [yfinance:1687] Failed to get ticker '^VIX' reason: Expecting value: line 1 column 1 (char 0)
+2025-04-12 01:32:33,906 [ERROR] [yfinance:1687] Failed to get ticker '^IXIC' reason: Expecting value: line 1 column 1 (char 0)
+2025-04-12 01:32:35,646 [ERROR] [yfinance:182] 
+5 Failed downloads:
+2025-04-12 01:32:35,646 [ERROR] [yfinance:195] ['^RUT', '^VIX', '^IXIC', '^GSPC', '^DJI']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-04-12 01:32:35,650 [INFO] [__main__:1220] User prompt: 'which stock is better to purchase right now '
+2025-04-12 01:32:35,651 [INFO] [__main__:708] Generating AI response using model: gemma2-9b-it for query: 'which stock is better to purchase right now ...'
+2025-04-12 01:32:35,652 [INFO] [__main__:756] Prompt for gemma2-9b-it: Context provided (No). Query: 'which stock is better to purchase right now ...'
+2025-04-12 01:32:36,595 [INFO] [httpx:1025] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-12 01:32:36,605 [INFO] [__main__:1228] AI response generated (length: 1265)
+2025-04-12 01:32:36,605 [INFO] [__main__:1242] --- Streamlit script execution finished ---

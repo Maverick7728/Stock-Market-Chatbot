@@ -47,7 +47,7 @@ def initialize_models():
     # Check for GROQ_API_KEY
     groq_api_key = os.getenv("GROQ_API_KEY")
     if not groq_api_key:
-        groq_api_key = "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"
+        groq_api_key = os.getenv("GROQ_API_KEY")
     
     try:
         # Llama 3.3 70B model

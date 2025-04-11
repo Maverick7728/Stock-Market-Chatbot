@@ -1,0 +1,141 @@
+2025-04-12 01:34:34,277 [INFO] [__main__:42] --- Application starting up ---
+2025-04-12 01:34:34,278 [INFO] [__main__:42] --- Application starting up ---
+2025-04-12 01:34:34,279 [INFO] [__main__:42] --- Application starting up ---
+2025-04-12 01:34:34,279 [INFO] [__main__:42] --- Application starting up ---
+2025-04-12 01:34:34,279 [INFO] [__main__:42] --- Application starting up ---
+2025-04-12 01:34:34,280 [INFO] [__main__:42] --- Application starting up ---
+2025-04-12 01:34:34,282 [INFO] [__main__:190] Initializing LLM models...
+2025-04-12 01:34:34,284 [INFO] [__main__:190] Initializing LLM models...
+2025-04-12 01:34:34,285 [INFO] [__main__:190] Initializing LLM models...
+2025-04-12 01:34:34,289 [INFO] [__main__:190] Initializing LLM models...
+2025-04-12 01:34:34,289 [INFO] [__main__:190] Initializing LLM models...
+2025-04-12 01:34:35,064 [INFO] [__main__:190] Initializing LLM models...
+2025-04-12 01:34:35,544 [INFO] [__main__:216] Successfully initialized model: Llama-3.1-70B (llama-3.1-70b-versatile)
+2025-04-12 01:34:35,553 [INFO] [__main__:216] Successfully initialized model: Llama-3.1-70B (llama-3.1-70b-versatile)
+2025-04-12 01:34:35,556 [INFO] [__main__:216] Successfully initialized model: Llama-3.1-70B (llama-3.1-70b-versatile)
+2025-04-12 01:34:35,572 [INFO] [__main__:216] Successfully initialized model: Llama-3.1-70B (llama-3.1-70b-versatile)
+2025-04-12 01:34:35,602 [INFO] [__main__:216] Successfully initialized model: Llama-3.1-70B (llama-3.1-70b-versatile)
+2025-04-12 01:34:35,967 [INFO] [__main__:216] Successfully initialized model: Llama-3.1-70B (llama-3.1-70b-versatile)
+2025-04-12 01:34:36,478 [INFO] [__main__:216] Successfully initialized model: Gemma-2-9B (gemma2-9b-it)
+2025-04-12 01:34:36,479 [INFO] [__main__:216] Successfully initialized model: Gemma-2-9B (gemma2-9b-it)
+2025-04-12 01:34:36,482 [INFO] [__main__:216] Successfully initialized model: Gemma-2-9B (gemma2-9b-it)
+2025-04-12 01:34:36,508 [INFO] [__main__:216] Successfully initialized model: Gemma-2-9B (gemma2-9b-it)
+2025-04-12 01:34:36,528 [INFO] [__main__:216] Successfully initialized model: Gemma-2-9B (gemma2-9b-it)
+2025-04-12 01:34:36,911 [INFO] [__main__:216] Successfully initialized model: Gemma-2-9B (gemma2-9b-it)
+2025-04-12 01:34:37,459 [INFO] [__main__:216] Successfully initialized model: Llama-3.1-8B (llama-3.1-8b-instant)
+2025-04-12 01:34:37,459 [INFO] [__main__:225] Successfully initialized 3 models: ['Llama-3.1-70B', 'Gemma-2-9B', 'Llama-3.1-8B']
+2025-04-12 01:34:37,459 [INFO] [__main__:838] Models loaded into session state: ['Llama-3.1-70B', 'Gemma-2-9B', 'Llama-3.1-8B']
+2025-04-12 01:34:37,463 [INFO] [__main__:216] Successfully initialized model: Llama-3.1-8B (llama-3.1-8b-instant)
+2025-04-12 01:34:37,464 [INFO] [__main__:225] Successfully initialized 3 models: ['Llama-3.1-70B', 'Gemma-2-9B', 'Llama-3.1-8B']
+2025-04-12 01:34:37,465 [INFO] [__main__:838] Models loaded into session state: ['Llama-3.1-70B', 'Gemma-2-9B', 'Llama-3.1-8B']
+2025-04-12 01:34:37,473 [INFO] [__main__:661] Generating market overview chart for period: 6mo
+2025-04-12 01:34:37,481 [INFO] [__main__:661] Generating market overview chart for period: 6mo
+2025-04-12 01:34:37,483 [INFO] [__main__:216] Successfully initialized model: Llama-3.1-8B (llama-3.1-8b-instant)
+2025-04-12 01:34:37,483 [INFO] [__main__:225] Successfully initialized 3 models: ['Llama-3.1-70B', 'Gemma-2-9B', 'Llama-3.1-8B']
+2025-04-12 01:34:37,484 [INFO] [__main__:838] Models loaded into session state: ['Llama-3.1-70B', 'Gemma-2-9B', 'Llama-3.1-8B']
+2025-04-12 01:34:37,500 [INFO] [__main__:661] Generating market overview chart for period: 6mo
+2025-04-12 01:34:37,524 [INFO] [__main__:216] Successfully initialized model: Llama-3.1-8B (llama-3.1-8b-instant)
+2025-04-12 01:34:37,525 [INFO] [__main__:225] Successfully initialized 3 models: ['Llama-3.1-70B', 'Gemma-2-9B', 'Llama-3.1-8B']
+2025-04-12 01:34:37,525 [INFO] [__main__:838] Models loaded into session state: ['Llama-3.1-70B', 'Gemma-2-9B', 'Llama-3.1-8B']
+2025-04-12 01:34:37,531 [INFO] [__main__:216] Successfully initialized model: Llama-3.1-8B (llama-3.1-8b-instant)
+2025-04-12 01:34:37,533 [INFO] [__main__:225] Successfully initialized 3 models: ['Llama-3.1-70B', 'Gemma-2-9B', 'Llama-3.1-8B']
+2025-04-12 01:34:37,534 [INFO] [__main__:838] Models loaded into session state: ['Llama-3.1-70B', 'Gemma-2-9B', 'Llama-3.1-8B']
+2025-04-12 01:34:37,546 [INFO] [__main__:661] Generating market overview chart for period: 6mo
+2025-04-12 01:34:37,558 [INFO] [__main__:661] Generating market overview chart for period: 6mo
+2025-04-12 01:34:37,839 [INFO] [__main__:216] Successfully initialized model: Llama-3.1-8B (llama-3.1-8b-instant)
+2025-04-12 01:34:37,839 [INFO] [__main__:225] Successfully initialized 3 models: ['Llama-3.1-70B', 'Gemma-2-9B', 'Llama-3.1-8B']
+2025-04-12 01:34:37,839 [INFO] [__main__:838] Models loaded into session state: ['Llama-3.1-70B', 'Gemma-2-9B', 'Llama-3.1-8B']
+2025-04-12 01:34:37,847 [INFO] [__main__:661] Generating market overview chart for period: 6mo
+2025-04-12 01:34:37,939 [WARNING] [urllib3.connectionpool:327] Connection pool is full, discarding connection: query2.finance.yahoo.com. Connection pool size: 10
+2025-04-12 01:34:37,940 [WARNING] [urllib3.connectionpool:327] Connection pool is full, discarding connection: query2.finance.yahoo.com. Connection pool size: 10
+2025-04-12 01:34:37,954 [WARNING] [urllib3.connectionpool:327] Connection pool is full, discarding connection: query2.finance.yahoo.com. Connection pool size: 10
+2025-04-12 01:34:38,149 [WARNING] [urllib3.connectionpool:327] Connection pool is full, discarding connection: query2.finance.yahoo.com. Connection pool size: 10
+2025-04-12 01:34:38,243 [WARNING] [urllib3.connectionpool:327] Connection pool is full, discarding connection: query2.finance.yahoo.com. Connection pool size: 10
+2025-04-12 01:34:38,270 [WARNING] [urllib3.connectionpool:327] Connection pool is full, discarding connection: query2.finance.yahoo.com. Connection pool size: 10
+2025-04-12 01:34:39,065 [ERROR] [yfinance:1687] Failed to get ticker '^RUT' reason: Expecting value: line 1 column 1 (char 0)
+2025-04-12 01:34:39,069 [ERROR] [yfinance:1687] Failed to get ticker '^IXIC' reason: Expecting value: line 1 column 1 (char 0)
+2025-04-12 01:34:39,077 [ERROR] [yfinance:1687] Failed to get ticker '^IXIC' reason: Expecting value: line 1 column 1 (char 0)
+2025-04-12 01:34:39,079 [ERROR] [yfinance:1687] Failed to get ticker '^DJI' reason: Expecting value: line 1 column 1 (char 0)
+2025-04-12 01:34:39,093 [ERROR] [yfinance:1687] Failed to get ticker '^GSPC' reason: Expecting value: line 1 column 1 (char 0)
+2025-04-12 01:34:39,101 [ERROR] [yfinance:1687] Failed to get ticker '^GSPC' reason: Expecting value: line 1 column 1 (char 0)
+2025-04-12 01:34:39,115 [ERROR] [yfinance:1687] Failed to get ticker '^RUT' reason: Expecting value: line 1 column 1 (char 0)
+2025-04-12 01:34:39,115 [ERROR] [yfinance:1687] Failed to get ticker '^GSPC' reason: Expecting value: line 1 column 1 (char 0)
+2025-04-12 01:34:39,115 [ERROR] [yfinance:1687] Failed to get ticker '^DJI' reason: Expecting value: line 1 column 1 (char 0)
+2025-04-12 01:34:39,120 [ERROR] [yfinance:1687] Failed to get ticker '^IXIC' reason: Expecting value: line 1 column 1 (char 0)
+2025-04-12 01:34:39,125 [ERROR] [yfinance:1687] Failed to get ticker '^VIX' reason: Expecting value: line 1 column 1 (char 0)
+2025-04-12 01:34:39,129 [ERROR] [yfinance:1687] Failed to get ticker '^VIX' reason: Expecting value: line 1 column 1 (char 0)
+2025-04-12 01:34:39,146 [ERROR] [yfinance:1687] Failed to get ticker '^DJI' reason: Expecting value: line 1 column 1 (char 0)
+2025-04-12 01:34:39,163 [ERROR] [yfinance:1687] Failed to get ticker '^RUT' reason: Expecting value: line 1 column 1 (char 0)
+2025-04-12 01:34:39,260 [WARNING] [urllib3.connectionpool:327] Connection pool is full, discarding connection: query2.finance.yahoo.com. Connection pool size: 10
+2025-04-12 01:34:39,284 [WARNING] [urllib3.connectionpool:327] Connection pool is full, discarding connection: query2.finance.yahoo.com. Connection pool size: 10
+2025-04-12 01:34:39,288 [WARNING] [urllib3.connectionpool:327] Connection pool is full, discarding connection: query2.finance.yahoo.com. Connection pool size: 10
+2025-04-12 01:34:39,372 [WARNING] [urllib3.connectionpool:327] Connection pool is full, discarding connection: query2.finance.yahoo.com. Connection pool size: 10
+2025-04-12 01:34:39,373 [ERROR] [yfinance:1687] Failed to get ticker '^VIX' reason: Expecting value: line 1 column 1 (char 0)
+2025-04-12 01:34:39,466 [WARNING] [urllib3.connectionpool:327] Connection pool is full, discarding connection: query2.finance.yahoo.com. Connection pool size: 10
+2025-04-12 01:34:39,467 [ERROR] [yfinance:1687] Failed to get ticker '^GSPC' reason: Expecting value: line 1 column 1 (char 0)
+2025-04-12 01:34:39,521 [WARNING] [urllib3.connectionpool:327] Connection pool is full, discarding connection: query2.finance.yahoo.com. Connection pool size: 10
+2025-04-12 01:34:39,736 [ERROR] [yfinance:1687] Failed to get ticker '^IXIC' reason: Expecting value: line 1 column 1 (char 0)
+2025-04-12 01:34:39,737 [ERROR] [yfinance:1687] Failed to get ticker '^VIX' reason: Expecting value: line 1 column 1 (char 0)
+2025-04-12 01:34:39,738 [ERROR] [yfinance:1687] Failed to get ticker '^DJI' reason: Expecting value: line 1 column 1 (char 0)
+2025-04-12 01:34:39,746 [ERROR] [yfinance:1687] Failed to get ticker '^RUT' reason: Expecting value: line 1 column 1 (char 0)
+2025-04-12 01:34:39,752 [WARNING] [urllib3.connectionpool:327] Connection pool is full, discarding connection: query2.finance.yahoo.com. Connection pool size: 10
+2025-04-12 01:34:39,755 [WARNING] [urllib3.connectionpool:327] Connection pool is full, discarding connection: query2.finance.yahoo.com. Connection pool size: 10
+2025-04-12 01:34:39,755 [ERROR] [yfinance:1687] Failed to get ticker '^GSPC' reason: Expecting value: line 1 column 1 (char 0)
+2025-04-12 01:34:39,759 [ERROR] [yfinance:1687] Failed to get ticker '^VIX' reason: Expecting value: line 1 column 1 (char 0)
+2025-04-12 01:34:39,759 [ERROR] [yfinance:182] 
+5 Failed downloads:
+2025-04-12 01:34:39,759 [ERROR] [yfinance:195] ['^IXIC', '^RUT', '^VIX', '^DJI', '^GSPC']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-04-12 01:34:39,761 [ERROR] [yfinance:1687] Failed to get ticker '^IXIC' reason: Expecting value: line 1 column 1 (char 0)
+2025-04-12 01:34:39,769 [ERROR] [yfinance:182] 
+5 Failed downloads:
+2025-04-12 01:34:39,770 [ERROR] [yfinance:182] 
+5 Failed downloads:
+2025-04-12 01:34:39,770 [ERROR] [yfinance:182] 
+5 Failed downloads:
+2025-04-12 01:34:39,770 [ERROR] [yfinance:182] 
+5 Failed downloads:
+2025-04-12 01:34:39,776 [ERROR] [yfinance:182] 
+5 Failed downloads:
+2025-04-12 01:34:39,779 [WARNING] [urllib3.connectionpool:327] Connection pool is full, discarding connection: query2.finance.yahoo.com. Connection pool size: 10
+2025-04-12 01:34:39,779 [ERROR] [yfinance:195] ['^IXIC', '^RUT', '^VIX', '^DJI', '^GSPC']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-04-12 01:34:39,780 [ERROR] [yfinance:195] ['^IXIC', '^RUT', '^VIX', '^DJI', '^GSPC']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-04-12 01:34:39,780 [WARNING] [urllib3.connectionpool:327] Connection pool is full, discarding connection: query2.finance.yahoo.com. Connection pool size: 10
+2025-04-12 01:34:39,782 [ERROR] [yfinance:1687] Failed to get ticker '^DJI' reason: Expecting value: line 1 column 1 (char 0)
+2025-04-12 01:34:39,782 [ERROR] [yfinance:195] ['^IXIC', '^RUT', '^VIX', '^DJI', '^GSPC']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-04-12 01:34:39,783 [INFO] [__main__:1242] --- Streamlit script execution finished ---
+2025-04-12 01:34:39,783 [ERROR] [yfinance:195] ['^IXIC', '^RUT', '^VIX', '^DJI', '^GSPC']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-04-12 01:34:39,783 [ERROR] [yfinance:195] ['^IXIC', '^RUT', '^VIX', '^DJI', '^GSPC']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-04-12 01:34:39,792 [INFO] [__main__:1242] --- Streamlit script execution finished ---
+2025-04-12 01:34:39,794 [ERROR] [yfinance:1687] Failed to get ticker '^RUT' reason: Expecting value: line 1 column 1 (char 0)
+2025-04-12 01:34:39,886 [ERROR] [yfinance:1687] Failed to get ticker '^GSPC' reason: Expecting value: line 1 column 1 (char 0)
+2025-04-12 01:34:39,890 [INFO] [__main__:1242] --- Streamlit script execution finished ---
+2025-04-12 01:34:39,891 [INFO] [__main__:1242] --- Streamlit script execution finished ---
+2025-04-12 01:34:39,894 [INFO] [__main__:1242] --- Streamlit script execution finished ---
+2025-04-12 01:34:39,895 [ERROR] [yfinance:1687] Failed to get ticker '^IXIC' reason: Expecting value: line 1 column 1 (char 0)
+2025-04-12 01:34:39,896 [INFO] [__main__:1242] --- Streamlit script execution finished ---
+2025-04-12 01:34:39,899 [ERROR] [yfinance:1687] Failed to get ticker '^VIX' reason: Expecting value: line 1 column 1 (char 0)
+2025-04-12 01:34:39,934 [WARNING] [urllib3.connectionpool:327] Connection pool is full, discarding connection: query2.finance.yahoo.com. Connection pool size: 10
+2025-04-12 01:34:39,940 [ERROR] [yfinance:1687] Failed to get ticker '^DJI' reason: Expecting value: line 1 column 1 (char 0)
+2025-04-12 01:34:40,184 [ERROR] [yfinance:1687] Failed to get ticker '^RUT' reason: Expecting value: line 1 column 1 (char 0)
+2025-04-12 01:34:40,195 [WARNING] [urllib3.connectionpool:327] Connection pool is full, discarding connection: query2.finance.yahoo.com. Connection pool size: 10
+2025-04-12 01:34:40,199 [WARNING] [urllib3.connectionpool:327] Connection pool is full, discarding connection: query2.finance.yahoo.com. Connection pool size: 10
+2025-04-12 01:34:40,202 [WARNING] [urllib3.connectionpool:327] Connection pool is full, discarding connection: query2.finance.yahoo.com. Connection pool size: 10
+2025-04-12 01:34:40,206 [WARNING] [urllib3.connectionpool:327] Connection pool is full, discarding connection: query2.finance.yahoo.com. Connection pool size: 10
+2025-04-12 01:34:40,209 [WARNING] [urllib3.connectionpool:327] Connection pool is full, discarding connection: query2.finance.yahoo.com. Connection pool size: 10
+2025-04-12 01:34:40,221 [WARNING] [urllib3.connectionpool:327] Connection pool is full, discarding connection: query2.finance.yahoo.com. Connection pool size: 10
+2025-04-12 01:34:41,043 [WARNING] [urllib3.connectionpool:327] Connection pool is full, discarding connection: query2.finance.yahoo.com. Connection pool size: 10
+2025-04-12 01:34:41,044 [WARNING] [urllib3.connectionpool:327] Connection pool is full, discarding connection: query2.finance.yahoo.com. Connection pool size: 10
+2025-04-12 01:34:41,056 [WARNING] [urllib3.connectionpool:327] Connection pool is full, discarding connection: query2.finance.yahoo.com. Connection pool size: 10
+2025-04-12 01:34:41,065 [WARNING] [urllib3.connectionpool:327] Connection pool is full, discarding connection: query2.finance.yahoo.com. Connection pool size: 10
+2025-04-12 01:34:57,249 [INFO] [__main__:42] --- Application starting up ---
+2025-04-12 01:34:57,257 [INFO] [__main__:982] Switched AI model to: Gemma-2-9B
+2025-04-12 01:34:57,258 [INFO] [__main__:661] Generating market overview chart for period: 6mo
+2025-04-12 01:34:57,262 [ERROR] [yfinance:1687] Failed to get ticker '^GSPC' reason: Expecting value: line 1 column 1 (char 0)
+2025-04-12 01:34:57,264 [ERROR] [yfinance:1687] Failed to get ticker '^IXIC' reason: Expecting value: line 1 column 1 (char 0)
+2025-04-12 01:34:57,265 [ERROR] [yfinance:1687] Failed to get ticker '^VIX' reason: Expecting value: line 1 column 1 (char 0)
+2025-04-12 01:34:57,269 [ERROR] [yfinance:1687] Failed to get ticker '^DJI' reason: Expecting value: line 1 column 1 (char 0)
+2025-04-12 01:34:57,270 [ERROR] [yfinance:1687] Failed to get ticker '^RUT' reason: Expecting value: line 1 column 1 (char 0)
+2025-04-12 01:35:01,007 [ERROR] [yfinance:182] 
+5 Failed downloads:
+2025-04-12 01:35:01,007 [ERROR] [yfinance:195] ['^IXIC', '^DJI', '^GSPC', '^VIX', '^RUT']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-04-12 01:35:01,013 [INFO] [__main__:1242] --- Streamlit script execution finished ---

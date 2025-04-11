@@ -1,0 +1,90 @@
+2025-04-11 23:35:33,326 [INFO] Application starting up
+2025-04-11 23:35:33,332 [INFO] Stock input set to: AAPL
+2025-04-11 23:35:33,334 [INFO] Selected time period: 1 Month (1mo)
+2025-04-11 23:35:33,336 [INFO] Selected interval: 1 Week (1wk)
+2025-04-11 23:35:33,338 [INFO] Selected chart type: Candlestick
+2025-04-11 23:35:33,354 [INFO] Performing initial data load
+2025-04-11 23:35:33,355 [INFO] Updating data and charts
+2025-04-11 23:35:33,360 [INFO] Fetching data for AAPL (period: 1mo, interval: 1wk)
+2025-04-11 23:35:33,366 [ERROR] Failed to get ticker 'AAPL' reason: Expecting value: line 1 column 1 (char 0)
+2025-04-11 23:35:46,154 [ERROR] AAPL: No price data found, symbol may be delisted (period=1mo)
+2025-04-11 23:35:46,156 [WARNING] Attempt 1: Empty data returned for AAPL
+2025-04-11 23:35:46,158 [ERROR] Failed to get ticker 'AAPL' reason: Expecting value: line 1 column 1 (char 0)
+2025-04-11 23:35:56,974 [ERROR] AAPL: No price data found, symbol may be delisted (period=1mo)
+2025-04-11 23:35:56,975 [WARNING] Attempt 2: Empty data returned for AAPL
+2025-04-11 23:35:56,976 [ERROR] Failed to get ticker 'AAPL' reason: Expecting value: line 1 column 1 (char 0)
+2025-04-11 23:36:08,037 [ERROR] AAPL: No price data found, symbol may be delisted (period=1mo)
+2025-04-11 23:36:08,038 [WARNING] Attempt 3: Empty data returned for AAPL
+2025-04-11 23:36:17,236 [WARNING] Could not retrieve detailed info for AAPL: HTTPSConnectionPool(host='query2.finance.yahoo.com', port=443): Max retries exceeded with url: /v10/finance/quoteSummary/AAPL?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=AAPL&crumb=Edge%3A+Too+Many+Requests (Caused by ResponseError('too many 429 error responses'))
+2025-04-11 23:36:17,241 [WARNING] No data received for AAPL. Using fallback data.
+2025-04-11 23:36:17,242 [INFO] Generating fallback data for AAPL (period: 1mo)
+2025-04-11 23:36:17,253 [INFO] Generated fallback data for AAPL: 31 rows
+2025-04-11 23:36:17,355 [INFO] Application UI fully rendered
+2025-04-11 23:40:42,939 [INFO] Application starting up
+2025-04-11 23:40:42,944 [INFO] Stock input set to: AAPL
+2025-04-11 23:40:42,947 [INFO] Selected time period: 1 Month (1mo)
+2025-04-11 23:40:42,948 [INFO] Selected interval: 1 Week (1wk)
+2025-04-11 23:40:42,949 [INFO] Selected chart type: Candlestick
+2025-04-11 23:40:42,963 [INFO] Performing initial data load
+2025-04-11 23:40:42,964 [INFO] Updating data and charts
+2025-04-11 23:40:42,970 [WARNING] No data received for AAPL. Using fallback data.
+2025-04-11 23:40:42,972 [INFO] Generating fallback data for AAPL (period: 1mo)
+2025-04-11 23:40:42,984 [INFO] Generated fallback data for AAPL: 31 rows
+2025-04-11 23:40:43,083 [INFO] Application UI fully rendered
+2025-04-11 23:41:10,648 [INFO] Application starting up
+2025-04-11 23:41:10,653 [INFO] Stock input set to: AAPL
+2025-04-11 23:41:10,655 [INFO] Selected time period: 1 Month (1mo)
+2025-04-11 23:41:10,656 [INFO] Selected interval: 1 Week (1wk)
+2025-04-11 23:41:10,658 [INFO] Selected chart type: Candlestick
+2025-04-11 23:41:10,672 [INFO] Performing initial data load
+2025-04-11 23:41:10,673 [INFO] Updating data and charts
+2025-04-11 23:41:10,677 [INFO] Fetching data for AAPL (period: 1mo, interval: 1wk)
+2025-04-11 23:41:10,685 [ERROR] Failed to get ticker 'AAPL' reason: Expecting value: line 1 column 1 (char 0)
+2025-04-11 23:41:18,181 [ERROR] AAPL: No price data found, symbol may be delisted (period=1mo)
+2025-04-11 23:41:18,182 [WARNING] Attempt 1: Empty data returned for AAPL
+2025-04-11 23:41:18,183 [ERROR] Failed to get ticker 'AAPL' reason: Expecting value: line 1 column 1 (char 0)
+2025-04-11 23:41:24,691 [ERROR] AAPL: No price data found, symbol may be delisted (period=1mo)
+2025-04-11 23:41:24,691 [WARNING] Attempt 2: Empty data returned for AAPL
+2025-04-11 23:41:24,692 [ERROR] Failed to get ticker 'AAPL' reason: Expecting value: line 1 column 1 (char 0)
+2025-04-11 23:41:32,529 [ERROR] AAPL: No price data found, symbol may be delisted (period=1mo)
+2025-04-11 23:41:32,531 [WARNING] Attempt 3: Empty data returned for AAPL
+2025-04-11 23:41:42,513 [WARNING] Could not retrieve detailed info for AAPL: HTTPSConnectionPool(host='query2.finance.yahoo.com', port=443): Max retries exceeded with url: /v10/finance/quoteSummary/AAPL?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=AAPL&crumb=Edge%3A+Too+Many+Requests (Caused by ResponseError('too many 429 error responses'))
+2025-04-11 23:41:42,516 [WARNING] No data received for AAPL. Using fallback data.
+2025-04-11 23:41:42,517 [INFO] Generating fallback data for AAPL (period: 1mo)
+2025-04-11 23:41:42,526 [INFO] Generated fallback data for AAPL: 31 rows
+2025-04-11 23:41:42,629 [INFO] Application UI fully rendered
+2025-04-11 23:44:54,288 [INFO] Application starting up
+2025-04-11 23:44:54,292 [INFO] Stock input set to: AAPL
+2025-04-11 23:44:54,294 [INFO] Selected time period: 1 Month (1mo)
+2025-04-11 23:44:54,297 [INFO] Selected interval: 1 Week (1wk)
+2025-04-11 23:44:54,299 [INFO] Selected chart type: Candlestick
+2025-04-11 23:44:54,312 [INFO] Performing initial data load
+2025-04-11 23:44:54,313 [INFO] Updating data and charts
+2025-04-11 23:44:54,320 [WARNING] No data received for AAPL. Using fallback data.
+2025-04-11 23:44:54,321 [INFO] Generating fallback data for AAPL (period: 1mo)
+2025-04-11 23:44:54,339 [INFO] Generated fallback data for AAPL: 31 rows
+2025-04-11 23:44:54,343 [INFO] Using historical close price: 96.74488539182596
+2025-04-11 23:44:54,438 [INFO] Application UI fully rendered
+2025-04-11 23:58:40,219 [INFO] Application starting up
+2025-04-11 23:58:40,224 [INFO] Stock input set to: AAPL
+2025-04-11 23:58:40,226 [INFO] Selected time period: 1 Month (1mo)
+2025-04-11 23:58:40,227 [INFO] Selected interval: 1 Week (1wk)
+2025-04-11 23:58:40,230 [INFO] Selected chart type: Candlestick
+2025-04-11 23:58:40,247 [INFO] Performing initial data load
+2025-04-11 23:58:40,247 [INFO] Updating data and charts
+2025-04-11 23:58:40,251 [INFO] Fetching data for AAPL (period: 1mo, interval: 1wk)
+2025-04-11 23:58:40,275 [ERROR] Failed to get ticker 'AAPL' reason: Expecting value: line 1 column 1 (char 0)
+2025-04-11 23:59:15,193 [ERROR] AAPL: No price data found, symbol may be delisted (period=1mo)
+2025-04-11 23:59:15,194 [WARNING] Attempt 1: Empty data returned for AAPL
+2025-04-11 23:59:15,197 [ERROR] Failed to get ticker 'AAPL' reason: Expecting value: line 1 column 1 (char 0)
+2025-04-11 23:59:46,840 [ERROR] AAPL: No price data found, symbol may be delisted (period=1mo)
+2025-04-11 23:59:46,841 [WARNING] Attempt 2: Empty data returned for AAPL
+2025-04-11 23:59:46,842 [ERROR] Failed to get ticker 'AAPL' reason: Expecting value: line 1 column 1 (char 0)
+2025-04-12 00:00:19,871 [ERROR] AAPL: No price data found, symbol may be delisted (period=1mo)
+2025-04-12 00:00:19,872 [WARNING] Attempt 3: Empty data returned for AAPL
+2025-04-12 00:00:52,227 [WARNING] Rate limited by Yahoo Finance (429). Retrying info in 1.7s
+2025-04-12 00:02:04,272 [ERROR] Failed to get ticker 'AAPL' reason: Expecting value: line 1 column 1 (char 0)
+2025-04-12 00:02:40,786 [ERROR] AAPL: No price data found, symbol may be delisted (period=1d)
+2025-04-12 00:02:40,797 [INFO] Successfully retrieved company info for AAPL
+2025-04-12 00:02:40,799 [ERROR] No data received for AAPL
+2025-04-12 00:02:40,887 [INFO] Application UI fully rendered
