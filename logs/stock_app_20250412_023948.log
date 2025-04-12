@@ -1,0 +1,65 @@
+2025-04-12 02:39:48,352 [INFO] Application starting up
+2025-04-12 02:39:48,352 [DEBUG] Configuring request session with retry strategy
+2025-04-12 02:39:48,353 [DEBUG] Setting up Streamlit page configuration
+2025-04-12 02:39:49,479 [INFO] Stock input set to: AAPL
+2025-04-12 02:39:49,483 [INFO] Selected chart type: Candlestick
+2025-04-12 02:39:49,486 [DEBUG] Selected MA periods: [20, 50]
+2025-04-12 02:39:49,496 [INFO] Performing initial data load
+2025-04-12 02:39:49,497 [INFO] Updating data and charts
+2025-04-12 02:39:49,498 [DEBUG] Using Alpha Vantage params: function=TIME_SERIES_DAILY, output_size=compact, interval=None
+2025-04-12 02:39:49,536 [INFO] Fetching Alpha Vantage data for AAPL (function: TIME_SERIES_DAILY)
+2025-04-12 02:39:49,537 [DEBUG] Making Alpha Vantage API request with params: {'function': 'TIME_SERIES_DAILY', 'symbol': 'AAPL', 'apikey': '5WF4COK1UFPHRLIO', 'outputsize': 'compact', 'datatype': 'json'}
+2025-04-12 02:39:49,544 [DEBUG] Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-04-12 02:39:50,418 [DEBUG] https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_DAILY&symbol=AAPL&apikey=5WF4COK1UFPHRLIO&outputsize=compact&datatype=json HTTP/1.1" 200 None
+2025-04-12 02:39:50,419 [DEBUG] Response keys: ['Information']
+2025-04-12 02:39:50,420 [ERROR] Expected time series key 'Time Series (Daily)' not found in response
+2025-04-12 02:39:50,420 [DEBUG] Response content: {"Information": "We have detected your API key as 5WF4COK1UFPHRLIO and our standard API rate limit is 25 requests per day. Please subscribe to any of the premium plans at https://www.alphavantage.co/premium/ to instantly remove all daily rate limits."}...
+2025-04-12 02:39:50,420 [ERROR] No data received for AAPL
+2025-04-12 02:39:50,429 [INFO] Application UI fully rendered
+2025-04-12 02:39:51,367 [INFO] Application starting up
+2025-04-12 02:39:51,369 [DEBUG] Configuring request session with retry strategy
+2025-04-12 02:39:51,370 [DEBUG] Setting up Streamlit page configuration
+2025-04-12 02:39:51,375 [INFO] Stock input set to: AAPL
+2025-04-12 02:39:51,380 [INFO] Selected chart type: Candlestick
+2025-04-12 02:39:51,383 [DEBUG] Selected MA periods: [20, 50]
+2025-04-12 02:39:51,391 [INFO] Performing initial data load
+2025-04-12 02:39:51,394 [INFO] Updating data and charts
+2025-04-12 02:39:51,395 [DEBUG] Using Alpha Vantage params: function=TIME_SERIES_DAILY, output_size=compact, interval=None
+2025-04-12 02:39:51,397 [INFO] Fetching Alpha Vantage data for AAPL (function: TIME_SERIES_DAILY)
+2025-04-12 02:39:51,397 [DEBUG] Making Alpha Vantage API request with params: {'function': 'TIME_SERIES_DAILY', 'symbol': 'AAPL', 'apikey': '5WF4COK1UFPHRLIO', 'outputsize': 'compact', 'datatype': 'json'}
+2025-04-12 02:39:51,401 [DEBUG] Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-04-12 02:39:52,464 [DEBUG] https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_DAILY&symbol=AAPL&apikey=5WF4COK1UFPHRLIO&outputsize=compact&datatype=json HTTP/1.1" 200 None
+2025-04-12 02:39:52,465 [DEBUG] Response keys: ['Information']
+2025-04-12 02:39:52,466 [ERROR] Expected time series key 'Time Series (Daily)' not found in response
+2025-04-12 02:39:52,466 [DEBUG] Response content: {"Information": "We have detected your API key as 5WF4COK1UFPHRLIO and our standard API rate limit is 25 requests per day. Please subscribe to any of the premium plans at https://www.alphavantage.co/premium/ to instantly remove all daily rate limits."}...
+2025-04-12 02:39:52,467 [ERROR] No data received for AAPL
+2025-04-12 02:39:52,477 [INFO] Application UI fully rendered
+2025-04-12 02:40:03,771 [INFO] Application starting up
+2025-04-12 02:40:03,772 [DEBUG] Configuring request session with retry strategy
+2025-04-12 02:40:03,773 [DEBUG] Setting up Streamlit page configuration
+2025-04-12 02:40:03,779 [INFO] Stock input set to: AAPL
+2025-04-12 02:40:03,783 [INFO] Stock selection updated via popular stocks: AAPL
+2025-04-12 02:40:03,788 [INFO] Selected chart type: Candlestick
+2025-04-12 02:40:03,791 [DEBUG] Selected MA periods: [20, 50]
+2025-04-12 02:40:03,799 [DEBUG] Rate limiting local requests, waiting 2.59s
+2025-04-12 02:40:06,392 [INFO] Performing initial data load
+2025-04-12 02:40:06,392 [INFO] Updating data and charts
+2025-04-12 02:40:06,394 [DEBUG] Using Alpha Vantage params: function=TIME_SERIES_DAILY, output_size=compact, interval=None
+2025-04-12 02:40:06,395 [INFO] Fetching Alpha Vantage data for AAPL (function: TIME_SERIES_DAILY)
+2025-04-12 02:40:06,396 [DEBUG] Making Alpha Vantage API request with params: {'function': 'TIME_SERIES_DAILY', 'symbol': 'AAPL', 'apikey': '5WF4COK1UFPHRLIO', 'outputsize': 'compact', 'datatype': 'json'}
+2025-04-12 02:40:06,399 [DEBUG] Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-04-12 02:40:07,311 [DEBUG] https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_DAILY&symbol=AAPL&apikey=5WF4COK1UFPHRLIO&outputsize=compact&datatype=json HTTP/1.1" 200 None
+2025-04-12 02:40:07,312 [DEBUG] Response keys: ['Information']
+2025-04-12 02:40:07,313 [ERROR] Expected time series key 'Time Series (Daily)' not found in response
+2025-04-12 02:40:07,313 [DEBUG] Response content: {"Information": "We have detected your API key as 5WF4COK1UFPHRLIO and our standard API rate limit is 25 requests per day. Please subscribe to any of the premium plans at https://www.alphavantage.co/premium/ to instantly remove all daily rate limits."}...
+2025-04-12 02:40:07,314 [ERROR] No data received for AAPL
+2025-04-12 02:40:07,323 [INFO] Application UI fully rendered
+2025-04-12 02:40:54,645 [INFO] Application starting up
+2025-04-12 02:40:54,646 [DEBUG] Configuring request session with retry strategy
+2025-04-12 02:40:54,646 [DEBUG] Setting up Streamlit page configuration
+2025-04-12 02:40:54,652 [INFO] Stock input set to: AAPL
+2025-04-12 02:40:54,660 [INFO] Selected chart type: Candlestick
+2025-04-12 02:40:54,662 [DEBUG] Selected MA periods: [20, 50]
+2025-04-12 02:40:54,670 [INFO] Performing initial data load
+2025-04-12 02:40:54,671 [INFO] Updating data and charts
+2025-04-12 02:40:54,680 [INFO] Application UI fully rendered

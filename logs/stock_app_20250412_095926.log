@@ -1,0 +1,211 @@
+2025-04-12 09:59:26,351 [INFO] Application starting up
+2025-04-12 09:59:26,351 [DEBUG] Configuring request session with retry strategy
+2025-04-12 09:59:26,352 [DEBUG] Setting up Streamlit page configuration
+2025-04-12 09:59:27,395 [INFO] Stock input set to: AAPL
+2025-04-12 09:59:27,400 [INFO] Selected chart type: Candlestick
+2025-04-12 09:59:27,403 [DEBUG] Selected MA periods: [20, 50]
+2025-04-12 09:59:27,410 [INFO] Performing initial data load
+2025-04-12 09:59:27,412 [INFO] Updating data and charts
+2025-04-12 09:59:27,413 [DEBUG] Using Alpha Vantage params: function=TIME_SERIES_DAILY, output_size=compact, interval=None
+2025-04-12 09:59:27,416 [INFO] Fetching Alpha Vantage data for AAPL (function: TIME_SERIES_DAILY)
+2025-04-12 09:59:27,417 [DEBUG] Making Alpha Vantage API request with params: {'function': 'TIME_SERIES_DAILY', 'symbol': 'AAPL', 'apikey': '5WF4COK1UFPHRLIO', 'outputsize': 'compact', 'datatype': 'json'}
+2025-04-12 09:59:27,425 [DEBUG] Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-04-12 09:59:28,449 [DEBUG] https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_DAILY&symbol=AAPL&apikey=5WF4COK1UFPHRLIO&outputsize=compact&datatype=json HTTP/1.1" 200 None
+2025-04-12 09:59:28,666 [DEBUG] Response keys: ['Meta Data', 'Time Series (Daily)']
+2025-04-12 09:59:28,946 [DEBUG] https://www.alphavantage.co:443 "GET /query?function=GLOBAL_QUOTE&symbol=AAPL&apikey=5WF4COK1UFPHRLIO HTTP/1.1" 200 None
+2025-04-12 09:59:29,195 [DEBUG] https://www.alphavantage.co:443 "GET /query?function=OVERVIEW&symbol=AAPL&apikey=5WF4COK1UFPHRLIO HTTP/1.1" 200 None
+2025-04-12 09:59:29,196 [INFO] Successfully retrieved data for AAPL: 100 rows
+2025-04-12 09:59:29,197 [DEBUG] Data shape: (100, 5), Columns: ['Open', 'High', 'Low', 'Close', 'Volume']
+2025-04-12 09:59:29,197 [INFO] Successfully retrieved data for AAPL
+2025-04-12 09:59:29,200 [DEBUG] Displaying info for Apple Inc
+2025-04-12 09:59:29,202 [DEBUG] Displaying key stats
+2025-04-12 09:59:29,207 [ERROR] Error displaying stats: Cannot specify ',' with 's'.
+2025-04-12 09:59:29,211 [DEBUG] Creating Candlestick chart
+2025-04-12 09:59:29,710 [DEBUG] Adding moving averages: [20, 50]
+2025-04-12 09:59:29,747 [DEBUG] Adding volume chart
+2025-04-12 09:59:31,363 [INFO] Application UI fully rendered
+2025-04-12 09:59:59,852 [INFO] Application starting up
+2025-04-12 09:59:59,854 [DEBUG] Configuring request session with retry strategy
+2025-04-12 09:59:59,854 [DEBUG] Setting up Streamlit page configuration
+2025-04-12 09:59:59,859 [INFO] Stock input set to: 
+2025-04-12 09:59:59,866 [INFO] Selected chart type: Candlestick
+2025-04-12 09:59:59,869 [DEBUG] Selected MA periods: [20, 50]
+2025-04-12 09:59:59,876 [INFO] Performing initial data load
+2025-04-12 09:59:59,877 [INFO] Updating data and charts
+2025-04-12 09:59:59,878 [DEBUG] Using Alpha Vantage params: function=TIME_SERIES_DAILY, output_size=compact, interval=None
+2025-04-12 09:59:59,879 [INFO] Fetching Alpha Vantage data for  (function: TIME_SERIES_DAILY)
+2025-04-12 09:59:59,880 [DEBUG] Making Alpha Vantage API request with params: {'function': 'TIME_SERIES_DAILY', 'symbol': '', 'apikey': '5WF4COK1UFPHRLIO', 'outputsize': 'compact', 'datatype': 'json'}
+2025-04-12 09:59:59,882 [DEBUG] Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-04-12 10:00:00,802 [DEBUG] https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_DAILY&symbol=&apikey=5WF4COK1UFPHRLIO&outputsize=compact&datatype=json HTTP/1.1" 200 None
+2025-04-12 10:00:00,803 [DEBUG] Response keys: ['Error Message']
+2025-04-12 10:00:00,805 [ERROR] Alpha Vantage API error: Invalid API call. Please retry or visit the documentation (https://www.alphavantage.co/documentation/) for TIME_SERIES_DAILY.
+2025-04-12 10:00:00,805 [ERROR] No data received for 
+2025-04-12 10:00:00,814 [INFO] Application UI fully rendered
+2025-04-12 10:09:59,019 [INFO] Application starting up
+2025-04-12 10:09:59,020 [DEBUG] Configuring request session with retry strategy
+2025-04-12 10:09:59,020 [DEBUG] Setting up Streamlit page configuration
+2025-04-12 10:09:59,026 [INFO] Stock input set to: 
+2025-04-12 10:09:59,027 [INFO] Stock selection updated via popular stocks: NVDA
+2025-04-12 10:09:59,030 [INFO] Selected chart type: Candlestick
+2025-04-12 10:09:59,033 [DEBUG] Selected MA periods: [20, 50]
+2025-04-12 10:09:59,039 [INFO] Performing initial data load
+2025-04-12 10:09:59,040 [INFO] Updating data and charts
+2025-04-12 10:09:59,041 [DEBUG] Using Alpha Vantage params: function=TIME_SERIES_DAILY, output_size=compact, interval=None
+2025-04-12 10:09:59,044 [INFO] Fetching Alpha Vantage data for NVDA (function: TIME_SERIES_DAILY)
+2025-04-12 10:09:59,045 [DEBUG] Making Alpha Vantage API request with params: {'function': 'TIME_SERIES_DAILY', 'symbol': 'NVDA', 'apikey': '5WF4COK1UFPHRLIO', 'outputsize': 'compact', 'datatype': 'json'}
+2025-04-12 10:09:59,047 [DEBUG] Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-04-12 10:10:00,197 [DEBUG] https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_DAILY&symbol=NVDA&apikey=5WF4COK1UFPHRLIO&outputsize=compact&datatype=json HTTP/1.1" 200 None
+2025-04-12 10:10:00,391 [DEBUG] Response keys: ['Meta Data', 'Time Series (Daily)']
+2025-04-12 10:10:00,877 [DEBUG] https://www.alphavantage.co:443 "GET /query?function=GLOBAL_QUOTE&symbol=NVDA&apikey=5WF4COK1UFPHRLIO HTTP/1.1" 200 None
+2025-04-12 10:10:01,129 [DEBUG] https://www.alphavantage.co:443 "GET /query?function=OVERVIEW&symbol=NVDA&apikey=5WF4COK1UFPHRLIO HTTP/1.1" 200 None
+2025-04-12 10:10:01,132 [INFO] Successfully retrieved data for NVDA: 100 rows
+2025-04-12 10:10:01,133 [DEBUG] Data shape: (100, 5), Columns: ['Open', 'High', 'Low', 'Close', 'Volume']
+2025-04-12 10:10:01,133 [INFO] Successfully retrieved data for NVDA
+2025-04-12 10:10:01,135 [DEBUG] Displaying info for NVIDIA Corporation
+2025-04-12 10:10:01,138 [DEBUG] Displaying key stats
+2025-04-12 10:10:01,144 [ERROR] Error displaying stats: Cannot specify ',' with 's'.
+2025-04-12 10:10:01,148 [DEBUG] Creating Candlestick chart
+2025-04-12 10:10:01,187 [DEBUG] Adding moving averages: [20, 50]
+2025-04-12 10:10:01,195 [DEBUG] Adding volume chart
+2025-04-12 10:10:01,273 [INFO] Application UI fully rendered
+2025-04-12 10:11:39,755 [INFO] Application starting up
+2025-04-12 10:11:39,757 [DEBUG] Configuring request session with retry strategy
+2025-04-12 10:11:39,758 [DEBUG] Setting up Streamlit page configuration
+2025-04-12 10:11:39,763 [INFO] Stock input set to: 
+2025-04-12 10:11:39,764 [INFO] Stock selection updated via popular stocks: NVDA
+2025-04-12 10:11:39,767 [INFO] Selected chart type: Line
+2025-04-12 10:11:39,772 [DEBUG] Selected MA periods: [20, 50]
+2025-04-12 10:11:39,778 [INFO] Performing initial data load
+2025-04-12 10:11:39,779 [INFO] Updating data and charts
+2025-04-12 10:11:39,780 [DEBUG] Using Alpha Vantage params: function=TIME_SERIES_DAILY, output_size=compact, interval=None
+2025-04-12 10:11:39,782 [INFO] Fetching Alpha Vantage data for NVDA (function: TIME_SERIES_DAILY)
+2025-04-12 10:11:39,783 [DEBUG] Making Alpha Vantage API request with params: {'function': 'TIME_SERIES_DAILY', 'symbol': 'NVDA', 'apikey': '5WF4COK1UFPHRLIO', 'outputsize': 'compact', 'datatype': 'json'}
+2025-04-12 10:11:39,789 [DEBUG] Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-04-12 10:11:40,956 [DEBUG] https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_DAILY&symbol=NVDA&apikey=5WF4COK1UFPHRLIO&outputsize=compact&datatype=json HTTP/1.1" 200 None
+2025-04-12 10:11:41,155 [DEBUG] Response keys: ['Meta Data', 'Time Series (Daily)']
+2025-04-12 10:11:41,462 [DEBUG] https://www.alphavantage.co:443 "GET /query?function=GLOBAL_QUOTE&symbol=NVDA&apikey=5WF4COK1UFPHRLIO HTTP/1.1" 200 None
+2025-04-12 10:11:41,769 [DEBUG] https://www.alphavantage.co:443 "GET /query?function=OVERVIEW&symbol=NVDA&apikey=5WF4COK1UFPHRLIO HTTP/1.1" 200 None
+2025-04-12 10:11:41,770 [INFO] Successfully retrieved data for NVDA: 100 rows
+2025-04-12 10:11:41,771 [DEBUG] Data shape: (100, 5), Columns: ['Open', 'High', 'Low', 'Close', 'Volume']
+2025-04-12 10:11:41,772 [INFO] Successfully retrieved data for NVDA
+2025-04-12 10:11:41,775 [DEBUG] Displaying info for NVIDIA Corporation
+2025-04-12 10:11:41,777 [DEBUG] Displaying key stats
+2025-04-12 10:11:41,782 [ERROR] Error displaying stats: Cannot specify ',' with 's'.
+2025-04-12 10:11:41,794 [DEBUG] Creating Line chart
+2025-04-12 10:11:41,867 [DEBUG] Adding moving averages: [20, 50]
+2025-04-12 10:11:41,874 [DEBUG] Adding volume chart
+2025-04-12 10:11:41,940 [INFO] Application UI fully rendered
+2025-04-12 10:11:49,249 [INFO] Application starting up
+2025-04-12 10:11:49,249 [DEBUG] Configuring request session with retry strategy
+2025-04-12 10:11:49,250 [DEBUG] Setting up Streamlit page configuration
+2025-04-12 10:11:49,256 [INFO] Stock input set to: 
+2025-04-12 10:11:49,257 [INFO] Stock selection updated via popular stocks: NVDA
+2025-04-12 10:11:49,262 [INFO] Selected chart type: Line
+2025-04-12 10:11:49,265 [DEBUG] Selected MA periods: [20, 50]
+2025-04-12 10:11:49,269 [DEBUG] Rate limiting local requests, waiting 5.51s
+2025-04-12 10:11:54,787 [INFO] Performing initial data load
+2025-04-12 10:11:54,789 [INFO] Updating data and charts
+2025-04-12 10:11:54,789 [DEBUG] Using Alpha Vantage params: function=TIME_SERIES_DAILY, output_size=compact, interval=None
+2025-04-12 10:11:54,820 [INFO] Fetching Alpha Vantage data for NVDA (function: TIME_SERIES_DAILY)
+2025-04-12 10:11:54,820 [DEBUG] Making Alpha Vantage API request with params: {'function': 'TIME_SERIES_DAILY', 'symbol': 'NVDA', 'apikey': '5WF4COK1UFPHRLIO', 'outputsize': 'compact', 'datatype': 'json'}
+2025-04-12 10:11:54,823 [DEBUG] Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-04-12 10:11:56,107 [DEBUG] https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_DAILY&symbol=NVDA&apikey=5WF4COK1UFPHRLIO&outputsize=compact&datatype=json HTTP/1.1" 200 None
+2025-04-12 10:11:56,311 [DEBUG] Response keys: ['Meta Data', 'Time Series (Daily)']
+2025-04-12 10:11:56,720 [DEBUG] https://www.alphavantage.co:443 "GET /query?function=GLOBAL_QUOTE&symbol=NVDA&apikey=5WF4COK1UFPHRLIO HTTP/1.1" 200 None
+2025-04-12 10:11:57,026 [DEBUG] https://www.alphavantage.co:443 "GET /query?function=OVERVIEW&symbol=NVDA&apikey=5WF4COK1UFPHRLIO HTTP/1.1" 200 None
+2025-04-12 10:11:57,028 [INFO] Successfully retrieved data for NVDA: 100 rows
+2025-04-12 10:11:57,028 [DEBUG] Data shape: (100, 5), Columns: ['Open', 'High', 'Low', 'Close', 'Volume']
+2025-04-12 10:11:57,028 [INFO] Successfully retrieved data for NVDA
+2025-04-12 10:11:57,031 [DEBUG] Displaying info for NVIDIA Corporation
+2025-04-12 10:11:57,033 [DEBUG] Displaying key stats
+2025-04-12 10:11:57,043 [ERROR] Error displaying stats: Cannot specify ',' with 's'.
+2025-04-12 10:11:57,051 [DEBUG] Creating Line chart
+2025-04-12 10:11:57,100 [DEBUG] Adding moving averages: [20, 50]
+2025-04-12 10:11:57,177 [INFO] Application UI fully rendered
+2025-04-12 10:12:04,818 [INFO] Application starting up
+2025-04-12 10:12:04,830 [DEBUG] Configuring request session with retry strategy
+2025-04-12 10:12:04,840 [DEBUG] Setting up Streamlit page configuration
+2025-04-12 10:12:04,846 [INFO] Stock input set to: 
+2025-04-12 10:12:04,847 [INFO] Stock selection updated via popular stocks: NVDA
+2025-04-12 10:12:04,852 [INFO] Selected chart type: Line
+2025-04-12 10:12:04,854 [DEBUG] Selected MA periods: [20, 50]
+2025-04-12 10:12:04,858 [DEBUG] Rate limiting local requests, waiting 4.92s
+2025-04-12 10:12:05,876 [INFO] Application starting up
+2025-04-12 10:12:05,878 [DEBUG] Configuring request session with retry strategy
+2025-04-12 10:12:05,878 [DEBUG] Setting up Streamlit page configuration
+2025-04-12 10:12:05,882 [INFO] Stock input set to: 
+2025-04-12 10:12:05,885 [INFO] Stock selection updated via popular stocks: NVDA
+2025-04-12 10:12:05,888 [INFO] Selected chart type: Line
+2025-04-12 10:12:05,891 [DEBUG] Selected MA periods: [20, 50]
+2025-04-12 10:12:05,895 [DEBUG] Rate limiting local requests, waiting 3.89s
+2025-04-12 10:12:09,860 [INFO] Performing initial data load
+2025-04-12 10:12:09,861 [INFO] Updating data and charts
+2025-04-12 10:12:09,863 [DEBUG] Using Alpha Vantage params: function=TIME_SERIES_DAILY, output_size=compact, interval=None
+2025-04-12 10:12:09,864 [INFO] Fetching Alpha Vantage data for NVDA (function: TIME_SERIES_DAILY)
+2025-04-12 10:12:09,865 [DEBUG] Making Alpha Vantage API request with params: {'function': 'TIME_SERIES_DAILY', 'symbol': 'NVDA', 'apikey': '5WF4COK1UFPHRLIO', 'outputsize': 'compact', 'datatype': 'json'}
+2025-04-12 10:12:09,867 [DEBUG] Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-04-12 10:12:10,620 [DEBUG] https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_DAILY&symbol=NVDA&apikey=5WF4COK1UFPHRLIO&outputsize=compact&datatype=json HTTP/1.1" 200 None
+2025-04-12 10:12:10,833 [DEBUG] Response keys: ['Meta Data', 'Time Series (Daily)']
+2025-04-12 10:12:11,089 [DEBUG] https://www.alphavantage.co:443 "GET /query?function=GLOBAL_QUOTE&symbol=NVDA&apikey=5WF4COK1UFPHRLIO HTTP/1.1" 200 None
+2025-04-12 10:12:11,338 [DEBUG] https://www.alphavantage.co:443 "GET /query?function=OVERVIEW&symbol=NVDA&apikey=5WF4COK1UFPHRLIO HTTP/1.1" 200 None
+2025-04-12 10:12:11,339 [INFO] Successfully retrieved data for NVDA: 100 rows
+2025-04-12 10:12:11,340 [DEBUG] Data shape: (100, 5), Columns: ['Open', 'High', 'Low', 'Close', 'Volume']
+2025-04-12 10:12:11,340 [INFO] Successfully retrieved data for NVDA
+2025-04-12 10:12:11,344 [DEBUG] Displaying info for NVIDIA Corporation
+2025-04-12 10:12:11,349 [DEBUG] Displaying key stats
+2025-04-12 10:12:11,355 [ERROR] Error displaying stats: Cannot specify ',' with 's'.
+2025-04-12 10:12:11,360 [DEBUG] Creating Line chart
+2025-04-12 10:12:11,397 [DEBUG] Adding moving averages: [20, 50]
+2025-04-12 10:12:11,406 [DEBUG] Adding Bollinger Bands
+2025-04-12 10:12:11,406 [DEBUG] Calculating Bollinger Bands with window=20, std=2
+2025-04-12 10:12:11,462 [DEBUG] Adding volume chart
+2025-04-12 10:12:11,530 [INFO] Application UI fully rendered
+2025-04-12 10:12:22,770 [INFO] Application starting up
+2025-04-12 10:12:22,783 [DEBUG] Configuring request session with retry strategy
+2025-04-12 10:12:22,785 [DEBUG] Setting up Streamlit page configuration
+2025-04-12 10:12:22,804 [INFO] Stock input set to: 
+2025-04-12 10:12:22,810 [INFO] Stock selection updated via popular stocks: NVDA
+2025-04-12 10:12:22,822 [INFO] Selected chart type: Line
+2025-04-12 10:12:22,834 [DEBUG] Selected MA periods: [20, 50]
+2025-04-12 10:12:22,845 [DEBUG] Rate limiting local requests, waiting 1.94s
+2025-04-12 10:12:24,788 [INFO] Performing initial data load
+2025-04-12 10:12:24,789 [INFO] Updating data and charts
+2025-04-12 10:12:24,789 [DEBUG] Using Alpha Vantage params: function=TIME_SERIES_DAILY, output_size=compact, interval=None
+2025-04-12 10:12:24,791 [INFO] Fetching Alpha Vantage data for NVDA (function: TIME_SERIES_DAILY)
+2025-04-12 10:12:24,791 [DEBUG] Making Alpha Vantage API request with params: {'function': 'TIME_SERIES_DAILY', 'symbol': 'NVDA', 'apikey': '5WF4COK1UFPHRLIO', 'outputsize': 'compact', 'datatype': 'json'}
+2025-04-12 10:12:24,794 [DEBUG] Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-04-12 10:12:25,387 [INFO] Application starting up
+2025-04-12 10:12:25,388 [DEBUG] Configuring request session with retry strategy
+2025-04-12 10:12:25,391 [DEBUG] Setting up Streamlit page configuration
+2025-04-12 10:12:25,397 [INFO] Stock input set to: 
+2025-04-12 10:12:25,399 [INFO] Stock selection updated via popular stocks: NVDA
+2025-04-12 10:12:25,401 [DEBUG] https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_DAILY&symbol=NVDA&apikey=5WF4COK1UFPHRLIO&outputsize=compact&datatype=json HTTP/1.1" 200 None
+2025-04-12 10:12:25,404 [INFO] Selected chart type: OHLC
+2025-04-12 10:12:25,406 [DEBUG] Selected MA periods: [20, 50]
+2025-04-12 10:12:25,412 [DEBUG] Rate limiting local requests, waiting 14.37s
+2025-04-12 10:12:25,598 [DEBUG] Response keys: ['Meta Data', 'Time Series (Daily)']
+2025-04-12 10:12:26,110 [DEBUG] https://www.alphavantage.co:443 "GET /query?function=GLOBAL_QUOTE&symbol=NVDA&apikey=5WF4COK1UFPHRLIO HTTP/1.1" 200 None
+2025-04-12 10:12:26,417 [DEBUG] https://www.alphavantage.co:443 "GET /query?function=OVERVIEW&symbol=NVDA&apikey=5WF4COK1UFPHRLIO HTTP/1.1" 200 None
+2025-04-12 10:12:26,418 [INFO] Successfully retrieved data for NVDA: 100 rows
+2025-04-12 10:12:26,419 [DEBUG] Data shape: (100, 5), Columns: ['Open', 'High', 'Low', 'Close', 'Volume']
+2025-04-12 10:12:26,419 [INFO] Successfully retrieved data for NVDA
+2025-04-12 10:12:39,789 [INFO] Performing initial data load
+2025-04-12 10:12:39,790 [INFO] Updating data and charts
+2025-04-12 10:12:39,791 [DEBUG] Using Alpha Vantage params: function=TIME_SERIES_DAILY, output_size=compact, interval=None
+2025-04-12 10:12:39,793 [INFO] Fetching Alpha Vantage data for NVDA (function: TIME_SERIES_DAILY)
+2025-04-12 10:12:39,794 [DEBUG] Making Alpha Vantage API request with params: {'function': 'TIME_SERIES_DAILY', 'symbol': 'NVDA', 'apikey': '5WF4COK1UFPHRLIO', 'outputsize': 'compact', 'datatype': 'json'}
+2025-04-12 10:12:39,796 [DEBUG] Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-04-12 10:12:40,665 [DEBUG] https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_DAILY&symbol=NVDA&apikey=5WF4COK1UFPHRLIO&outputsize=compact&datatype=json HTTP/1.1" 200 None
+2025-04-12 10:12:40,870 [DEBUG] Response keys: ['Meta Data', 'Time Series (Daily)']
+2025-04-12 10:12:41,136 [DEBUG] https://www.alphavantage.co:443 "GET /query?function=GLOBAL_QUOTE&symbol=NVDA&apikey=5WF4COK1UFPHRLIO HTTP/1.1" 200 None
+2025-04-12 10:12:41,379 [DEBUG] https://www.alphavantage.co:443 "GET /query?function=OVERVIEW&symbol=NVDA&apikey=5WF4COK1UFPHRLIO HTTP/1.1" 200 None
+2025-04-12 10:12:41,380 [INFO] Successfully retrieved data for NVDA: 100 rows
+2025-04-12 10:12:41,381 [DEBUG] Data shape: (100, 5), Columns: ['Open', 'High', 'Low', 'Close', 'Volume']
+2025-04-12 10:12:41,381 [INFO] Successfully retrieved data for NVDA
+2025-04-12 10:12:41,383 [DEBUG] Displaying info for NVIDIA Corporation
+2025-04-12 10:12:41,386 [DEBUG] Displaying key stats
+2025-04-12 10:12:41,392 [ERROR] Error displaying stats: Cannot specify ',' with 's'.
+2025-04-12 10:12:41,395 [DEBUG] Creating OHLC chart
+2025-04-12 10:12:41,516 [DEBUG] Adding moving averages: [20, 50]
+2025-04-12 10:12:41,521 [DEBUG] Adding volume chart
+2025-04-12 10:12:41,591 [INFO] Application UI fully rendered

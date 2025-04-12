@@ -1,0 +1,175 @@
+2025-04-12 02:52:20,605 [INFO] Application starting up
+2025-04-12 02:52:20,607 [DEBUG] Configuring request session with retry strategy
+2025-04-12 02:52:20,607 [DEBUG] Setting up Streamlit page configuration
+2025-04-12 02:52:21,868 [INFO] Stock input set to: AAPL
+2025-04-12 02:52:21,872 [INFO] Selected time period: 1 Month (1mo)
+2025-04-12 02:52:21,872 [DEBUG] Setting valid intervals based on selected period
+2025-04-12 02:52:21,874 [INFO] Selected interval: 1 Week (1wk)
+2025-04-12 02:52:21,877 [INFO] Selected chart type: Candlestick
+2025-04-12 02:52:21,879 [DEBUG] Selected MA periods: [20, 50]
+2025-04-12 02:52:21,894 [INFO] Performing initial data load
+2025-04-12 02:52:21,894 [INFO] Updating data and charts
+2025-04-12 02:52:21,900 [INFO] Fetching data for AAPL (period: 1mo, interval: 1wk)
+2025-04-12 02:52:21,901 [DEBUG] Download attempt 1/3 for ticker AAPL
+2025-04-12 02:52:21,902 [DEBUG] Entering history()
+2025-04-12 02:52:21,908 [DEBUG] ('CREATE TABLE IF NOT EXISTS "_kv" ("key" VARCHAR(255) NOT NULL PRIMARY KEY, "value" VARCHAR(255)) WITHOUT ROWID', [])
+2025-04-12 02:52:21,909 [DEBUG] ('SELECT "t1"."key", "t1"."value" FROM "_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['AAPL', 1, 0])
+2025-04-12 02:52:21,911 [DEBUG]  Entering _fetch_ticker_tz()
+2025-04-12 02:52:21,911 [DEBUG]   Entering get()
+2025-04-12 02:52:21,912 [DEBUG] url=https://query2.finance.yahoo.com/v8/finance/chart/AAPL
+2025-04-12 02:52:21,912 [DEBUG] params=frozendict.frozendict({'range': '1d', 'interval': '1d'})
+2025-04-12 02:52:21,913 [DEBUG]    Entering _get_cookie_and_crumb()
+2025-04-12 02:52:21,913 [DEBUG] cookie_mode = 'basic'
+2025-04-12 02:52:21,914 [DEBUG]     Entering _get_cookie_and_crumb_basic()
+2025-04-12 02:52:21,920 [DEBUG] ('CREATE TABLE IF NOT EXISTS "_cookieschema" ("strategy" VARCHAR(255) NOT NULL PRIMARY KEY, "fetch_date" DATETIME NOT NULL, "cookie_bytes" BLOB NOT NULL) WITHOUT ROWID', [])
+2025-04-12 02:52:21,921 [DEBUG] ('SELECT "t1"."strategy", "t1"."fetch_date", "t1"."cookie_bytes" FROM "_cookieschema" AS "t1" WHERE ("t1"."strategy" = ?) LIMIT ? OFFSET ?', ['basic', 1, 0])
+2025-04-12 02:52:21,922 [DEBUG] loaded persistent cookie
+2025-04-12 02:52:21,923 [DEBUG] reusing cookie
+2025-04-12 02:52:21,930 [DEBUG] Starting new HTTPS connection (1): query1.finance.yahoo.com:443
+2025-04-12 02:52:22,371 [DEBUG] https://query1.finance.yahoo.com:443 "GET /v1/test/getcrumb HTTP/1.1" 429 23
+2025-04-12 02:52:22,371 [DEBUG] Incremented Retry for (url='/v1/test/getcrumb'): Retry(total=4, connect=None, read=None, redirect=None, status=None)
+2025-04-12 02:52:22,373 [DEBUG] Retry: /v1/test/getcrumb
+2025-04-12 02:52:22,374 [DEBUG] Resetting dropped connection: query1.finance.yahoo.com
+2025-04-12 02:52:22,794 [DEBUG] https://query1.finance.yahoo.com:443 "GET /v1/test/getcrumb HTTP/1.1" 429 23
+2025-04-12 02:52:22,795 [DEBUG] Incremented Retry for (url='/v1/test/getcrumb'): Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2025-04-12 02:52:24,797 [DEBUG] Retry: /v1/test/getcrumb
+2025-04-12 02:52:24,798 [DEBUG] Resetting dropped connection: query1.finance.yahoo.com
+2025-04-12 02:52:25,085 [DEBUG] https://query1.finance.yahoo.com:443 "GET /v1/test/getcrumb HTTP/1.1" 429 23
+2025-04-12 02:52:25,085 [DEBUG] Incremented Retry for (url='/v1/test/getcrumb'): Retry(total=2, connect=None, read=None, redirect=None, status=None)
+2025-04-12 02:52:29,087 [DEBUG] Retry: /v1/test/getcrumb
+2025-04-12 02:52:29,088 [DEBUG] Resetting dropped connection: query1.finance.yahoo.com
+2025-04-12 02:52:29,438 [DEBUG] https://query1.finance.yahoo.com:443 "GET /v1/test/getcrumb HTTP/1.1" 429 23
+2025-04-12 02:52:29,439 [DEBUG] Incremented Retry for (url='/v1/test/getcrumb'): Retry(total=1, connect=None, read=None, redirect=None, status=None)
+2025-04-12 02:52:30,698 [INFO] Application starting up
+2025-04-12 02:52:30,703 [DEBUG] Configuring request session with retry strategy
+2025-04-12 02:52:30,704 [DEBUG] Setting up Streamlit page configuration
+2025-04-12 02:52:30,711 [INFO] Stock input set to: AAPL
+2025-04-12 02:52:30,713 [INFO] Stock selection updated via popular stocks: AAPL
+2025-04-12 02:52:30,716 [INFO] Selected time period: 1 Month (1mo)
+2025-04-12 02:52:30,716 [DEBUG] Setting valid intervals based on selected period
+2025-04-12 02:52:30,719 [INFO] Selected interval: 1 Week (1wk)
+2025-04-12 02:52:30,721 [INFO] Selected chart type: Candlestick
+2025-04-12 02:52:30,725 [DEBUG] Selected MA periods: [20, 50]
+2025-04-12 02:52:30,737 [INFO] Performing initial data load
+2025-04-12 02:52:30,737 [INFO] Updating data and charts
+2025-04-12 02:52:35,279 [INFO] Application starting up
+2025-04-12 02:52:35,282 [DEBUG] Configuring request session with retry strategy
+2025-04-12 02:52:35,283 [DEBUG] Setting up Streamlit page configuration
+2025-04-12 02:52:35,294 [INFO] Stock input set to: AAPL
+2025-04-12 02:52:35,296 [INFO] Stock selection updated via popular stocks: AAPL
+2025-04-12 02:52:35,298 [INFO] Selected time period: 5 Days (5d)
+2025-04-12 02:52:35,300 [DEBUG] Setting valid intervals based on selected period
+2025-04-12 02:52:35,302 [INFO] Selected interval: 1 Day (1d)
+2025-04-12 02:52:35,303 [INFO] Selected chart type: Candlestick
+2025-04-12 02:52:35,306 [DEBUG] Selected MA periods: [20, 50]
+2025-04-12 02:52:35,316 [DEBUG] Rate limiting local requests, waiting 0.42s
+2025-04-12 02:52:35,740 [INFO] Performing initial data load
+2025-04-12 02:52:35,741 [INFO] Updating data and charts
+2025-04-12 02:52:35,745 [INFO] Fetching data for AAPL (period: 5d, interval: 1d)
+2025-04-12 02:52:35,746 [DEBUG] Download attempt 1/3 for ticker AAPL
+2025-04-12 02:52:37,441 [DEBUG] Retry: /v1/test/getcrumb
+2025-04-12 02:52:37,441 [DEBUG] Resetting dropped connection: query1.finance.yahoo.com
+2025-04-12 02:52:37,835 [DEBUG] https://query1.finance.yahoo.com:443 "GET /v1/test/getcrumb HTTP/1.1" 429 23
+2025-04-12 02:52:37,836 [DEBUG] Incremented Retry for (url='/v1/test/getcrumb'): Retry(total=0, connect=None, read=None, redirect=None, status=None)
+2025-04-12 02:52:39,595 [INFO] Application starting up
+2025-04-12 02:52:39,596 [DEBUG] Configuring request session with retry strategy
+2025-04-12 02:52:39,597 [DEBUG] Setting up Streamlit page configuration
+2025-04-12 02:52:39,604 [INFO] Stock input set to: AAPL
+2025-04-12 02:52:39,605 [INFO] Stock selection updated via popular stocks: AAPL
+2025-04-12 02:52:39,606 [INFO] Selected time period: 5 Days (5d)
+2025-04-12 02:52:39,607 [DEBUG] Setting valid intervals based on selected period
+2025-04-12 02:52:39,608 [INFO] Selected interval: 1 Day (1d)
+2025-04-12 02:52:39,611 [INFO] Selected chart type: Candlestick
+2025-04-12 02:52:39,614 [DEBUG] Selected MA periods: [20]
+2025-04-12 02:52:39,626 [DEBUG] Rate limiting local requests, waiting 1.11s
+2025-04-12 02:52:40,743 [INFO] Performing initial data load
+2025-04-12 02:52:40,744 [INFO] Updating data and charts
+2025-04-12 02:52:40,980 [INFO] Application starting up
+2025-04-12 02:52:40,981 [DEBUG] Configuring request session with retry strategy
+2025-04-12 02:52:40,982 [DEBUG] Setting up Streamlit page configuration
+2025-04-12 02:52:40,986 [INFO] Stock input set to: AAPL
+2025-04-12 02:52:40,988 [INFO] Stock selection updated via popular stocks: AAPL
+2025-04-12 02:52:40,990 [INFO] Selected time period: 5 Days (5d)
+2025-04-12 02:52:40,990 [DEBUG] Setting valid intervals based on selected period
+2025-04-12 02:52:40,992 [INFO] Selected interval: 1 Day (1d)
+2025-04-12 02:52:40,994 [INFO] Selected chart type: Candlestick
+2025-04-12 02:52:40,996 [DEBUG] Selected MA periods: []
+2025-04-12 02:52:41,006 [DEBUG] Rate limiting local requests, waiting 4.73s
+2025-04-12 02:52:42,360 [INFO] Application starting up
+2025-04-12 02:52:42,361 [DEBUG] Configuring request session with retry strategy
+2025-04-12 02:52:42,361 [DEBUG] Setting up Streamlit page configuration
+2025-04-12 02:52:42,366 [INFO] Stock input set to: AAPL
+2025-04-12 02:52:42,368 [INFO] Stock selection updated via popular stocks: AAPL
+2025-04-12 02:52:42,369 [INFO] Selected time period: 5 Days (5d)
+2025-04-12 02:52:42,370 [DEBUG] Setting valid intervals based on selected period
+2025-04-12 02:52:42,372 [INFO] Selected interval: 1 Day (1d)
+2025-04-12 02:52:42,373 [INFO] Selected chart type: Candlestick
+2025-04-12 02:52:42,384 [DEBUG] Rate limiting local requests, waiting 3.36s
+2025-04-12 02:52:45,809 [INFO] Performing initial data load
+2025-04-12 02:52:45,809 [INFO] Updating data and charts
+2025-04-12 02:52:53,837 [DEBUG] Retry: /v1/test/getcrumb
+2025-04-12 02:52:53,837 [DEBUG] Resetting dropped connection: query1.finance.yahoo.com
+2025-04-12 02:52:54,220 [DEBUG] https://query1.finance.yahoo.com:443 "GET /v1/test/getcrumb HTTP/1.1" 429 23
+2025-04-12 02:52:54,222 [ERROR] Failed to get ticker 'AAPL' reason: HTTPSConnectionPool(host='query1.finance.yahoo.com', port=443): Max retries exceeded with url: /v1/test/getcrumb (Caused by ResponseError('too many 429 error responses'))
+2025-04-12 02:52:54,222 [DEBUG] Entering history()
+2025-04-12 02:52:54,223 [DEBUG]  Exiting _fetch_ticker_tz()
+2025-04-12 02:52:54,224 [DEBUG] ('SELECT "t1"."key", "t1"."value" FROM "_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['AAPL', 1, 0])
+2025-04-12 02:52:54,224 [DEBUG] AAPL: Yahoo GET parameters: {'range': '1mo', 'interval': '1wk', 'includePrePost': True, 'events': 'div,splits,capitalGains'}
+2025-04-12 02:52:54,225 [DEBUG]  Entering get()
+2025-04-12 02:52:54,225 [DEBUG] url=https://query2.finance.yahoo.com/v8/finance/chart/AAPL
+2025-04-12 02:52:54,225 [DEBUG] params={'range': '1mo', 'interval': '1wk', 'includePrePost': True, 'events': 'div,splits,capitalGains'}
+2025-04-12 02:52:54,226 [DEBUG]   Entering _get_cookie_and_crumb()
+2025-04-12 02:52:54,226 [DEBUG] cookie_mode = 'basic'
+2025-04-12 02:52:54,227 [DEBUG]    Entering _get_cookie_and_crumb_basic()
+2025-04-12 02:52:54,227 [DEBUG]  Entering _fetch_ticker_tz()
+2025-04-12 02:52:54,228 [DEBUG] reusing cookie
+2025-04-12 02:52:54,228 [DEBUG]   Entering get()
+2025-04-12 02:52:54,229 [DEBUG] reusing cookie
+2025-04-12 02:52:54,229 [DEBUG] url=https://query2.finance.yahoo.com/v8/finance/chart/AAPL
+2025-04-12 02:52:54,231 [DEBUG] params=frozendict.frozendict({'range': '1d', 'interval': '1d'})
+2025-04-12 02:52:54,232 [DEBUG] Starting new HTTPS connection (1): query1.finance.yahoo.com:443
+2025-04-12 02:52:54,232 [DEBUG]    Entering _get_cookie_and_crumb()
+2025-04-12 02:52:54,233 [DEBUG] cookie_mode = 'basic'
+2025-04-12 02:52:54,872 [DEBUG] https://query1.finance.yahoo.com:443 "GET /v1/test/getcrumb HTTP/1.1" 429 23
+2025-04-12 02:52:54,872 [DEBUG] Incremented Retry for (url='/v1/test/getcrumb'): Retry(total=4, connect=None, read=None, redirect=None, status=None)
+2025-04-12 02:52:54,873 [DEBUG] Retry: /v1/test/getcrumb
+2025-04-12 02:52:54,874 [DEBUG] Resetting dropped connection: query1.finance.yahoo.com
+2025-04-12 02:52:55,346 [DEBUG] https://query1.finance.yahoo.com:443 "GET /v1/test/getcrumb HTTP/1.1" 429 23
+2025-04-12 02:52:55,346 [DEBUG] Incremented Retry for (url='/v1/test/getcrumb'): Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2025-04-12 02:52:57,349 [DEBUG] Retry: /v1/test/getcrumb
+2025-04-12 02:52:57,349 [DEBUG] Resetting dropped connection: query1.finance.yahoo.com
+2025-04-12 02:52:57,701 [DEBUG] https://query1.finance.yahoo.com:443 "GET /v1/test/getcrumb HTTP/1.1" 429 23
+2025-04-12 02:52:57,702 [DEBUG] Incremented Retry for (url='/v1/test/getcrumb'): Retry(total=2, connect=None, read=None, redirect=None, status=None)
+2025-04-12 02:53:01,704 [DEBUG] Retry: /v1/test/getcrumb
+2025-04-12 02:53:01,704 [DEBUG] Resetting dropped connection: query1.finance.yahoo.com
+2025-04-12 02:53:02,104 [DEBUG] https://query1.finance.yahoo.com:443 "GET /v1/test/getcrumb HTTP/1.1" 429 23
+2025-04-12 02:53:02,105 [DEBUG] Incremented Retry for (url='/v1/test/getcrumb'): Retry(total=1, connect=None, read=None, redirect=None, status=None)
+2025-04-12 02:53:10,107 [DEBUG] Retry: /v1/test/getcrumb
+2025-04-12 02:53:10,107 [DEBUG] Resetting dropped connection: query1.finance.yahoo.com
+2025-04-12 02:53:10,503 [DEBUG] https://query1.finance.yahoo.com:443 "GET /v1/test/getcrumb HTTP/1.1" 429 23
+2025-04-12 02:53:10,504 [DEBUG] Incremented Retry for (url='/v1/test/getcrumb'): Retry(total=0, connect=None, read=None, redirect=None, status=None)
+2025-04-12 02:53:26,505 [DEBUG] Retry: /v1/test/getcrumb
+2025-04-12 02:53:26,505 [DEBUG] Resetting dropped connection: query1.finance.yahoo.com
+2025-04-12 02:53:26,990 [DEBUG] https://query1.finance.yahoo.com:443 "GET /v1/test/getcrumb HTTP/1.1" 429 23
+2025-04-12 02:53:26,992 [ERROR] AAPL: No price data found, symbol may be delisted (period=1mo)
+2025-04-12 02:53:26,992 [DEBUG]     Entering _get_cookie_and_crumb_basic()
+2025-04-12 02:53:26,993 [DEBUG] Exiting history()
+2025-04-12 02:53:26,993 [DEBUG] reusing cookie
+2025-04-12 02:53:26,994 [WARNING] Attempt 1: Empty data returned for AAPL
+2025-04-12 02:53:26,994 [DEBUG] reusing cookie
+2025-04-12 02:53:26,994 [DEBUG] Download attempt 2/3 for ticker AAPL
+2025-04-12 02:53:26,997 [DEBUG] Resetting dropped connection: query1.finance.yahoo.com
+2025-04-12 02:53:27,296 [DEBUG] https://query1.finance.yahoo.com:443 "GET /v1/test/getcrumb HTTP/1.1" 429 23
+2025-04-12 02:53:27,297 [DEBUG] Incremented Retry for (url='/v1/test/getcrumb'): Retry(total=4, connect=None, read=None, redirect=None, status=None)
+2025-04-12 02:53:27,297 [DEBUG] Retry: /v1/test/getcrumb
+2025-04-12 02:53:27,299 [DEBUG] Resetting dropped connection: query1.finance.yahoo.com
+2025-04-12 02:53:27,705 [DEBUG] https://query1.finance.yahoo.com:443 "GET /v1/test/getcrumb HTTP/1.1" 429 23
+2025-04-12 02:53:27,706 [DEBUG] Incremented Retry for (url='/v1/test/getcrumb'): Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2025-04-12 02:53:29,708 [DEBUG] Retry: /v1/test/getcrumb
+2025-04-12 02:53:29,708 [DEBUG] Resetting dropped connection: query1.finance.yahoo.com
+2025-04-12 02:53:31,187 [DEBUG] https://query1.finance.yahoo.com:443 "GET /v1/test/getcrumb HTTP/1.1" 429 23
+2025-04-12 02:53:31,187 [DEBUG] Incremented Retry for (url='/v1/test/getcrumb'): Retry(total=2, connect=None, read=None, redirect=None, status=None)
+2025-04-12 02:53:35,190 [DEBUG] Retry: /v1/test/getcrumb
+2025-04-12 02:53:35,190 [DEBUG] Resetting dropped connection: query1.finance.yahoo.com
+2025-04-12 02:53:35,489 [DEBUG] https://query1.finance.yahoo.com:443 "GET /v1/test/getcrumb HTTP/1.1" 429 23
+2025-04-12 02:53:35,489 [DEBUG] Incremented Retry for (url='/v1/test/getcrumb'): Retry(total=1, connect=None, read=None, redirect=None, status=None)

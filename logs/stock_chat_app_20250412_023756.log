@@ -1,0 +1,18 @@
+2025-04-12 02:37:56,510 [INFO] [__main__:42] --- Application starting up ---
+2025-04-12 02:37:56,511 [INFO] [__main__:42] --- Application starting up ---
+2025-04-12 02:37:58,096 [INFO] [__main__:190] Initializing LLM models...
+2025-04-12 02:38:00,407 [INFO] [__main__:216] Successfully initialized model: Llama-3.1-70B (llama-3.1-70b-versatile)
+2025-04-12 02:38:02,003 [INFO] [__main__:216] Successfully initialized model: Gemma-2-9B (gemma2-9b-it)
+2025-04-12 02:38:03,601 [INFO] [__main__:216] Successfully initialized model: Llama-3.1-8B (llama-3.1-8b-instant)
+2025-04-12 02:38:03,602 [INFO] [__main__:225] Successfully initialized 3 models: ['Llama-3.1-70B', 'Gemma-2-9B', 'Llama-3.1-8B']
+2025-04-12 02:38:03,603 [INFO] [__main__:838] Models loaded into session state: ['Llama-3.1-70B', 'Gemma-2-9B', 'Llama-3.1-8B']
+2025-04-12 02:38:03,623 [INFO] [__main__:661] Generating market overview chart for period: 6mo
+2025-04-12 02:38:05,131 [ERROR] [yfinance:1687] Failed to get ticker '^IXIC' reason: Expecting value: line 1 column 1 (char 0)
+2025-04-12 02:38:05,131 [ERROR] [yfinance:1687] Failed to get ticker '^RUT' reason: Expecting value: line 1 column 1 (char 0)
+2025-04-12 02:38:05,134 [ERROR] [yfinance:1687] Failed to get ticker '^GSPC' reason: Expecting value: line 1 column 1 (char 0)
+2025-04-12 02:38:05,135 [ERROR] [yfinance:1687] Failed to get ticker '^DJI' reason: Expecting value: line 1 column 1 (char 0)
+2025-04-12 02:38:05,495 [ERROR] [yfinance:1687] Failed to get ticker '^VIX' reason: Expecting value: line 1 column 1 (char 0)
+2025-04-12 02:38:06,619 [ERROR] [yfinance:182] 
+5 Failed downloads:
+2025-04-12 02:38:06,619 [ERROR] [yfinance:195] ['^RUT', '^DJI', '^IXIC', '^GSPC', '^VIX']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-04-12 02:38:06,650 [INFO] [__main__:1242] --- Streamlit script execution finished ---

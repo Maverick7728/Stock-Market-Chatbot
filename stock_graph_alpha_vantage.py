@@ -1,3 +1,4 @@
+# filepath: c:\Users\manan\OneDrive\Desktop\GenAI project\stock_graph_alpha_vantage.py
 import streamlit as st
 import numpy as np
 import pandas as pd
@@ -5,6 +6,7 @@ import datetime as dt
 import plotly.graph_objs as go
 from plotly.subplots import make_subplots
 import time
+import random
 import requests
 from requests.adapters import HTTPAdapter
 from urllib3.util.retry import Retry
@@ -20,7 +22,7 @@ if not os.path.exists(log_dir):
 
 log_filename = os.path.join(log_dir, f"stock_app_{datetime.now().strftime('%Y%m%d_%H%M%S')}.log")
 logging.basicConfig(
-    level=logging.DEBUG,
+    level=logging.DEBUG,  # Use DEBUG level to get more detailed logs
     format="%(asctime)s [%(levelname)s] %(message)s",
     handlers=[
         logging.FileHandler(log_filename),
@@ -34,7 +36,7 @@ logger.info("Application starting up")
 # Configure session with retry strategy
 logger.debug("Configuring request session with retry strategy")
 retry_strategy = Retry(
-    total=5,
+    total=5,  # Increased retries
     backoff_factor=1,
     status_forcelist=[429, 500, 502, 503, 504]
 )
@@ -217,7 +219,7 @@ def get_alpha_vantage_data(symbol, function, output_size="compact", interval=Non
     try:
         logger.debug(f"Making Alpha Vantage API request with params: {params}")
         response = session.get(ALPHA_VANTAGE_BASE_URL, params=params)
-        response.raise_for_status()
+        response.raise_for_status()  # Raise exception for HTTP errors
         
         data = response.json()
         logger.debug(f"Response keys: {list(data.keys())}")
@@ -242,19 +244,9 @@ def get_alpha_vantage_data(symbol, function, output_size="compact", interval=Non
         elif function == "TIME_SERIES_MONTHLY":
             time_series_key = "Monthly Time Series"
         
-        # Fallback to daily data if intraday is unavailable
-        if time_series_key not in data and function == "TIME_SERIES_INTRADAY":
-            logger.warning("Intraday data unavailable, falling back to daily data")
-            params["function"] = "TIME_SERIES_DAILY"
-            if "interval" in params:
-                del params["interval"]
-            response = session.get(ALPHA_VANTAGE_BASE_URL, params=params)
-            data = response.json()
-            time_series_key = "Time Series (Daily)"
-        
         if time_series_key not in data:
             logger.error(f"Expected time series key '{time_series_key}' not found in response")
-            logger.debug(f"Response content: {json.dumps(data)[:500]}...")
+            logger.debug(f"Response content: {json.dumps(data)[:500]}...")  # Log first 500 chars
             return None, f"Expected data key '{time_series_key}' not found in API response"
         
         # Convert to DataFrame
@@ -375,9 +367,9 @@ def format_number(num):
 # Add delay between user actions to prevent API rate limiting
 if "last_query_time" in st.session_state:
     time_since_last = time.time() - st.session_state.last_query_time
-    if time_since_last < 15:
+    if time_since_last < 15:  # If less than 15 seconds since last query
         logger.debug(f"Rate limiting local requests, waiting {15 - time_since_last:.2f}s")
-        time.sleep(15 - time_since_last)
+        time.sleep(15 - time_since_last)  # Wait to complete 15 seconds
         
 st.session_state.last_query_time = time.time()
 
@@ -398,18 +390,11 @@ def update_data_and_charts():
         st.error("Please enter your Alpha Vantage API key in the sidebar")
         return
     
-    # Check if today is a trading day and adjust function
-    current_date = dt.datetime.now()
-    is_weekday = current_date.weekday() < 5  # Monday to Friday
-    if is_weekday and function != "Intraday":
-        av_function = "TIME_SERIES_INTRADAY"
-        av_interval = "5min"  # Use a small interval for recent data
-        logger.info("Switching to intraday data for current day")
-    else:
-        av_function = function_options[function]
-        av_interval = interval_options[interval] if function == "Intraday" and interval else None
-    
+    # Get data based on inputs
+    av_function = function_options[function]
     av_output_size = output_size_options[output_size]
+    av_interval = interval_options[interval] if function == "Intraday" and interval else None
+    
     logger.debug(f"Using Alpha Vantage params: function={av_function}, output_size={av_output_size}, interval={av_interval}")
     
     # Check for multiple stocks
@@ -438,7 +423,8 @@ def update_data_and_charts():
                     )
                     if df is not None:
                         all_data[ticker] = df
-                        time.sleep(12)
+                        # Add a small delay to prevent hitting API rate limits
+                        time.sleep(12)  # 12 second delay between API calls
                 except Exception as e:
                     logger.error(f"Error fetching data for {ticker}: {str(e)}")
         
@@ -447,9 +433,11 @@ def update_data_and_charts():
             if all_data:
                 st.header("Stock Price Comparison")
                 
+                # Create normalized price chart for comparison
                 fig = go.Figure()
                 
                 for ticker, df in all_data.items():
+                    # Normalize the data to start from 100
                     first_value = df['Close'].iloc[0]
                     normalized = df['Close'] / first_value * 100
                     
@@ -492,16 +480,14 @@ def update_data_and_charts():
                     interval=av_interval
                 )
                 
+                # If we got no data, display an error
                 if data is None or data.empty:
                     logger.error(f"No data received for {stock_input}")
                     st.error(f"No data available for {stock_input} with the selected parameters")
                     st.info("This might be due to Alpha Vantage API limitations or an invalid ticker. Try another ticker or time period.")
                     return
                 
-                # Check if data is outdated
-                if data.index[-1].date() < current_date.date():
-                    st.warning(f"Latest data available is from {data.index[-1].date()}. The market might be closed today, or the API data is delayed.")
-                
+                # Log the data shape and columns to help debug
                 logger.debug(f"Data shape: {data.shape}, Columns: {list(data.columns)}")
                 logger.info(f"Successfully retrieved data for {stock_input}")
                     
@@ -518,12 +504,15 @@ def update_data_and_charts():
                 st.header(f"{company_name} ({stock_input})")
                 logger.debug(f"Displaying info for {company_name}")
                 
+                # Get current price and calculate daily change
                 try:
+                    # Get the most accurate price available
                     if 'currentPrice' in info and info['currentPrice']:
                         current_price = info['currentPrice']
                         price_change = info.get('change', 0)
                         price_change_pct = info.get('changePercent', '0%')
                         
+                        # Determine if it's up or down
                         if price_change >= 0:
                             emoji = "🔼"
                             color = "green"
@@ -546,9 +535,11 @@ def update_data_and_charts():
                     logger.error(f"Error calculating price data: {str(e)}")
                     st.markdown("<div style='font-size: 24px; font-weight: bold;'>Price data unavailable</div>", unsafe_allow_html=True)
                 
+                # Display key stats
                 st.subheader("Key Stats")
                 logger.debug("Displaying key stats")
                 
+                # Create layout for stats
                 stats_col1, stats_col2 = st.columns(2)
                 
                 try:
@@ -571,6 +562,7 @@ def update_data_and_charts():
                     logger.error(f"Error displaying stats: {str(e)}")
                     st.markdown("Some stats are unavailable.")
                 
+                # Business summary (expandable)
                 with st.expander("Business Summary"):
                     st.write(info.get('longBusinessSummary', 'No summary available.'))
         
@@ -578,9 +570,11 @@ def update_data_and_charts():
         try:
             with chart_placeholder.container():
                 logger.debug(f"Creating {chart_type} chart")
+                # Create chart based on selected type
                 fig = make_subplots(rows=2, cols=1, shared_xaxes=True, 
                                    vertical_spacing=0.03, row_heights=[0.7, 0.3])
                 
+                # Add main price chart
                 if chart_type == "Candlestick":
                     fig.add_trace(
                         go.Candlestick(
@@ -621,6 +615,7 @@ def update_data_and_charts():
                         row=1, col=1
                     )
                 
+                # Add Moving Averages
                 if show_ma and len(data) > max(ma_periods if ma_periods else [0]):
                     logger.debug(f"Adding moving averages: {ma_periods}")
                     for ma_period in ma_periods:
@@ -636,6 +631,7 @@ def update_data_and_charts():
                                 row=1, col=1
                             )
                 
+                # Add Bollinger Bands
                 if show_bbands and len(data) >= 20:
                     logger.debug("Adding Bollinger Bands")
                     ma_20, upper_band, lower_band = calculate_bollinger_bands(data)
@@ -661,6 +657,7 @@ def update_data_and_charts():
                         row=1, col=1
                     )
                 
+                # Add Volume
                 if show_volume and 'Volume' in data.columns:
                     logger.debug("Adding volume chart")
                     colors = ['rgba(38, 166, 154, 0.5)' if data['Close'].iloc[i] >= data['Open'].iloc[i] 
@@ -677,6 +674,7 @@ def update_data_and_charts():
                         row=2, col=1
                     )
                 
+                # Update layout
                 fig.update_layout(
                     title=f"{company_name if info else stock_input} Stock Chart",
                     xaxis_title="Date",
@@ -693,6 +691,7 @@ def update_data_and_charts():
                     ),
                 )
                 
+                # Add range selector buttons
                 fig.update_xaxes(
                     rangeselector=dict(
                         buttons=list([
@@ -726,6 +725,7 @@ if enable_auto_refresh:
     logger.info(f"Auto-refresh enabled with {refresh_interval}s interval")
     st.markdown(f"<div style='text-align: center; color: #4CAF50;'>Auto-refreshing every {refresh_interval} seconds</div>", unsafe_allow_html=True)
     
+    # Auto-refresh counter
     if "counter" not in st.session_state:
         st.session_state.counter = 0
     
@@ -768,9 +768,11 @@ with st.expander("Debug Information"):
     st.write(f"Chart type: {chart_type}")
     st.write(f"Session retry config: max_retries={retry_strategy.total}, backoff_factor={retry_strategy.backoff_factor}")
     
+    # Add button to view recent logs
     if st.button("View Recent Logs"):
         try:
             with open(log_filename, "r") as f:
+                # Get last 50 lines
                 lines = f.readlines()
                 recent_logs = lines[-50:] if len(lines) > 50 else lines
                 st.code("".join(recent_logs), language="text")
