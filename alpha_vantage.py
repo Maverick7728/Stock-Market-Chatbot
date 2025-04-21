@@ -53,6 +53,10 @@ session.mount("http://", adapter)
 ALPHA_VANTAGE_API_KEY = "F9H662T7ZC52LER5"  
 ALPHA_VANTAGE_BASE_URL = "https://www.alphavantage.co/query"
 
+# Add this near the top of your script after imports
+if "selected_stocks" not in st.session_state:
+    st.session_state.selected_stocks = []
+
 # Initialize different LLM models
 def initialize_models():
     models = {}
@@ -139,28 +143,37 @@ This app retrieves stock price data, visualizes it with interactive charts, and 
 Select a stock symbol, time period, and chart type to get started!
 """)
 
-# Sidebar for inputs
+# Updated sidebar section
 with st.sidebar:
     st.header("Chart Settings")
     
-    # Stock input (with default suggestions)
-    stock_input = st.text_input("Enter Stock Symbol:", "AAPL").upper()
-    logger.info(f"Stock input set to: {stock_input}")
+    # AI Assistant section moved up
+    st.header("AI Assistant")
+    if available_models:
+        selected_model = st.selectbox("Choose AI Model:", list(available_models.keys()))
+    else:
+        selected_model = None
+        st.warning("No AI models available. Check GROQ_API_KEY in your environment variables.")
     
-    # Popular stock suggestions
+    # Popular stock suggestions using session state (removed text input)
     popular_stocks = st.multiselect(
-        "Popular Stocks:",
+        "Select Stocks:",
         ["AAPL", "MSFT", "GOOGL", "AMZN", "META", "TSLA", "NVDA", "JPM", "V", "WMT",
          "DIS", "NFLX", "KO", "PFE", "INTC", "AMD", "BA", "MCD", "CSCO", "PG"],
-        []
+        st.session_state.selected_stocks
     )
+    
+    # Update session state and stock_input
+    st.session_state.selected_stocks = popular_stocks
     
     if popular_stocks:
         if len(popular_stocks) == 1:
             stock_input = popular_stocks[0]
         else:
             stock_input = ",".join(popular_stocks)
-        logger.info(f"Stock selection updated via popular stocks: {stock_input}")
+        logger.info(f"Stock selection updated: {stock_input}")
+    else:
+        stock_input = ""  # No stock selected
     
     # Time period selection (adapted for Alpha Vantage)
     output_size_options = {
@@ -225,13 +238,13 @@ with st.sidebar:
         )
         logger.debug(f"Selected MA periods: {ma_periods}")
     
-    # AI Assistant model selection
-    st.header("AI Assistant")
-    if available_models:
-        selected_model = st.selectbox("Choose AI Model:", list(available_models.keys()))
-    else:
-        selected_model = None
-        st.warning("No AI models available. Check GROQ_API_KEY in your environment variables.")
+    # # AI Assistant model selection
+    # st.header("AI Assistant")
+    # if available_models:
+    #     selected_model = st.selectbox("Choose AI Model:", list(available_models.keys()))
+    # else:
+    #     selected_model = None
+    #     st.warning("No AI models available. Check GROQ_API_KEY in your environment variables.")
 
 
 # Helper functions
@@ -715,7 +728,14 @@ def update_data_and_charts():
 
 
 # Initial data load
-update_data_and_charts()
+if stock_input:  # Only load data if stocks are selected
+    update_data_and_charts()
+else:
+    # Show instructions when no stock is selected
+    with chart_placeholder.container():
+        st.info("👆 Please select one or more stocks from the sidebar to display charts")
+    with info_placeholder.container():
+        st.info("Select a stock to view detailed information")
 
 # Add AI Chatbot Interface
 st.markdown("---")
@@ -754,10 +774,12 @@ if prompt := st.chat_input("Ask about stocks, markets, or financial concepts..."
         else:
             st.markdown("Please select an AI model from the sidebar.")
 
-# Add a button to clear chat history
-if st.button("Clear Chat History"):
-    st.session_state.messages = []
-    st.rerun()
+# Clear chat history button
+if st.button("Clear Chat History & Reset"):
+    st.session_state.messages = []  # Clear chat messages
+    st.session_state.selected_stocks = []  # Reset stock selection
+    stock_input = ""  # Clear current stock input
+    st.rerun()  # Force the app to rerun with cleared state
 
 # App footer
 st.markdown("""
