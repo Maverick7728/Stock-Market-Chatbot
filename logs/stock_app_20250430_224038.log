@@ -1,0 +1,101 @@
+2025-04-30 22:40:38,015 [INFO] Application starting up
+2025-04-30 22:40:39,627 [INFO] Application starting up
+2025-04-30 22:40:45,333 [INFO] AI Model selected: Llama-3.3-70B
+2025-04-30 22:40:45,337 [INFO] Selected chart type: Candlestick
+2025-04-30 22:40:45,346 [INFO] Cleared fetched data from session state.
+2025-04-30 22:40:45,619 [INFO] AI Model selected: Llama-3.3-70B
+2025-04-30 22:40:45,623 [INFO] Selected chart type: Candlestick
+2025-04-30 22:40:45,632 [INFO] Cleared fetched data from session state.
+2025-04-30 22:40:52,224 [INFO] Application starting up
+2025-04-30 22:40:53,465 [INFO] Application starting up
+2025-04-30 22:40:59,343 [INFO] AI Model selected: Llama-3.3-70B
+2025-04-30 22:40:59,345 [INFO] Stock selection updated: MSFT,GOOGL
+2025-04-30 22:40:59,349 [INFO] Selected chart type: Candlestick
+2025-04-30 22:40:59,354 [INFO] Updating data and charts...
+2025-04-30 22:40:59,357 [INFO] Cleared fetched data from session state.
+2025-04-30 22:40:59,360 [INFO] Multiple stocks selected for comparison: ['MSFT', 'GOOGL']
+2025-04-30 22:40:59,369 [INFO] Fetching comparison data for MSFT
+2025-04-30 22:40:59,370 [INFO] Fetching Alpha Vantage data for MSFT (function: TIME_SERIES_DAILY)
+2025-04-30 22:41:01,458 [INFO] Successfully retrieved data for MSFT: 100 rows
+2025-04-30 22:41:01,459 [INFO] Successfully fetched comparison data for MSFT
+2025-04-30 22:41:16,461 [INFO] Fetching comparison data for GOOGL
+2025-04-30 22:41:16,463 [INFO] Fetching Alpha Vantage data for GOOGL (function: TIME_SERIES_DAILY)
+2025-04-30 22:41:17,628 [INFO] Successfully retrieved data for GOOGL: 100 rows
+2025-04-30 22:41:17,629 [INFO] Successfully fetched comparison data for GOOGL
+2025-04-30 22:41:18,633 [INFO] Stored multi-stock data for ['MSFT', 'GOOGL'] in session state.
+2025-04-30 22:41:28,389 [INFO] Application starting up
+2025-04-30 22:41:33,402 [INFO] AI Model selected: Llama-3.3-70B
+2025-04-30 22:41:33,404 [INFO] Stock selection updated: MSFT,GOOGL
+2025-04-30 22:41:33,407 [INFO] Selected chart type: Candlestick
+2025-04-30 22:41:33,412 [INFO] Updating data and charts...
+2025-04-30 22:41:33,413 [INFO] Cleared fetched data from session state.
+2025-04-30 22:41:33,413 [INFO] Multiple stocks selected for comparison: ['MSFT', 'GOOGL']
+2025-04-30 22:41:33,417 [INFO] Fetching comparison data for MSFT
+2025-04-30 22:41:33,418 [INFO] Fetching Alpha Vantage data for MSFT (function: TIME_SERIES_DAILY)
+2025-04-30 22:41:35,447 [WARNING] Could not retrieve detailed company overview for MSFT. Response: {'Information': 'We have detected your API key as F9H662T7ZC52LER5 and our standard API rate limit is 25 requests per day. Please subscribe to any of the premium plans at https://www.alphavantage.co/premium/ to instantly remove all daily rate limits.'}
+2025-04-30 22:41:35,448 [INFO] Successfully retrieved data for MSFT: 100 rows
+2025-04-30 22:41:35,448 [INFO] Successfully fetched comparison data for MSFT
+2025-04-30 22:41:50,451 [INFO] Fetching comparison data for GOOGL
+2025-04-30 22:41:50,452 [INFO] Fetching Alpha Vantage data for GOOGL (function: TIME_SERIES_DAILY)
+2025-04-30 22:41:50,806 [ERROR] Could not find valid time series key in response for GOOGL
+2025-04-30 22:41:51,810 [INFO] Stored multi-stock data for ['MSFT'] in session state.
+2025-04-30 22:42:01,283 [INFO] Application starting up
+2025-04-30 22:42:04,486 [INFO] Application starting up
+2025-04-30 22:42:09,907 [INFO] AI Model selected: Llama-3.3-70B
+2025-04-30 22:42:09,909 [INFO] Stock selection updated: MSFT
+2025-04-30 22:42:09,913 [INFO] Selected chart type: Candlestick
+2025-04-30 22:42:09,917 [INFO] Updating data and charts...
+2025-04-30 22:42:09,919 [INFO] Cleared fetched data from session state.
+2025-04-30 22:42:09,922 [INFO] Fetching Alpha Vantage data for MSFT (function: TIME_SERIES_DAILY)
+2025-04-30 22:42:10,672 [ERROR] Could not find valid time series key in response for MSFT
+2025-04-30 22:42:10,672 [ERROR] Data fetch failed or returned empty for MSFT. Message: API Limit Reached for MSFT. Free tier has limitations. Please wait and try again.
+2025-04-30 22:42:10,675 [INFO] Cleared fetched data from session state.
+2025-04-30 22:42:40,044 [INFO] Application starting up
+2025-04-30 22:42:45,233 [INFO] AI Model selected: Llama-3.3-70B
+2025-04-30 22:42:45,235 [INFO] Stock selection updated: MSFT
+2025-04-30 22:42:45,238 [INFO] Selected chart type: Candlestick
+2025-04-30 22:42:45,242 [INFO] Updating data and charts...
+2025-04-30 22:42:45,244 [INFO] Cleared fetched data from session state.
+2025-04-30 22:42:45,246 [INFO] Fetching Alpha Vantage data for MSFT (function: TIME_SERIES_DAILY)
+2025-04-30 22:42:46,308 [ERROR] Could not find valid time series key in response for MSFT
+2025-04-30 22:42:46,309 [ERROR] Data fetch failed or returned empty for MSFT. Message: API Limit Reached for MSFT. Free tier has limitations. Please wait and try again.
+2025-04-30 22:42:46,311 [INFO] Cleared fetched data from session state.
+2025-04-30 22:42:46,355 [INFO] User prompt: AAPL current share
+2025-04-30 22:42:46,356 [INFO] Context for LLM: Stock(s)=None, Has single data=False, Has multi data=False
+2025-04-30 22:42:47,249 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-30 22:43:09,378 [INFO] Application starting up
+2025-04-30 22:43:14,428 [INFO] AI Model selected: Llama-3.3-70B
+2025-04-30 22:43:14,429 [INFO] Stock selection updated: MSFT
+2025-04-30 22:43:14,432 [INFO] Selected chart type: Candlestick
+2025-04-30 22:43:14,437 [INFO] Updating data and charts...
+2025-04-30 22:43:14,438 [INFO] Cleared fetched data from session state.
+2025-04-30 22:43:14,440 [INFO] Fetching Alpha Vantage data for MSFT (function: TIME_SERIES_DAILY)
+2025-04-30 22:43:15,494 [ERROR] Could not find valid time series key in response for MSFT
+2025-04-30 22:43:15,494 [ERROR] Data fetch failed or returned empty for MSFT. Message: API Limit Reached for MSFT. Free tier has limitations. Please wait and try again.
+2025-04-30 22:43:15,497 [INFO] Cleared fetched data from session state.
+2025-04-30 22:43:15,506 [INFO] User prompt: yes please do it and tell about it 
+2025-04-30 22:43:15,507 [INFO] Context for LLM: Stock(s)=None, Has single data=False, Has multi data=False
+2025-04-30 22:43:16,211 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-30 22:43:25,066 [INFO] Application starting up
+2025-04-30 22:43:27,165 [INFO] Application starting up
+2025-04-30 22:43:29,626 [INFO] Application starting up
+2025-04-30 22:43:35,369 [INFO] AI Model selected: Llama-3.3-70B
+2025-04-30 22:43:35,371 [INFO] Stock selection updated: AAPL
+2025-04-30 22:43:35,374 [INFO] Selected chart type: Candlestick
+2025-04-30 22:43:35,379 [INFO] Updating data and charts...
+2025-04-30 22:43:35,380 [INFO] Cleared fetched data from session state.
+2025-04-30 22:43:35,383 [INFO] Fetching Alpha Vantage data for AAPL (function: TIME_SERIES_DAILY)
+2025-04-30 22:43:35,873 [ERROR] Could not find valid time series key in response for AAPL
+2025-04-30 22:43:35,873 [ERROR] Data fetch failed or returned empty for AAPL. Message: API Limit Reached for AAPL. Free tier has limitations. Please wait and try again.
+2025-04-30 22:43:35,876 [INFO] Cleared fetched data from session state.
+2025-04-30 22:43:39,904 [INFO] Application starting up
+2025-04-30 22:43:45,395 [INFO] AI Model selected: Llama-3.3-70B
+2025-04-30 22:43:45,397 [INFO] Stock selection updated: AAPL
+2025-04-30 22:43:45,399 [INFO] Selected chart type: Candlestick
+2025-04-30 22:43:45,402 [INFO] Rate limiting: Waiting 5.0s before next potential API call.
+2025-04-30 22:43:45,406 [INFO] Updating data and charts...
+2025-04-30 22:43:45,408 [INFO] Cleared fetched data from session state.
+2025-04-30 22:43:45,410 [INFO] Fetching Alpha Vantage data for AAPL (function: TIME_SERIES_DAILY)
+2025-04-30 22:43:45,910 [ERROR] Could not find valid time series key in response for AAPL
+2025-04-30 22:43:45,911 [ERROR] Data fetch failed or returned empty for AAPL. Message: API Limit Reached for AAPL. Free tier has limitations. Please wait and try again.
+2025-04-30 22:43:45,913 [INFO] Cleared fetched data from session state.
