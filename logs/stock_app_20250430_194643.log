@@ -1,0 +1,77 @@
+2025-04-30 19:46:43,880 [INFO] Application starting up
+2025-04-30 19:46:43,880 [INFO] Application starting up
+2025-04-30 19:46:44,780 [INFO] Application starting up
+2025-04-30 19:46:44,948 [INFO] Successfully initialized model: Llama-3.1-70B (llama-3.1-70b-versatile)
+2025-04-30 19:46:45,209 [INFO] Successfully initialized model: Llama-3.1-70B (llama-3.1-70b-versatile)
+2025-04-30 19:46:45,672 [INFO] Successfully initialized model: Llama-3.1-70B (llama-3.1-70b-versatile)
+2025-04-30 19:46:45,819 [INFO] Successfully initialized model: Llama-3.1-8B (llama-3.1-8b-instant)
+2025-04-30 19:46:46,075 [INFO] Successfully initialized model: Llama-3.1-8B (llama-3.1-8b-instant)
+2025-04-30 19:46:46,483 [INFO] Successfully initialized model: Llama-3.1-8B (llama-3.1-8b-instant)
+2025-04-30 19:46:46,605 [INFO] Successfully initialized model: Gemma-2-9B (gemma2-9b-it)
+2025-04-30 19:46:46,608 [INFO] Selected chart type: Candlestick
+2025-04-30 19:46:46,609 [INFO] AI Model selected: Llama-3.1-70B
+2025-04-30 19:46:46,611 [INFO] Cleared fetched data from session state.
+2025-04-30 19:46:46,822 [INFO] Successfully initialized model: Gemma-2-9B (gemma2-9b-it)
+2025-04-30 19:46:47,197 [INFO] Successfully initialized model: Gemma-2-9B (gemma2-9b-it)
+2025-04-30 19:46:47,200 [INFO] Selected chart type: Candlestick
+2025-04-30 19:46:47,201 [INFO] AI Model selected: Llama-3.1-70B
+2025-04-30 19:46:47,204 [INFO] Cleared fetched data from session state.
+2025-04-30 19:46:59,165 [INFO] Application starting up
+2025-04-30 19:46:59,892 [INFO] Successfully initialized model: Llama-3.1-70B (llama-3.1-70b-versatile)
+2025-04-30 19:47:00,620 [INFO] Successfully initialized model: Llama-3.1-8B (llama-3.1-8b-instant)
+2025-04-30 19:47:01,317 [INFO] Successfully initialized model: Gemma-2-9B (gemma2-9b-it)
+2025-04-30 19:47:01,319 [INFO] Stock selection updated: MSFT
+2025-04-30 19:47:01,321 [INFO] Selected chart type: Candlestick
+2025-04-30 19:47:01,322 [INFO] AI Model selected: Llama-3.1-70B
+2025-04-30 19:47:01,323 [INFO] Updating data and charts...
+2025-04-30 19:47:01,324 [INFO] Cleared fetched data from session state.
+2025-04-30 19:47:01,325 [INFO] Fetching Alpha Vantage data for MSFT (function: TIME_SERIES_DAILY)
+2025-04-30 19:47:03,097 [INFO] Successfully retrieved data for MSFT: 100 rows
+2025-04-30 19:47:03,097 [INFO] Successfully retrieved data and info for MSFT
+2025-04-30 19:47:03,098 [INFO] Stored single-stock data for MSFT in session state.
+2025-04-30 19:47:36,361 [INFO] Application starting up
+2025-04-30 19:47:37,136 [INFO] Successfully initialized model: Llama-3.1-70B (llama-3.1-70b-versatile)
+2025-04-30 19:47:37,931 [INFO] Successfully initialized model: Llama-3.1-8B (llama-3.1-8b-instant)
+2025-04-30 19:47:38,652 [INFO] Successfully initialized model: Gemma-2-9B (gemma2-9b-it)
+2025-04-30 19:47:38,654 [INFO] Stock selection updated: MSFT
+2025-04-30 19:47:38,655 [INFO] Selected chart type: Candlestick
+2025-04-30 19:47:38,656 [INFO] AI Model selected: Llama-3.1-70B
+2025-04-30 19:47:38,657 [INFO] Updating data and charts...
+2025-04-30 19:47:38,658 [INFO] Cleared fetched data from session state.
+2025-04-30 19:47:38,660 [INFO] Fetching Alpha Vantage data for MSFT (function: TIME_SERIES_DAILY)
+2025-04-30 19:47:40,804 [INFO] Successfully retrieved data for MSFT: 100 rows
+2025-04-30 19:47:40,804 [INFO] Successfully retrieved data and info for MSFT
+2025-04-30 19:47:40,806 [INFO] Stored single-stock data for MSFT in session state.
+2025-04-30 19:47:40,864 [INFO] User prompt: current price of MSFT in dollars
+2025-04-30 19:47:40,865 [INFO] Context for LLM: Stock(s)=MSFT, Has single data=True, Has multi data=False
+2025-04-30 19:47:41,044 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-04-30 19:47:41,044 [ERROR] Error invoking LLM: Error code: 400 - {'error': {'message': 'The model `llama-3.1-70b-versatile` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+Traceback (most recent call last):
+  File "C:\Users\manan\OneDrive\Desktop\GenAI project\test.py", line 189, in get_model_response
+    response = model.invoke(prompt)
+               ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\manan\OneDrive\Desktop\GenAI project\venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 307, in invoke
+    self.generate_prompt(
+  File "C:\Users\manan\OneDrive\Desktop\GenAI project\venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 843, in generate_prompt
+    return self.generate(prompt_messages, stop=stop, callbacks=callbacks, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\manan\OneDrive\Desktop\GenAI project\venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 683, in generate
+    self._generate_with_cache(
+  File "C:\Users\manan\OneDrive\Desktop\GenAI project\venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 908, in _generate_with_cache
+    result = self._generate(
+             ^^^^^^^^^^^^^^^
+  File "C:\Users\manan\OneDrive\Desktop\GenAI project\venv\Lib\site-packages\langchain_groq\chat_models.py", line 498, in _generate
+    response = self.client.create(messages=message_dicts, **params)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\manan\OneDrive\Desktop\GenAI project\venv\Lib\site-packages\groq\resources\chat\completions.py", line 322, in create
+    return self._post(
+           ^^^^^^^^^^^
+  File "C:\Users\manan\OneDrive\Desktop\GenAI project\venv\Lib\site-packages\groq\_base_client.py", line 1225, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\manan\OneDrive\Desktop\GenAI project\venv\Lib\site-packages\groq\_base_client.py", line 917, in request
+    return self._request(
+           ^^^^^^^^^^^^^^
+  File "C:\Users\manan\OneDrive\Desktop\GenAI project\venv\Lib\site-packages\groq\_base_client.py", line 1020, in _request
+    raise self._make_status_error_from_response(err.response) from None
+groq.BadRequestError: Error code: 400 - {'error': {'message': 'The model `llama-3.1-70b-versatile` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}

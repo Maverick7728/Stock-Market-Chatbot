@@ -1,0 +1,143 @@
+2025-04-30 18:56:10,228 [INFO] Application starting up
+2025-04-30 18:56:10,229 [DEBUG] Configuring request session with retry strategy
+2025-04-30 18:56:10,230 [DEBUG] Setting up Streamlit page configuration
+2025-04-30 18:56:16,823 [INFO] Selected chart type: Candlestick
+2025-04-30 18:56:16,827 [DEBUG] Selected MA periods: [20, 50]
+2025-04-30 18:57:07,590 [INFO] Application starting up
+2025-04-30 18:57:07,591 [DEBUG] Configuring request session with retry strategy
+2025-04-30 18:57:07,591 [DEBUG] Setting up Streamlit page configuration
+2025-04-30 18:57:12,341 [INFO] Application starting up
+2025-04-30 18:57:12,343 [DEBUG] Configuring request session with retry strategy
+2025-04-30 18:57:12,344 [DEBUG] Setting up Streamlit page configuration
+2025-04-30 18:57:17,436 [INFO] Stock selection updated: MSFT
+2025-04-30 18:57:17,440 [INFO] Selected chart type: Candlestick
+2025-04-30 18:57:17,442 [DEBUG] Selected MA periods: [20, 50]
+2025-04-30 18:57:17,445 [INFO] Updating data and charts
+2025-04-30 18:57:17,446 [DEBUG] Using Alpha Vantage params: function=TIME_SERIES_DAILY, output_size=compact, interval=None
+2025-04-30 18:57:17,448 [INFO] Fetching Alpha Vantage data for MSFT (function: TIME_SERIES_DAILY)
+2025-04-30 18:57:17,449 [DEBUG] Making Alpha Vantage API request with params: {'function': 'TIME_SERIES_DAILY', 'symbol': 'MSFT', 'apikey': 'F9H662T7ZC52LER5', 'outputsize': 'compact', 'datatype': 'json'}
+2025-04-30 18:57:17,503 [DEBUG] Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-04-30 18:57:18,701 [DEBUG] https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_DAILY&symbol=MSFT&apikey=F9H662T7ZC52LER5&outputsize=compact&datatype=json HTTP/1.1" 200 None
+2025-04-30 18:57:18,705 [DEBUG] Response keys: ['Meta Data', 'Time Series (Daily)']
+2025-04-30 18:57:19,111 [DEBUG] https://www.alphavantage.co:443 "GET /query?function=GLOBAL_QUOTE&symbol=MSFT&apikey=F9H662T7ZC52LER5 HTTP/1.1" 200 None
+2025-04-30 18:57:19,418 [DEBUG] https://www.alphavantage.co:443 "GET /query?function=OVERVIEW&symbol=MSFT&apikey=F9H662T7ZC52LER5 HTTP/1.1" 200 None
+2025-04-30 18:57:19,419 [INFO] Successfully retrieved data for MSFT: 100 rows
+2025-04-30 18:57:19,419 [DEBUG] Data shape: (100, 5), Columns: ['Open', 'High', 'Low', 'Close', 'Volume']
+2025-04-30 18:57:19,421 [INFO] Successfully retrieved data for MSFT
+2025-04-30 18:57:19,422 [DEBUG] Displaying info for Microsoft Corporation
+2025-04-30 18:57:19,425 [DEBUG] Displaying key stats
+2025-04-30 18:57:19,431 [ERROR] Error displaying stats: Cannot specify ',' with 's'.
+2025-04-30 18:57:19,434 [DEBUG] Creating Candlestick chart
+2025-04-30 18:57:19,949 [DEBUG] Adding moving averages: [20, 50]
+2025-04-30 18:57:19,983 [DEBUG] Adding volume chart
+2025-04-30 18:57:40,837 [INFO] Application starting up
+2025-04-30 18:57:40,837 [DEBUG] Configuring request session with retry strategy
+2025-04-30 18:57:40,839 [DEBUG] Setting up Streamlit page configuration
+2025-04-30 18:57:46,535 [INFO] Stock selection updated: MSFT
+2025-04-30 18:57:46,538 [INFO] Selected chart type: Candlestick
+2025-04-30 18:57:46,540 [DEBUG] Selected MA periods: [20, 50]
+2025-04-30 18:57:46,544 [INFO] Updating data and charts
+2025-04-30 18:57:46,544 [DEBUG] Using Alpha Vantage params: function=TIME_SERIES_DAILY, output_size=compact, interval=None
+2025-04-30 18:57:46,546 [INFO] Fetching Alpha Vantage data for MSFT (function: TIME_SERIES_DAILY)
+2025-04-30 18:57:46,547 [DEBUG] Making Alpha Vantage API request with params: {'function': 'TIME_SERIES_DAILY', 'symbol': 'MSFT', 'apikey': 'F9H662T7ZC52LER5', 'outputsize': 'compact', 'datatype': 'json'}
+2025-04-30 18:57:46,550 [DEBUG] Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-04-30 18:57:47,423 [DEBUG] https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_DAILY&symbol=MSFT&apikey=F9H662T7ZC52LER5&outputsize=compact&datatype=json HTTP/1.1" 200 None
+2025-04-30 18:57:47,644 [DEBUG] Response keys: ['Meta Data', 'Time Series (Daily)']
+2025-04-30 18:57:47,908 [DEBUG] https://www.alphavantage.co:443 "GET /query?function=GLOBAL_QUOTE&symbol=MSFT&apikey=F9H662T7ZC52LER5 HTTP/1.1" 200 None
+2025-04-30 18:57:48,161 [DEBUG] https://www.alphavantage.co:443 "GET /query?function=OVERVIEW&symbol=MSFT&apikey=F9H662T7ZC52LER5 HTTP/1.1" 200 None
+2025-04-30 18:57:48,164 [INFO] Successfully retrieved data for MSFT: 100 rows
+2025-04-30 18:57:48,165 [DEBUG] Data shape: (100, 5), Columns: ['Open', 'High', 'Low', 'Close', 'Volume']
+2025-04-30 18:57:48,165 [INFO] Successfully retrieved data for MSFT
+2025-04-30 18:57:48,168 [DEBUG] Displaying info for Microsoft Corporation
+2025-04-30 18:57:48,171 [DEBUG] Displaying key stats
+2025-04-30 18:57:48,177 [ERROR] Error displaying stats: Cannot specify ',' with 's'.
+2025-04-30 18:57:48,181 [DEBUG] Creating Candlestick chart
+2025-04-30 18:57:48,214 [DEBUG] Adding moving averages: [20, 50]
+2025-04-30 18:57:48,221 [DEBUG] Adding volume chart
+2025-04-30 18:57:49,571 [INFO] Application starting up
+2025-04-30 18:57:49,572 [DEBUG] Configuring request session with retry strategy
+2025-04-30 18:57:49,572 [DEBUG] Setting up Streamlit page configuration
+2025-04-30 18:57:54,605 [INFO] Stock selection updated: MSFT
+2025-04-30 18:57:54,608 [INFO] Selected chart type: Candlestick
+2025-04-30 18:57:54,611 [DEBUG] Selected MA periods: [20, 50]
+2025-04-30 18:57:54,612 [DEBUG] Rate limiting local requests, waiting 6.93s
+2025-04-30 18:58:01,545 [INFO] Updating data and charts
+2025-04-30 18:58:01,547 [DEBUG] Using Alpha Vantage params: function=TIME_SERIES_DAILY, output_size=compact, interval=None
+2025-04-30 18:58:01,549 [INFO] Fetching Alpha Vantage data for MSFT (function: TIME_SERIES_DAILY)
+2025-04-30 18:58:01,550 [DEBUG] Making Alpha Vantage API request with params: {'function': 'TIME_SERIES_DAILY', 'symbol': 'MSFT', 'apikey': 'F9H662T7ZC52LER5', 'outputsize': 'compact', 'datatype': 'json'}
+2025-04-30 18:58:01,551 [DEBUG] Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-04-30 18:58:02,679 [DEBUG] https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_DAILY&symbol=MSFT&apikey=F9H662T7ZC52LER5&outputsize=compact&datatype=json HTTP/1.1" 200 None
+2025-04-30 18:58:02,879 [DEBUG] Response keys: ['Meta Data', 'Time Series (Daily)']
+2025-04-30 18:58:03,286 [DEBUG] https://www.alphavantage.co:443 "GET /query?function=GLOBAL_QUOTE&symbol=MSFT&apikey=F9H662T7ZC52LER5 HTTP/1.1" 200 None
+2025-04-30 18:58:03,692 [DEBUG] https://www.alphavantage.co:443 "GET /query?function=OVERVIEW&symbol=MSFT&apikey=F9H662T7ZC52LER5 HTTP/1.1" 200 None
+2025-04-30 18:58:03,693 [INFO] Successfully retrieved data for MSFT: 100 rows
+2025-04-30 18:58:03,694 [DEBUG] Data shape: (100, 5), Columns: ['Open', 'High', 'Low', 'Close', 'Volume']
+2025-04-30 18:58:03,694 [INFO] Successfully retrieved data for MSFT
+2025-04-30 18:58:03,696 [DEBUG] Displaying info for Microsoft Corporation
+2025-04-30 18:58:03,699 [DEBUG] Displaying key stats
+2025-04-30 18:58:03,707 [ERROR] Error displaying stats: Cannot specify ',' with 's'.
+2025-04-30 18:58:03,716 [DEBUG] Creating Candlestick chart
+2025-04-30 18:58:03,749 [DEBUG] Adding moving averages: [20, 50]
+2025-04-30 18:58:03,756 [DEBUG] Adding volume chart
+2025-04-30 18:58:03,874 [DEBUG] Request options: {'method': 'post', 'url': '/openai/v1/chat/completions', 'files': None, 'json_data': {'messages': [{'role': 'user', 'content': "You are a financial advisor specializing in stock market analysis.\nUSER QUESTION: code for apping teo number in ++  \n\nYour task:  \n1. Analyze the user's question related to stocks and financial markets\n2. Provide a helpful, informative response\n3. If the question is about specific stocks, give general information about the company and factors that typically affect its stock price\n4. Be concise and factual  \n5. Add appropriate financial disclaimers when giving any information that could be construed as investment advice\n6. If the question is not finance-related, still provide a helpful answer, but mention you specialize in financial topics\n"}], 'model': 'deepseek-r1-distill-llama-70b', 'n': 1, 'stop': None, 'stream': False, 'temperature': 0.7}}
+2025-04-30 18:58:03,956 [DEBUG] Sending HTTP Request: POST https://api.groq.com/openai/v1/chat/completions
+2025-04-30 18:58:03,957 [DEBUG] connect_tcp.started host='api.groq.com' port=443 local_address=None timeout=None socket_options=None
+2025-04-30 18:58:04,088 [DEBUG] connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000001E4F3FBDBB0>
+2025-04-30 18:58:04,088 [DEBUG] start_tls.started ssl_context=<ssl.SSLContext object at 0x000001E4F2BAF650> server_hostname='api.groq.com' timeout=None
+2025-04-30 18:58:04,296 [DEBUG] start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000001E4F3FBDD90>
+2025-04-30 18:58:04,312 [DEBUG] send_request_headers.started request=<Request [b'POST']>
+2025-04-30 18:58:04,314 [DEBUG] send_request_headers.complete
+2025-04-30 18:58:04,314 [DEBUG] send_request_body.started request=<Request [b'POST']>
+2025-04-30 18:58:04,315 [DEBUG] send_request_body.complete
+2025-04-30 18:58:04,315 [DEBUG] receive_response_headers.started request=<Request [b'POST']>
+2025-04-30 18:58:05,883 [DEBUG] receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Wed, 30 Apr 2025 13:28:09 GMT'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'CF-Ray', b'9387616d5a9554ad-DEL'), (b'CF-Cache-Status', b'DYNAMIC'), (b'Cache-Control', b'private, max-age=0, no-store, no-cache, must-revalidate'), (b'Vary', b'Origin, Accept-Encoding'), (b'X-Groq-Region', b'gcp-asia-south1'), (b'X-Ratelimit-Limit-Requests', b'1000'), (b'X-Ratelimit-Limit-Tokens', b'6000'), (b'X-Ratelimit-Remaining-Requests', b'999'), (b'X-Ratelimit-Remaining-Tokens', b'5834'), (b'X-Ratelimit-Reset-Requests', b'1m26.4s'), (b'X-Ratelimit-Reset-Tokens', b'1.66s'), (b'X-Request-Id', b'req_01jt3e483qfqc9dhnqp7eysjm4'), (b'Set-Cookie', b'__cf_bm=6NbX2MCAnPnM8ecCaZm3SM8_79X.FU4nvkj20U6BIDo-1746019689-1.0.1.1-0r5ANN4AK7gAZ3pcsZreLM_z1mApywD.Oky1o64At2mpwrujAvoWcsPlAehf.k.e06fwrgAwRcxK7zsPbDPwlxPcsr37bsMUNRmrNox4pF4; path=/; expires=Wed, 30-Apr-25 13:58:09 GMT; domain=.groq.com; HttpOnly; Secure; SameSite=None'), (b'Server', b'cloudflare'), (b'Content-Encoding', b'gzip'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2025-04-30 18:58:05,885 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-30 18:58:05,886 [DEBUG] receive_response_body.started request=<Request [b'POST']>
+2025-04-30 18:58:05,886 [DEBUG] receive_response_body.complete
+2025-04-30 18:58:05,888 [DEBUG] response_closed.started
+2025-04-30 18:58:05,888 [DEBUG] response_closed.complete
+2025-04-30 18:58:05,888 [DEBUG] HTTP Response: POST https://api.groq.com/openai/v1/chat/completions "200 OK" Headers({'date': 'Wed, 30 Apr 2025 13:28:09 GMT', 'content-type': 'application/json', 'transfer-encoding': 'chunked', 'connection': 'keep-alive', 'cf-ray': '9387616d5a9554ad-DEL', 'cf-cache-status': 'DYNAMIC', 'cache-control': 'private, max-age=0, no-store, no-cache, must-revalidate', 'vary': 'Origin, Accept-Encoding', 'x-groq-region': 'gcp-asia-south1', 'x-ratelimit-limit-requests': '1000', 'x-ratelimit-limit-tokens': '6000', 'x-ratelimit-remaining-requests': '999', 'x-ratelimit-remaining-tokens': '5834', 'x-ratelimit-reset-requests': '1m26.4s', 'x-ratelimit-reset-tokens': '1.66s', 'x-request-id': 'req_01jt3e483qfqc9dhnqp7eysjm4', 'set-cookie': '__cf_bm=6NbX2MCAnPnM8ecCaZm3SM8_79X.FU4nvkj20U6BIDo-1746019689-1.0.1.1-0r5ANN4AK7gAZ3pcsZreLM_z1mApywD.Oky1o64At2mpwrujAvoWcsPlAehf.k.e06fwrgAwRcxK7zsPbDPwlxPcsr37bsMUNRmrNox4pF4; path=/; expires=Wed, 30-Apr-25 13:58:09 GMT; domain=.groq.com; HttpOnly; Secure; SameSite=None', 'server': 'cloudflare', 'content-encoding': 'gzip', 'alt-svc': 'h3=":443"; ma=86400'})
+2025-04-30 18:58:25,051 [INFO] Application starting up
+2025-04-30 18:58:25,052 [DEBUG] Configuring request session with retry strategy
+2025-04-30 18:58:25,053 [DEBUG] Setting up Streamlit page configuration
+2025-04-30 18:58:30,202 [INFO] Stock selection updated: MSFT
+2025-04-30 18:58:30,205 [INFO] Selected chart type: Candlestick
+2025-04-30 18:58:30,208 [DEBUG] Selected MA periods: [20, 50]
+2025-04-30 18:58:30,211 [INFO] Updating data and charts
+2025-04-30 18:58:30,212 [DEBUG] Using Alpha Vantage params: function=TIME_SERIES_DAILY, output_size=compact, interval=None
+2025-04-30 18:58:30,214 [INFO] Fetching Alpha Vantage data for MSFT (function: TIME_SERIES_DAILY)
+2025-04-30 18:58:30,214 [DEBUG] Making Alpha Vantage API request with params: {'function': 'TIME_SERIES_DAILY', 'symbol': 'MSFT', 'apikey': 'F9H662T7ZC52LER5', 'outputsize': 'compact', 'datatype': 'json'}
+2025-04-30 18:58:30,218 [DEBUG] Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-04-30 18:58:31,024 [DEBUG] https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_DAILY&symbol=MSFT&apikey=F9H662T7ZC52LER5&outputsize=compact&datatype=json HTTP/1.1" 200 None
+2025-04-30 18:58:31,216 [DEBUG] Response keys: ['Meta Data', 'Time Series (Daily)']
+2025-04-30 18:58:31,528 [DEBUG] https://www.alphavantage.co:443 "GET /query?function=GLOBAL_QUOTE&symbol=MSFT&apikey=F9H662T7ZC52LER5 HTTP/1.1" 200 None
+2025-04-30 18:58:32,036 [DEBUG] https://www.alphavantage.co:443 "GET /query?function=OVERVIEW&symbol=MSFT&apikey=F9H662T7ZC52LER5 HTTP/1.1" 200 None
+2025-04-30 18:58:32,037 [INFO] Successfully retrieved data for MSFT: 100 rows
+2025-04-30 18:58:32,038 [DEBUG] Data shape: (100, 5), Columns: ['Open', 'High', 'Low', 'Close', 'Volume']
+2025-04-30 18:58:32,038 [INFO] Successfully retrieved data for MSFT
+2025-04-30 18:58:32,041 [DEBUG] Displaying info for Microsoft Corporation
+2025-04-30 18:58:32,042 [DEBUG] Displaying key stats
+2025-04-30 18:58:32,048 [ERROR] Error displaying stats: Cannot specify ',' with 's'.
+2025-04-30 18:58:32,052 [DEBUG] Creating Candlestick chart
+2025-04-30 18:58:32,084 [DEBUG] Adding moving averages: [20, 50]
+2025-04-30 18:58:32,090 [DEBUG] Adding volume chart
+2025-04-30 18:58:32,166 [DEBUG] Request options: {'method': 'post', 'url': '/openai/v1/chat/completions', 'files': None, 'json_data': {'messages': [{'role': 'user', 'content': "You are a financial advisor specializing in stock market analysis.\nUSER QUESTION: who is the president of india  \n\nYour task:  \n1. Analyze the user's question related to stocks and financial markets\n2. Provide a helpful, informative response\n3. If the question is about specific stocks, give general information about the company and factors that typically affect its stock price\n4. Be concise and factual  \n5. Add appropriate financial disclaimers when giving any information that could be construed as investment advice\n6. If the question is not finance-related, still provide a helpful answer, but mention you specialize in financial topics\n"}], 'model': 'deepseek-r1-distill-llama-70b', 'n': 1, 'stop': None, 'stream': False, 'temperature': 0.7}}
+2025-04-30 18:58:32,168 [DEBUG] Sending HTTP Request: POST https://api.groq.com/openai/v1/chat/completions
+2025-04-30 18:58:32,169 [DEBUG] connect_tcp.started host='api.groq.com' port=443 local_address=None timeout=None socket_options=None
+2025-04-30 18:58:32,226 [DEBUG] connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000001E4F3D77410>
+2025-04-30 18:58:32,226 [DEBUG] start_tls.started ssl_context=<ssl.SSLContext object at 0x000001E4F16EA0D0> server_hostname='api.groq.com' timeout=None
+2025-04-30 18:58:32,252 [DEBUG] start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000001E4F28BAC30>
+2025-04-30 18:58:32,252 [DEBUG] send_request_headers.started request=<Request [b'POST']>
+2025-04-30 18:58:32,253 [DEBUG] send_request_headers.complete
+2025-04-30 18:58:32,254 [DEBUG] send_request_body.started request=<Request [b'POST']>
+2025-04-30 18:58:32,255 [DEBUG] send_request_body.complete
+2025-04-30 18:58:32,255 [DEBUG] receive_response_headers.started request=<Request [b'POST']>
+2025-04-30 18:58:33,854 [DEBUG] receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Wed, 30 Apr 2025 13:28:37 GMT'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'CF-Ray', b'9387621b2fff5492-DEL'), (b'CF-Cache-Status', b'DYNAMIC'), (b'Cache-Control', b'private, max-age=0, no-store, no-cache, must-revalidate'), (b'Vary', b'Origin, Accept-Encoding'), (b'X-Groq-Region', b'gcp-asia-south1'), (b'X-Ratelimit-Limit-Requests', b'1000'), (b'X-Ratelimit-Limit-Tokens', b'6000'), (b'X-Ratelimit-Remaining-Requests', b'998'), (b'X-Ratelimit-Remaining-Tokens', b'5834'), (b'X-Ratelimit-Reset-Requests', b'2m24.99s'), (b'X-Ratelimit-Reset-Tokens', b'1.66s'), (b'X-Request-Id', b'req_01jt3e5391fzfbdageht9wyfkj'), (b'Set-Cookie', b'__cf_bm=o9ztf6Nhnfwc6yHyD36hYPsdPvic9CW4Hu2E56q9ZmU-1746019717-1.0.1.1-4eAtv3KzbDPwgDs1OiihrJG8niRSxELLFibSC4auXglzbsgNZibksqN.rBOn0aw2PqLgV0QTT.nzYg4DHIcnqudC5ZTBCgJZ8f0feaVeecM; path=/; expires=Wed, 30-Apr-25 13:58:37 GMT; domain=.groq.com; HttpOnly; Secure; SameSite=None'), (b'Server', b'cloudflare'), (b'Content-Encoding', b'gzip'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2025-04-30 18:58:33,856 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-30 18:58:33,857 [DEBUG] receive_response_body.started request=<Request [b'POST']>
+2025-04-30 18:58:33,858 [DEBUG] receive_response_body.complete
+2025-04-30 18:58:33,858 [DEBUG] response_closed.started
+2025-04-30 18:58:33,858 [DEBUG] response_closed.complete
+2025-04-30 18:58:33,859 [DEBUG] HTTP Response: POST https://api.groq.com/openai/v1/chat/completions "200 OK" Headers({'date': 'Wed, 30 Apr 2025 13:28:37 GMT', 'content-type': 'application/json', 'transfer-encoding': 'chunked', 'connection': 'keep-alive', 'cf-ray': '9387621b2fff5492-DEL', 'cf-cache-status': 'DYNAMIC', 'cache-control': 'private, max-age=0, no-store, no-cache, must-revalidate', 'vary': 'Origin, Accept-Encoding', 'x-groq-region': 'gcp-asia-south1', 'x-ratelimit-limit-requests': '1000', 'x-ratelimit-limit-tokens': '6000', 'x-ratelimit-remaining-requests': '998', 'x-ratelimit-remaining-tokens': '5834', 'x-ratelimit-reset-requests': '2m24.99s', 'x-ratelimit-reset-tokens': '1.66s', 'x-request-id': 'req_01jt3e5391fzfbdageht9wyfkj', 'set-cookie': '__cf_bm=o9ztf6Nhnfwc6yHyD36hYPsdPvic9CW4Hu2E56q9ZmU-1746019717-1.0.1.1-4eAtv3KzbDPwgDs1OiihrJG8niRSxELLFibSC4auXglzbsgNZibksqN.rBOn0aw2PqLgV0QTT.nzYg4DHIcnqudC5ZTBCgJZ8f0feaVeecM; path=/; expires=Wed, 30-Apr-25 13:58:37 GMT; domain=.groq.com; HttpOnly; Secure; SameSite=None', 'server': 'cloudflare', 'content-encoding': 'gzip', 'alt-svc': 'h3=":443"; ma=86400'})
+2025-04-30 18:58:33,985 [DEBUG] close.started
+2025-04-30 18:58:33,987 [DEBUG] close.complete

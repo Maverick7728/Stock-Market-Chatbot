@@ -1,0 +1,67 @@
+2025-04-20 23:18:50,584 [INFO] Application starting up
+2025-04-20 23:18:50,584 [DEBUG] Configuring request session with retry strategy
+2025-04-20 23:18:50,584 [INFO] Application starting up
+2025-04-20 23:18:50,585 [DEBUG] Setting up Streamlit page configuration
+2025-04-20 23:18:50,587 [DEBUG] Configuring request session with retry strategy
+2025-04-20 23:18:50,589 [DEBUG] Setting up Streamlit page configuration
+2025-04-20 23:18:50,949 [INFO] Application starting up
+2025-04-20 23:18:50,950 [DEBUG] Configuring request session with retry strategy
+2025-04-20 23:18:50,951 [DEBUG] Setting up Streamlit page configuration
+2025-04-20 23:18:52,179 [INFO] Application starting up
+2025-04-20 23:18:52,179 [DEBUG] Configuring request session with retry strategy
+2025-04-20 23:18:52,179 [DEBUG] Setting up Streamlit page configuration
+2025-04-20 23:18:55,576 [INFO] Stock input set to: AAPL
+2025-04-20 23:18:55,578 [INFO] Stock selection updated via popular stocks: AAPL
+2025-04-20 23:18:55,581 [INFO] Selected chart type: Candlestick
+2025-04-20 23:18:55,584 [DEBUG] Selected MA periods: [20, 50]
+2025-04-20 23:18:55,589 [INFO] Updating data and charts
+2025-04-20 23:18:55,589 [DEBUG] Using Alpha Vantage params: function=TIME_SERIES_DAILY, output_size=compact, interval=None
+2025-04-20 23:18:55,591 [INFO] Fetching Alpha Vantage data for AAPL (function: TIME_SERIES_DAILY)
+2025-04-20 23:18:55,592 [DEBUG] Making Alpha Vantage API request with params: {'function': 'TIME_SERIES_DAILY', 'symbol': 'AAPL', 'apikey': 'F9H662T7ZC52LER5', 'outputsize': 'compact', 'datatype': 'json'}
+2025-04-20 23:18:55,598 [DEBUG] Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-04-20 23:18:55,643 [INFO] Stock input set to: 
+2025-04-20 23:18:55,644 [INFO] Stock selection updated via popular stocks: AAPL
+2025-04-20 23:18:55,647 [INFO] Selected chart type: Candlestick
+2025-04-20 23:18:55,684 [DEBUG] Selected MA periods: [20, 50]
+2025-04-20 23:18:55,688 [INFO] Updating data and charts
+2025-04-20 23:18:55,688 [DEBUG] Using Alpha Vantage params: function=TIME_SERIES_DAILY, output_size=compact, interval=None
+2025-04-20 23:18:55,691 [INFO] Fetching Alpha Vantage data for AAPL (function: TIME_SERIES_DAILY)
+2025-04-20 23:18:55,691 [DEBUG] Making Alpha Vantage API request with params: {'function': 'TIME_SERIES_DAILY', 'symbol': 'AAPL', 'apikey': 'F9H662T7ZC52LER5', 'outputsize': 'compact', 'datatype': 'json'}
+2025-04-20 23:18:55,695 [DEBUG] Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-04-20 23:18:56,285 [INFO] Stock input set to: AAPL
+2025-04-20 23:18:56,286 [INFO] Stock selection updated via popular stocks: MSFT
+2025-04-20 23:18:56,289 [INFO] Selected chart type: Candlestick
+2025-04-20 23:18:56,292 [DEBUG] Selected MA periods: [20, 50]
+2025-04-20 23:18:56,298 [INFO] Updating data and charts
+2025-04-20 23:18:56,298 [DEBUG] Using Alpha Vantage params: function=TIME_SERIES_DAILY, output_size=compact, interval=None
+2025-04-20 23:18:56,300 [INFO] Fetching Alpha Vantage data for MSFT (function: TIME_SERIES_DAILY)
+2025-04-20 23:18:56,300 [DEBUG] Making Alpha Vantage API request with params: {'function': 'TIME_SERIES_DAILY', 'symbol': 'MSFT', 'apikey': 'F9H662T7ZC52LER5', 'outputsize': 'compact', 'datatype': 'json'}
+2025-04-20 23:18:56,304 [DEBUG] Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-04-20 23:18:56,685 [INFO] Stock input set to: AAPL
+2025-04-20 23:18:56,689 [INFO] Selected chart type: Candlestick
+2025-04-20 23:18:56,691 [DEBUG] Selected MA periods: [20, 50]
+2025-04-20 23:18:56,696 [INFO] Updating data and charts
+2025-04-20 23:18:56,696 [DEBUG] Using Alpha Vantage params: function=TIME_SERIES_DAILY, output_size=compact, interval=None
+2025-04-20 23:18:56,698 [INFO] Fetching Alpha Vantage data for AAPL (function: TIME_SERIES_DAILY)
+2025-04-20 23:18:56,701 [DEBUG] Making Alpha Vantage API request with params: {'function': 'TIME_SERIES_DAILY', 'symbol': 'AAPL', 'apikey': 'F9H662T7ZC52LER5', 'outputsize': 'compact', 'datatype': 'json'}
+2025-04-20 23:18:56,704 [DEBUG] Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-04-20 23:18:57,274 [DEBUG] https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_DAILY&symbol=AAPL&apikey=F9H662T7ZC52LER5&outputsize=compact&datatype=json HTTP/1.1" 200 None
+2025-04-20 23:18:57,275 [DEBUG] Response keys: ['Information']
+2025-04-20 23:18:57,277 [ERROR] Expected time series key 'Time Series (Daily)' not found in response
+2025-04-20 23:18:57,277 [DEBUG] Response content: {"Information": "We have detected your API key as F9H662T7ZC52LER5 and our standard API rate limit is 25 requests per day. Please subscribe to any of the premium plans at https://www.alphavantage.co/premium/ to instantly remove all daily rate limits."}...
+2025-04-20 23:18:57,278 [ERROR] No data received for AAPL
+2025-04-20 23:18:57,713 [DEBUG] https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_DAILY&symbol=AAPL&apikey=F9H662T7ZC52LER5&outputsize=compact&datatype=json HTTP/1.1" 200 None
+2025-04-20 23:18:57,715 [DEBUG] Response keys: ['Information']
+2025-04-20 23:18:57,715 [ERROR] Expected time series key 'Time Series (Daily)' not found in response
+2025-04-20 23:18:57,716 [DEBUG] Response content: {"Information": "We have detected your API key as F9H662T7ZC52LER5 and our standard API rate limit is 25 requests per day. Please subscribe to any of the premium plans at https://www.alphavantage.co/premium/ to instantly remove all daily rate limits."}...
+2025-04-20 23:18:57,716 [ERROR] No data received for AAPL
+2025-04-20 23:18:57,902 [DEBUG] https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_DAILY&symbol=MSFT&apikey=F9H662T7ZC52LER5&outputsize=compact&datatype=json HTTP/1.1" 200 None
+2025-04-20 23:18:57,903 [DEBUG] Response keys: ['Information']
+2025-04-20 23:18:57,905 [ERROR] Expected time series key 'Time Series (Daily)' not found in response
+2025-04-20 23:18:57,905 [DEBUG] Response content: {"Information": "We have detected your API key as F9H662T7ZC52LER5 and our standard API rate limit is 25 requests per day. Please subscribe to any of the premium plans at https://www.alphavantage.co/premium/ to instantly remove all daily rate limits."}...
+2025-04-20 23:18:57,906 [ERROR] No data received for MSFT
+2025-04-20 23:18:58,207 [DEBUG] https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_DAILY&symbol=AAPL&apikey=F9H662T7ZC52LER5&outputsize=compact&datatype=json HTTP/1.1" 200 None
+2025-04-20 23:18:58,208 [DEBUG] Response keys: ['Information']
+2025-04-20 23:18:58,209 [ERROR] Expected time series key 'Time Series (Daily)' not found in response
+2025-04-20 23:18:58,209 [DEBUG] Response content: {"Information": "We have detected your API key as F9H662T7ZC52LER5 and our standard API rate limit is 25 requests per day. Please subscribe to any of the premium plans at https://www.alphavantage.co/premium/ to instantly remove all daily rate limits."}...
+2025-04-20 23:18:58,210 [ERROR] No data received for AAPL

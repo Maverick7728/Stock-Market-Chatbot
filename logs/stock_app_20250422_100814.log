@@ -1,0 +1,71 @@
+2025-04-22 10:08:14,289 [INFO] Application starting up
+2025-04-22 10:08:14,290 [DEBUG] Configuring request session with retry strategy
+2025-04-22 10:08:14,292 [DEBUG] Setting up Streamlit page configuration
+2025-04-22 10:08:19,177 [INFO] Selected chart type: Candlestick
+2025-04-22 10:08:19,179 [DEBUG] Selected MA periods: [20, 50]
+2025-04-22 10:09:20,756 [INFO] Application starting up
+2025-04-22 10:09:20,758 [DEBUG] Configuring request session with retry strategy
+2025-04-22 10:09:20,759 [DEBUG] Setting up Streamlit page configuration
+2025-04-22 10:09:23,888 [INFO] Selected chart type: Candlestick
+2025-04-22 10:09:23,928 [DEBUG] Selected MA periods: [20, 50]
+2025-04-22 10:10:46,240 [INFO] Application starting up
+2025-04-22 10:10:46,242 [DEBUG] Configuring request session with retry strategy
+2025-04-22 10:10:46,242 [DEBUG] Setting up Streamlit page configuration
+2025-04-22 10:10:49,208 [INFO] Selected chart type: Candlestick
+2025-04-22 10:10:49,211 [DEBUG] Selected MA periods: [20, 50]
+2025-04-22 10:11:12,776 [INFO] Application starting up
+2025-04-22 10:11:12,776 [DEBUG] Configuring request session with retry strategy
+2025-04-22 10:11:12,777 [DEBUG] Setting up Streamlit page configuration
+2025-04-22 10:11:16,130 [INFO] Selected chart type: Candlestick
+2025-04-22 10:11:16,134 [DEBUG] Selected MA periods: [20, 50]
+2025-04-22 10:11:33,103 [INFO] Application starting up
+2025-04-22 10:11:33,104 [DEBUG] Configuring request session with retry strategy
+2025-04-22 10:11:33,104 [DEBUG] Setting up Streamlit page configuration
+2025-04-22 10:11:36,403 [INFO] Stock selection updated: AAPL
+2025-04-22 10:11:36,405 [INFO] Selected chart type: Candlestick
+2025-04-22 10:11:36,408 [DEBUG] Selected MA periods: [20, 50]
+2025-04-22 10:11:36,411 [INFO] Updating data and charts
+2025-04-22 10:11:36,414 [DEBUG] Using Alpha Vantage params: function=TIME_SERIES_DAILY, output_size=compact, interval=None
+2025-04-22 10:11:36,417 [INFO] Fetching Alpha Vantage data for AAPL (function: TIME_SERIES_DAILY)
+2025-04-22 10:11:36,419 [DEBUG] Making Alpha Vantage API request with params: {'function': 'TIME_SERIES_DAILY', 'symbol': 'AAPL', 'apikey': 'F9H662T7ZC52LER5', 'outputsize': 'compact', 'datatype': 'json'}
+2025-04-22 10:11:36,465 [DEBUG] Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-04-22 10:11:38,647 [INFO] Application starting up
+2025-04-22 10:11:38,647 [DEBUG] Configuring request session with retry strategy
+2025-04-22 10:11:38,648 [DEBUG] Setting up Streamlit page configuration
+2025-04-22 10:11:41,091 [INFO] Application starting up
+2025-04-22 10:11:41,092 [DEBUG] Configuring request session with retry strategy
+2025-04-22 10:11:41,093 [DEBUG] Setting up Streamlit page configuration
+2025-04-22 10:11:44,608 [INFO] Stock selection updated: AAPL
+2025-04-22 10:11:44,611 [INFO] Selected chart type: OHLC
+2025-04-22 10:11:44,615 [DEBUG] Selected MA periods: [20, 50]
+2025-04-22 10:11:44,616 [DEBUG] Rate limiting local requests, waiting 6.79s
+2025-04-22 10:11:44,737 [DEBUG] https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_DAILY&symbol=AAPL&apikey=F9H662T7ZC52LER5&outputsize=compact&datatype=json HTTP/1.1" 200 None
+2025-04-22 10:11:44,777 [DEBUG] Response keys: ['Meta Data', 'Time Series (Daily)']
+2025-04-22 10:11:48,621 [DEBUG] https://www.alphavantage.co:443 "GET /query?function=GLOBAL_QUOTE&symbol=AAPL&apikey=F9H662T7ZC52LER5 HTTP/1.1" 200 None
+2025-04-22 10:11:49,338 [DEBUG] https://www.alphavantage.co:443 "GET /query?function=OVERVIEW&symbol=AAPL&apikey=F9H662T7ZC52LER5 HTTP/1.1" 200 None
+2025-04-22 10:11:49,340 [INFO] Successfully retrieved data for AAPL: 100 rows
+2025-04-22 10:11:49,341 [DEBUG] Data shape: (100, 5), Columns: ['Open', 'High', 'Low', 'Close', 'Volume']
+2025-04-22 10:11:49,341 [INFO] Successfully retrieved data for AAPL
+2025-04-22 10:11:51,412 [INFO] Updating data and charts
+2025-04-22 10:11:51,413 [DEBUG] Using Alpha Vantage params: function=TIME_SERIES_INTRADAY, output_size=compact, interval=15min
+2025-04-22 10:11:51,414 [INFO] Fetching Alpha Vantage data for AAPL (function: TIME_SERIES_INTRADAY)
+2025-04-22 10:11:51,416 [DEBUG] Making Alpha Vantage API request with params: {'function': 'TIME_SERIES_INTRADAY', 'symbol': 'AAPL', 'apikey': 'F9H662T7ZC52LER5', 'outputsize': 'compact', 'datatype': 'json', 'interval': '15min'}
+2025-04-22 10:11:51,418 [DEBUG] Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-04-22 10:11:56,630 [DEBUG] https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=AAPL&apikey=F9H662T7ZC52LER5&outputsize=compact&datatype=json&interval=15min HTTP/1.1" 200 None
+2025-04-22 10:11:56,817 [DEBUG] Response keys: ['Meta Data', 'Time Series (15min)']
+2025-04-22 10:12:01,454 [DEBUG] https://www.alphavantage.co:443 "GET /query?function=GLOBAL_QUOTE&symbol=AAPL&apikey=F9H662T7ZC52LER5 HTTP/1.1" 200 None
+2025-04-22 10:12:01,768 [DEBUG] https://www.alphavantage.co:443 "GET /query?function=OVERVIEW&symbol=AAPL&apikey=F9H662T7ZC52LER5 HTTP/1.1" 200 None
+2025-04-22 10:12:01,769 [INFO] Successfully retrieved data for AAPL: 100 rows
+2025-04-22 10:12:01,769 [DEBUG] Data shape: (100, 5), Columns: ['Open', 'High', 'Low', 'Close', 'Volume']
+2025-04-22 10:12:01,770 [INFO] Successfully retrieved data for AAPL
+2025-04-22 10:12:01,773 [DEBUG] Displaying info for Apple Inc
+2025-04-22 10:12:01,775 [DEBUG] Displaying key stats
+2025-04-22 10:12:01,781 [ERROR] Error displaying stats: Cannot specify ',' with 's'.
+2025-04-22 10:12:01,785 [DEBUG] Creating OHLC chart
+2025-04-22 10:12:02,319 [DEBUG] Adding moving averages: [20, 50]
+2025-04-22 10:12:02,350 [DEBUG] Adding volume chart
+2025-04-22 10:13:27,467 [INFO] Application starting up
+2025-04-22 10:13:27,467 [DEBUG] Configuring request session with retry strategy
+2025-04-22 10:13:27,468 [DEBUG] Setting up Streamlit page configuration
+2025-04-22 10:13:30,582 [INFO] Selected chart type: Candlestick
+2025-04-22 10:13:30,585 [DEBUG] Selected MA periods: [20, 50]

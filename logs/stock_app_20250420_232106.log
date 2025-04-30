@@ -1,0 +1,72 @@
+2025-04-20 23:21:06,280 [INFO] Application starting up
+2025-04-20 23:21:06,281 [DEBUG] Configuring request session with retry strategy
+2025-04-20 23:21:06,281 [INFO] Application starting up
+2025-04-20 23:21:06,282 [INFO] Application starting up
+2025-04-20 23:21:06,282 [INFO] Application starting up
+2025-04-20 23:21:06,282 [DEBUG] Setting up Streamlit page configuration
+2025-04-20 23:21:06,282 [DEBUG] Configuring request session with retry strategy
+2025-04-20 23:21:06,284 [DEBUG] Configuring request session with retry strategy
+2025-04-20 23:21:06,284 [DEBUG] Configuring request session with retry strategy
+2025-04-20 23:21:06,287 [DEBUG] Setting up Streamlit page configuration
+2025-04-20 23:21:06,288 [DEBUG] Setting up Streamlit page configuration
+2025-04-20 23:21:06,289 [DEBUG] Setting up Streamlit page configuration
+2025-04-20 23:21:07,518 [INFO] Application starting up
+2025-04-20 23:21:07,520 [DEBUG] Configuring request session with retry strategy
+2025-04-20 23:21:07,520 [DEBUG] Setting up Streamlit page configuration
+2025-04-20 23:21:12,433 [INFO] Stock input set to: AAPL
+2025-04-20 23:21:12,437 [INFO] Selected chart type: Candlestick
+2025-04-20 23:21:12,442 [DEBUG] Selected MA periods: [20, 50]
+2025-04-20 23:21:12,449 [INFO] Updating data and charts
+2025-04-20 23:21:12,449 [DEBUG] Using Alpha Vantage params: function=TIME_SERIES_DAILY, output_size=compact, interval=None
+2025-04-20 23:21:12,454 [INFO] Fetching Alpha Vantage data for AAPL (function: TIME_SERIES_DAILY)
+2025-04-20 23:21:12,454 [DEBUG] Making Alpha Vantage API request with params: {'function': 'TIME_SERIES_DAILY', 'symbol': 'AAPL', 'apikey': '5WF4COK1UFPHRLIO', 'outputsize': 'compact', 'datatype': 'json'}
+2025-04-20 23:21:12,465 [DEBUG] Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-04-20 23:21:14,409 [DEBUG] https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_DAILY&symbol=AAPL&apikey=5WF4COK1UFPHRLIO&outputsize=compact&datatype=json HTTP/1.1" 200 None
+2025-04-20 23:21:14,410 [DEBUG] Response keys: ['Information']
+2025-04-20 23:21:14,411 [ERROR] Expected time series key 'Time Series (Daily)' not found in response
+2025-04-20 23:21:14,411 [DEBUG] Response content: {"Information": "We have detected your API key as 5WF4COK1UFPHRLIO and our standard API rate limit is 25 requests per day. Please subscribe to any of the premium plans at https://www.alphavantage.co/premium/ to instantly remove all daily rate limits."}...
+2025-04-20 23:21:14,412 [ERROR] No data received for AAPL
+2025-04-20 23:21:22,751 [INFO] Application starting up
+2025-04-20 23:21:22,752 [DEBUG] Configuring request session with retry strategy
+2025-04-20 23:21:22,753 [DEBUG] Setting up Streamlit page configuration
+2025-04-20 23:21:26,093 [INFO] Stock input set to: AAPL
+2025-04-20 23:21:26,095 [INFO] Stock selection updated via popular stocks: GOOGL
+2025-04-20 23:21:26,098 [INFO] Selected chart type: Candlestick
+2025-04-20 23:21:26,101 [DEBUG] Selected MA periods: [20, 50]
+2025-04-20 23:21:26,103 [DEBUG] Rate limiting local requests, waiting 1.34s
+2025-04-20 23:21:27,449 [INFO] Updating data and charts
+2025-04-20 23:21:27,449 [DEBUG] Using Alpha Vantage params: function=TIME_SERIES_DAILY, output_size=compact, interval=None
+2025-04-20 23:21:27,452 [INFO] Fetching Alpha Vantage data for GOOGL (function: TIME_SERIES_DAILY)
+2025-04-20 23:21:27,452 [DEBUG] Making Alpha Vantage API request with params: {'function': 'TIME_SERIES_DAILY', 'symbol': 'GOOGL', 'apikey': '5WF4COK1UFPHRLIO', 'outputsize': 'compact', 'datatype': 'json'}
+2025-04-20 23:21:27,454 [DEBUG] Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-04-20 23:21:28,859 [INFO] Application starting up
+2025-04-20 23:21:28,859 [DEBUG] Configuring request session with retry strategy
+2025-04-20 23:21:28,861 [DEBUG] Setting up Streamlit page configuration
+2025-04-20 23:21:29,241 [DEBUG] https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_DAILY&symbol=GOOGL&apikey=5WF4COK1UFPHRLIO&outputsize=compact&datatype=json HTTP/1.1" 200 None
+2025-04-20 23:21:29,242 [DEBUG] Response keys: ['Information']
+2025-04-20 23:21:29,244 [ERROR] Expected time series key 'Time Series (Daily)' not found in response
+2025-04-20 23:21:29,244 [DEBUG] Response content: {"Information": "We have detected your API key as 5WF4COK1UFPHRLIO and our standard API rate limit is 25 requests per day. Please subscribe to any of the premium plans at https://www.alphavantage.co/premium/ to instantly remove all daily rate limits."}...
+2025-04-20 23:21:29,244 [ERROR] No data received for GOOGL
+2025-04-20 23:21:32,295 [INFO] Stock input set to: GOOGL
+2025-04-20 23:21:32,297 [INFO] Stock selection updated via popular stocks: GOOGL
+2025-04-20 23:21:32,300 [INFO] Selected chart type: Candlestick
+2025-04-20 23:21:32,303 [DEBUG] Selected MA periods: [20, 50]
+2025-04-20 23:21:32,305 [DEBUG] Rate limiting local requests, waiting 10.14s
+2025-04-20 23:21:33,221 [INFO] Application starting up
+2025-04-20 23:21:33,223 [DEBUG] Configuring request session with retry strategy
+2025-04-20 23:21:33,223 [DEBUG] Setting up Streamlit page configuration
+2025-04-20 23:21:36,761 [INFO] Stock input set to: GOOGL
+2025-04-20 23:21:36,763 [INFO] Stock selection updated via popular stocks: GOOGL
+2025-04-20 23:21:36,767 [INFO] Selected chart type: Candlestick
+2025-04-20 23:21:36,770 [DEBUG] Selected MA periods: [20, 50]
+2025-04-20 23:21:36,774 [DEBUG] Rate limiting local requests, waiting 5.67s
+2025-04-20 23:21:42,553 [INFO] Updating data and charts
+2025-04-20 23:21:42,554 [DEBUG] Using Alpha Vantage params: function=TIME_SERIES_INTRADAY, output_size=compact, interval=15min
+2025-04-20 23:21:42,555 [INFO] Fetching Alpha Vantage data for GOOGL (function: TIME_SERIES_INTRADAY)
+2025-04-20 23:21:42,556 [DEBUG] Making Alpha Vantage API request with params: {'function': 'TIME_SERIES_INTRADAY', 'symbol': 'GOOGL', 'apikey': '5WF4COK1UFPHRLIO', 'outputsize': 'compact', 'datatype': 'json', 'interval': '15min'}
+2025-04-20 23:21:42,558 [DEBUG] Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-04-20 23:21:43,991 [DEBUG] https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=GOOGL&apikey=5WF4COK1UFPHRLIO&outputsize=compact&datatype=json&interval=15min HTTP/1.1" 200 None
+2025-04-20 23:21:43,992 [DEBUG] Response keys: ['Information']
+2025-04-20 23:21:43,992 [ERROR] Expected time series key 'Time Series (15min)' not found in response
+2025-04-20 23:21:43,994 [DEBUG] Response content: {"Information": "We have detected your API key as 5WF4COK1UFPHRLIO and our standard API rate limit is 25 requests per day. Please subscribe to any of the premium plans at https://www.alphavantage.co/premium/ to instantly remove all daily rate limits."}...
+2025-04-20 23:21:43,994 [ERROR] No data received for GOOGL

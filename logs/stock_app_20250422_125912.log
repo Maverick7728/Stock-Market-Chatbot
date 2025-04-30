@@ -1,0 +1,86 @@
+2025-04-22 12:59:12,102 [INFO] Application starting up
+2025-04-22 12:59:12,102 [DEBUG] Configuring request session with retry strategy
+2025-04-22 12:59:12,104 [DEBUG] Setting up Streamlit page configuration
+2025-04-22 12:59:18,308 [INFO] Selected chart type: Candlestick
+2025-04-22 12:59:18,311 [DEBUG] Selected MA periods: [20, 50]
+2025-04-22 12:59:24,684 [INFO] Application starting up
+2025-04-22 12:59:24,685 [DEBUG] Configuring request session with retry strategy
+2025-04-22 12:59:24,685 [DEBUG] Setting up Streamlit page configuration
+2025-04-22 12:59:29,553 [INFO] Selected chart type: Candlestick
+2025-04-22 12:59:29,591 [DEBUG] Selected MA periods: [20, 50]
+2025-04-22 12:59:29,592 [DEBUG] Rate limiting local requests, waiting 3.72s
+2025-04-22 12:59:39,238 [INFO] Application starting up
+2025-04-22 12:59:39,238 [DEBUG] Configuring request session with retry strategy
+2025-04-22 12:59:39,240 [DEBUG] Setting up Streamlit page configuration
+2025-04-22 12:59:44,090 [INFO] Selected chart type: Candlestick
+2025-04-22 12:59:44,095 [DEBUG] Selected MA periods: [20, 50]
+2025-04-22 12:59:44,095 [DEBUG] Rate limiting local requests, waiting 4.22s
+2025-04-22 12:59:48,376 [DEBUG] Request options: {'method': 'post', 'url': '/openai/v1/chat/completions', 'files': None, 'json_data': {'messages': [{'role': 'user', 'content': "You are a financial advisor specializing in stock market analysis.\nUSER QUESTION: history of apple company   \n\nYour task:  \n1. Analyze the user's question related to stocks and financial markets\n2. Provide a helpful, informative response\n3. If the question is about specific stocks, give general information about the company and factors that typically affect its stock price\n4. Be concise and factual  \n5. Add appropriate financial disclaimers when giving any information that could be construed as investment advice\n6. If the question is not finance-related, still provide a helpful answer, but mention you specialize in financial topics\n"}], 'model': 'deepseek-r1-distill-llama-70b', 'n': 1, 'stop': None, 'stream': False, 'temperature': 0.7}}
+2025-04-22 12:59:48,486 [DEBUG] Sending HTTP Request: POST https://api.groq.com/openai/v1/chat/completions
+2025-04-22 12:59:48,487 [DEBUG] connect_tcp.started host='api.groq.com' port=443 local_address=None timeout=None socket_options=None
+2025-04-22 12:59:48,615 [DEBUG] connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x0000019BE8A4B8F0>
+2025-04-22 12:59:48,616 [DEBUG] start_tls.started ssl_context=<ssl.SSLContext object at 0x0000019BE8A3D250> server_hostname='api.groq.com' timeout=None
+2025-04-22 12:59:48,669 [DEBUG] start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x0000019BE8A4A210>
+2025-04-22 12:59:48,671 [DEBUG] send_request_headers.started request=<Request [b'POST']>
+2025-04-22 12:59:48,672 [DEBUG] send_request_headers.complete
+2025-04-22 12:59:48,672 [DEBUG] send_request_body.started request=<Request [b'POST']>
+2025-04-22 12:59:48,673 [DEBUG] send_request_body.complete
+2025-04-22 12:59:48,673 [DEBUG] receive_response_headers.started request=<Request [b'POST']>
+2025-04-22 12:59:50,749 [DEBUG] receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Tue, 22 Apr 2025 07:29:53 GMT'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'CF-Ray', b'934369991a8254fb-DEL'), (b'CF-Cache-Status', b'DYNAMIC'), (b'Cache-Control', b'private, max-age=0, no-store, no-cache, must-revalidate'), (b'Vary', b'Origin, Accept-Encoding'), (b'X-Groq-Region', b'gcp-asia-south1'), (b'X-Ratelimit-Limit-Requests', b'1000'), (b'X-Ratelimit-Limit-Tokens', b'6000'), (b'X-Ratelimit-Remaining-Requests', b'999'), (b'X-Ratelimit-Remaining-Tokens', b'5835'), (b'X-Ratelimit-Reset-Requests', b'1m26.4s'), (b'X-Ratelimit-Reset-Tokens', b'1.65s'), (b'X-Request-Id', b'req_01jse6eeybe21sea3aejssqvbj'), (b'Set-Cookie', b'__cf_bm=XA.jftMr43RJtR_UJyeQrEtOdYpuSeC.P9c5WFuAJNA-1745306993-1.0.1.1-whryQeEgr0iMYdrHeEpKehlMnzvv3WztFUfWDtJKC4Y49XJeVNFvv.30sQ48wXISlKEktZAraotIaK0S5lZW.4OaSNj7cNJH3UmrcldEkDQ; path=/; expires=Tue, 22-Apr-25 07:59:53 GMT; domain=.groq.com; HttpOnly; Secure; SameSite=None'), (b'Server', b'cloudflare'), (b'Content-Encoding', b'gzip'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2025-04-22 12:59:50,752 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-22 12:59:50,789 [DEBUG] receive_response_body.started request=<Request [b'POST']>
+2025-04-22 12:59:50,791 [DEBUG] receive_response_body.complete
+2025-04-22 12:59:50,791 [DEBUG] response_closed.started
+2025-04-22 12:59:50,792 [DEBUG] response_closed.complete
+2025-04-22 12:59:50,792 [DEBUG] HTTP Response: POST https://api.groq.com/openai/v1/chat/completions "200 OK" Headers({'date': 'Tue, 22 Apr 2025 07:29:53 GMT', 'content-type': 'application/json', 'transfer-encoding': 'chunked', 'connection': 'keep-alive', 'cf-ray': '934369991a8254fb-DEL', 'cf-cache-status': 'DYNAMIC', 'cache-control': 'private, max-age=0, no-store, no-cache, must-revalidate', 'vary': 'Origin, Accept-Encoding', 'x-groq-region': 'gcp-asia-south1', 'x-ratelimit-limit-requests': '1000', 'x-ratelimit-limit-tokens': '6000', 'x-ratelimit-remaining-requests': '999', 'x-ratelimit-remaining-tokens': '5835', 'x-ratelimit-reset-requests': '1m26.4s', 'x-ratelimit-reset-tokens': '1.65s', 'x-request-id': 'req_01jse6eeybe21sea3aejssqvbj', 'set-cookie': '__cf_bm=XA.jftMr43RJtR_UJyeQrEtOdYpuSeC.P9c5WFuAJNA-1745306993-1.0.1.1-whryQeEgr0iMYdrHeEpKehlMnzvv3WztFUfWDtJKC4Y49XJeVNFvv.30sQ48wXISlKEktZAraotIaK0S5lZW.4OaSNj7cNJH3UmrcldEkDQ; path=/; expires=Tue, 22-Apr-25 07:59:53 GMT; domain=.groq.com; HttpOnly; Secure; SameSite=None', 'server': 'cloudflare', 'content-encoding': 'gzip', 'alt-svc': 'h3=":443"; ma=86400'})
+2025-04-22 13:00:09,700 [INFO] Application starting up
+2025-04-22 13:00:09,701 [DEBUG] Configuring request session with retry strategy
+2025-04-22 13:00:09,702 [DEBUG] Setting up Streamlit page configuration
+2025-04-22 13:00:14,548 [INFO] Selected chart type: Candlestick
+2025-04-22 13:00:14,550 [DEBUG] Selected MA periods: [20, 50]
+2025-04-22 13:00:14,572 [DEBUG] Request options: {'method': 'post', 'url': '/openai/v1/chat/completions', 'files': None, 'json_data': {'messages': [{'role': 'user', 'content': "You are a financial advisor specializing in stock market analysis.\nUSER QUESTION: history of google   \n\nYour task:  \n1. Analyze the user's question related to stocks and financial markets\n2. Provide a helpful, informative response\n3. If the question is about specific stocks, give general information about the company and factors that typically affect its stock price\n4. Be concise and factual  \n5. Add appropriate financial disclaimers when giving any information that could be construed as investment advice\n6. If the question is not finance-related, still provide a helpful answer, but mention you specialize in financial topics\n"}], 'model': 'deepseek-r1-distill-llama-70b', 'n': 1, 'stop': None, 'stream': False, 'temperature': 0.7}}
+2025-04-22 13:00:14,574 [DEBUG] Sending HTTP Request: POST https://api.groq.com/openai/v1/chat/completions
+2025-04-22 13:00:14,575 [DEBUG] connect_tcp.started host='api.groq.com' port=443 local_address=None timeout=None socket_options=None
+2025-04-22 13:00:14,671 [DEBUG] connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x0000019BE9AA4B90>
+2025-04-22 13:00:14,671 [DEBUG] start_tls.started ssl_context=<ssl.SSLContext object at 0x0000019BE8A643D0> server_hostname='api.groq.com' timeout=None
+2025-04-22 13:00:14,697 [DEBUG] start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x0000019BE8A4B860>
+2025-04-22 13:00:14,697 [DEBUG] send_request_headers.started request=<Request [b'POST']>
+2025-04-22 13:00:14,698 [DEBUG] send_request_headers.complete
+2025-04-22 13:00:14,698 [DEBUG] send_request_body.started request=<Request [b'POST']>
+2025-04-22 13:00:14,699 [DEBUG] send_request_body.complete
+2025-04-22 13:00:14,699 [DEBUG] receive_response_headers.started request=<Request [b'POST']>
+2025-04-22 13:00:17,270 [DEBUG] receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Tue, 22 Apr 2025 07:30:19 GMT'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'CF-Ray', b'93436a3bef2189a3-DEL'), (b'CF-Cache-Status', b'DYNAMIC'), (b'Cache-Control', b'private, max-age=0, no-store, no-cache, must-revalidate'), (b'Vary', b'Origin, Accept-Encoding'), (b'X-Groq-Region', b'gcp-asia-south1'), (b'X-Ratelimit-Limit-Requests', b'1000'), (b'X-Ratelimit-Limit-Tokens', b'6000'), (b'X-Ratelimit-Remaining-Requests', b'998'), (b'X-Ratelimit-Remaining-Tokens', b'5837'), (b'X-Ratelimit-Reset-Requests', b'2m26.752s'), (b'X-Ratelimit-Reset-Tokens', b'1.63s'), (b'X-Request-Id', b'req_01jse6f8cfe2s8a86hqrb3pqrz'), (b'Set-Cookie', b'__cf_bm=plPvq6N405fWNm0viV4l_3HMMt.8iVKdes4Iyq.n8hQ-1745307019-1.0.1.1-8J3ePpW43u01Wx6.qvdAhPn7VoejjUvvuVdFPUc2yA4za9.LKuuEXPwVjGlHBtIhISa9fkr2TWYODmN4koYUmHJi8yaot5IbrhgT7r3ydkc; path=/; expires=Tue, 22-Apr-25 08:00:19 GMT; domain=.groq.com; HttpOnly; Secure; SameSite=None'), (b'Server', b'cloudflare'), (b'Content-Encoding', b'gzip'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2025-04-22 13:00:17,271 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-22 13:00:17,272 [DEBUG] receive_response_body.started request=<Request [b'POST']>
+2025-04-22 13:00:17,273 [DEBUG] receive_response_body.complete
+2025-04-22 13:00:17,273 [DEBUG] response_closed.started
+2025-04-22 13:00:17,273 [DEBUG] response_closed.complete
+2025-04-22 13:00:17,274 [DEBUG] HTTP Response: POST https://api.groq.com/openai/v1/chat/completions "200 OK" Headers({'date': 'Tue, 22 Apr 2025 07:30:19 GMT', 'content-type': 'application/json', 'transfer-encoding': 'chunked', 'connection': 'keep-alive', 'cf-ray': '93436a3bef2189a3-DEL', 'cf-cache-status': 'DYNAMIC', 'cache-control': 'private, max-age=0, no-store, no-cache, must-revalidate', 'vary': 'Origin, Accept-Encoding', 'x-groq-region': 'gcp-asia-south1', 'x-ratelimit-limit-requests': '1000', 'x-ratelimit-limit-tokens': '6000', 'x-ratelimit-remaining-requests': '998', 'x-ratelimit-remaining-tokens': '5837', 'x-ratelimit-reset-requests': '2m26.752s', 'x-ratelimit-reset-tokens': '1.63s', 'x-request-id': 'req_01jse6f8cfe2s8a86hqrb3pqrz', 'set-cookie': '__cf_bm=plPvq6N405fWNm0viV4l_3HMMt.8iVKdes4Iyq.n8hQ-1745307019-1.0.1.1-8J3ePpW43u01Wx6.qvdAhPn7VoejjUvvuVdFPUc2yA4za9.LKuuEXPwVjGlHBtIhISa9fkr2TWYODmN4koYUmHJi8yaot5IbrhgT7r3ydkc; path=/; expires=Tue, 22-Apr-25 08:00:19 GMT; domain=.groq.com; HttpOnly; Secure; SameSite=None', 'server': 'cloudflare', 'content-encoding': 'gzip', 'alt-svc': 'h3=":443"; ma=86400'})
+2025-04-22 13:00:17,392 [DEBUG] close.started
+2025-04-22 13:00:17,394 [DEBUG] close.complete
+2025-04-22 13:00:25,608 [INFO] Application starting up
+2025-04-22 13:00:25,609 [DEBUG] Configuring request session with retry strategy
+2025-04-22 13:00:25,609 [DEBUG] Setting up Streamlit page configuration
+2025-04-22 13:00:30,198 [INFO] Stock selection updated: MSFT
+2025-04-22 13:00:30,200 [INFO] Selected chart type: Candlestick
+2025-04-22 13:00:30,203 [DEBUG] Selected MA periods: [20, 50]
+2025-04-22 13:00:30,206 [INFO] Updating data and charts
+2025-04-22 13:00:30,208 [DEBUG] Using Alpha Vantage params: function=TIME_SERIES_DAILY, output_size=compact, interval=None
+2025-04-22 13:00:30,209 [INFO] Fetching Alpha Vantage data for MSFT (function: TIME_SERIES_DAILY)
+2025-04-22 13:00:30,209 [DEBUG] Making Alpha Vantage API request with params: {'function': 'TIME_SERIES_DAILY', 'symbol': 'MSFT', 'apikey': 'F9H662T7ZC52LER5', 'outputsize': 'compact', 'datatype': 'json'}
+2025-04-22 13:00:30,219 [DEBUG] Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-04-22 13:00:31,823 [DEBUG] https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_DAILY&symbol=MSFT&apikey=F9H662T7ZC52LER5&outputsize=compact&datatype=json HTTP/1.1" 200 None
+2025-04-22 13:00:32,124 [DEBUG] Response keys: ['Meta Data', 'Time Series (Daily)']
+2025-04-22 13:00:32,736 [DEBUG] https://www.alphavantage.co:443 "GET /query?function=GLOBAL_QUOTE&symbol=MSFT&apikey=F9H662T7ZC52LER5 HTTP/1.1" 200 None
+2025-04-22 13:00:33,349 [DEBUG] https://www.alphavantage.co:443 "GET /query?function=OVERVIEW&symbol=MSFT&apikey=F9H662T7ZC52LER5 HTTP/1.1" 200 None
+2025-04-22 13:00:33,350 [INFO] Successfully retrieved data for MSFT: 100 rows
+2025-04-22 13:00:33,351 [DEBUG] Data shape: (100, 5), Columns: ['Open', 'High', 'Low', 'Close', 'Volume']
+2025-04-22 13:00:33,351 [INFO] Successfully retrieved data for MSFT
+2025-04-22 13:00:33,353 [DEBUG] Displaying info for Microsoft Corporation
+2025-04-22 13:00:33,356 [DEBUG] Displaying key stats
+2025-04-22 13:00:33,363 [ERROR] Error displaying stats: Cannot specify ',' with 's'.
+2025-04-22 13:00:33,366 [DEBUG] Creating Candlestick chart
+2025-04-22 13:00:33,844 [DEBUG] Adding moving averages: [20, 50]
+2025-04-22 13:00:33,875 [DEBUG] Adding volume chart
+2025-04-22 13:00:35,476 [DEBUG] close.started
+2025-04-22 13:00:35,477 [DEBUG] close.complete

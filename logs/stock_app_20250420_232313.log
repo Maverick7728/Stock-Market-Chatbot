@@ -1,0 +1,113 @@
+2025-04-20 23:23:13,580 [INFO] Application starting up
+2025-04-20 23:23:13,581 [DEBUG] Configuring request session with retry strategy
+2025-04-20 23:23:13,581 [INFO] Application starting up
+2025-04-20 23:23:13,583 [DEBUG] Setting up Streamlit page configuration
+2025-04-20 23:23:13,583 [DEBUG] Configuring request session with retry strategy
+2025-04-20 23:23:13,584 [DEBUG] Setting up Streamlit page configuration
+2025-04-20 23:23:18,112 [INFO] Stock input set to: AAPL
+2025-04-20 23:23:18,117 [INFO] Selected chart type: Candlestick
+2025-04-20 23:23:18,120 [DEBUG] Selected MA periods: [20, 50]
+2025-04-20 23:23:18,163 [INFO] Updating data and charts
+2025-04-20 23:23:18,164 [DEBUG] Using Alpha Vantage params: function=TIME_SERIES_DAILY, output_size=compact, interval=None
+2025-04-20 23:23:18,167 [INFO] Fetching Alpha Vantage data for AAPL (function: TIME_SERIES_DAILY)
+2025-04-20 23:23:18,167 [DEBUG] Making Alpha Vantage API request with params: {'function': 'TIME_SERIES_DAILY', 'symbol': 'AAPL', 'apikey': 'F9H662T7ZC52LER5', 'outputsize': 'compact', 'datatype': 'json'}
+2025-04-20 23:23:18,173 [DEBUG] Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-04-20 23:23:18,765 [INFO] Stock input set to: GOOGL
+2025-04-20 23:23:18,767 [INFO] Stock selection updated via popular stocks: GOOGL
+2025-04-20 23:23:18,770 [INFO] Selected chart type: Candlestick
+2025-04-20 23:23:18,775 [DEBUG] Selected MA periods: [20, 50]
+2025-04-20 23:23:18,778 [INFO] Updating data and charts
+2025-04-20 23:23:18,780 [DEBUG] Using Alpha Vantage params: function=TIME_SERIES_INTRADAY, output_size=compact, interval=15min
+2025-04-20 23:23:18,781 [INFO] Fetching Alpha Vantage data for GOOGL (function: TIME_SERIES_INTRADAY)
+2025-04-20 23:23:18,782 [DEBUG] Making Alpha Vantage API request with params: {'function': 'TIME_SERIES_INTRADAY', 'symbol': 'GOOGL', 'apikey': 'F9H662T7ZC52LER5', 'outputsize': 'compact', 'datatype': 'json', 'interval': '15min'}
+2025-04-20 23:23:18,784 [DEBUG] Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-04-20 23:23:20,459 [DEBUG] https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_DAILY&symbol=AAPL&apikey=F9H662T7ZC52LER5&outputsize=compact&datatype=json HTTP/1.1" 200 None
+2025-04-20 23:23:20,460 [DEBUG] Response keys: ['Information']
+2025-04-20 23:23:20,461 [ERROR] Expected time series key 'Time Series (Daily)' not found in response
+2025-04-20 23:23:20,461 [DEBUG] Response content: {"Information": "We have detected your API key as F9H662T7ZC52LER5 and our standard API rate limit is 25 requests per day. Please subscribe to any of the premium plans at https://www.alphavantage.co/premium/ to instantly remove all daily rate limits."}...
+2025-04-20 23:23:20,461 [ERROR] No data received for AAPL
+2025-04-20 23:23:20,763 [DEBUG] https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=GOOGL&apikey=F9H662T7ZC52LER5&outputsize=compact&datatype=json&interval=15min HTTP/1.1" 200 None
+2025-04-20 23:23:20,765 [DEBUG] Response keys: ['Information']
+2025-04-20 23:23:20,765 [ERROR] Expected time series key 'Time Series (15min)' not found in response
+2025-04-20 23:23:20,766 [DEBUG] Response content: {"Information": "We have detected your API key as F9H662T7ZC52LER5 and our standard API rate limit is 25 requests per day. Please subscribe to any of the premium plans at https://www.alphavantage.co/premium/ to instantly remove all daily rate limits."}...
+2025-04-20 23:23:20,767 [ERROR] No data received for GOOGL
+2025-04-20 23:23:24,691 [INFO] Application starting up
+2025-04-20 23:23:24,705 [DEBUG] Configuring request session with retry strategy
+2025-04-20 23:23:24,709 [DEBUG] Setting up Streamlit page configuration
+2025-04-20 23:23:28,058 [INFO] Stock input set to: AAPL
+2025-04-20 23:23:28,063 [INFO] Selected chart type: Candlestick
+2025-04-20 23:23:28,065 [DEBUG] Selected MA periods: [20, 50]
+2025-04-20 23:23:28,067 [DEBUG] Rate limiting local requests, waiting 5.09s
+2025-04-20 23:23:33,162 [INFO] Updating data and charts
+2025-04-20 23:23:33,163 [DEBUG] Using Alpha Vantage params: function=TIME_SERIES_DAILY, output_size=compact, interval=None
+2025-04-20 23:23:33,177 [INFO] Fetching Alpha Vantage data for AAPL (function: TIME_SERIES_DAILY)
+2025-04-20 23:23:33,178 [DEBUG] Making Alpha Vantage API request with params: {'function': 'TIME_SERIES_DAILY', 'symbol': 'AAPL', 'apikey': 'F9H662T7ZC52LER5', 'outputsize': 'compact', 'datatype': 'json'}
+2025-04-20 23:23:33,184 [DEBUG] Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-04-20 23:23:34,689 [DEBUG] https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_DAILY&symbol=AAPL&apikey=F9H662T7ZC52LER5&outputsize=compact&datatype=json HTTP/1.1" 200 None
+2025-04-20 23:23:34,690 [DEBUG] Response keys: ['Information']
+2025-04-20 23:23:34,691 [ERROR] Expected time series key 'Time Series (Daily)' not found in response
+2025-04-20 23:23:34,691 [DEBUG] Response content: {"Information": "We have detected your API key as F9H662T7ZC52LER5 and our standard API rate limit is 25 requests per day. Please subscribe to any of the premium plans at https://www.alphavantage.co/premium/ to instantly remove all daily rate limits."}...
+2025-04-20 23:23:34,692 [ERROR] No data received for AAPL
+2025-04-20 23:23:34,832 [INFO] Application starting up
+2025-04-20 23:23:34,834 [DEBUG] Configuring request session with retry strategy
+2025-04-20 23:23:34,835 [DEBUG] Setting up Streamlit page configuration
+2025-04-20 23:23:38,128 [INFO] Stock input set to: AAPL
+2025-04-20 23:23:38,132 [INFO] Selected chart type: Candlestick
+2025-04-20 23:23:38,135 [DEBUG] Selected MA periods: [20, 50]
+2025-04-20 23:23:38,137 [DEBUG] Rate limiting local requests, waiting 10.02s
+2025-04-20 23:23:40,261 [INFO] Application starting up
+2025-04-20 23:23:40,261 [DEBUG] Configuring request session with retry strategy
+2025-04-20 23:23:40,262 [DEBUG] Setting up Streamlit page configuration
+2025-04-20 23:23:43,747 [INFO] Stock input set to: AAPL
+2025-04-20 23:23:43,749 [INFO] Stock selection updated via popular stocks: MSFT
+2025-04-20 23:23:43,752 [INFO] Selected chart type: Candlestick
+2025-04-20 23:23:43,755 [DEBUG] Selected MA periods: [20, 50]
+2025-04-20 23:23:43,759 [DEBUG] Rate limiting local requests, waiting 4.40s
+2025-04-20 23:23:48,281 [INFO] Updating data and charts
+2025-04-20 23:23:48,283 [DEBUG] Using Alpha Vantage params: function=TIME_SERIES_DAILY, output_size=compact, interval=None
+2025-04-20 23:23:48,286 [INFO] Fetching Alpha Vantage data for MSFT (function: TIME_SERIES_DAILY)
+2025-04-20 23:23:48,287 [DEBUG] Making Alpha Vantage API request with params: {'function': 'TIME_SERIES_DAILY', 'symbol': 'MSFT', 'apikey': 'F9H662T7ZC52LER5', 'outputsize': 'compact', 'datatype': 'json'}
+2025-04-20 23:23:48,290 [DEBUG] Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-04-20 23:23:49,245 [DEBUG] https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_DAILY&symbol=MSFT&apikey=F9H662T7ZC52LER5&outputsize=compact&datatype=json HTTP/1.1" 200 None
+2025-04-20 23:23:49,246 [DEBUG] Response keys: ['Information']
+2025-04-20 23:23:49,247 [ERROR] Expected time series key 'Time Series (Daily)' not found in response
+2025-04-20 23:23:49,247 [DEBUG] Response content: {"Information": "We have detected your API key as F9H662T7ZC52LER5 and our standard API rate limit is 25 requests per day. Please subscribe to any of the premium plans at https://www.alphavantage.co/premium/ to instantly remove all daily rate limits."}...
+2025-04-20 23:23:49,247 [ERROR] No data received for MSFT
+2025-04-20 23:23:54,643 [INFO] Application starting up
+2025-04-20 23:23:54,644 [DEBUG] Configuring request session with retry strategy
+2025-04-20 23:23:54,646 [DEBUG] Setting up Streamlit page configuration
+2025-04-20 23:23:58,180 [INFO] Stock input set to: AAPL
+2025-04-20 23:23:58,181 [INFO] Stock selection updated via popular stocks: MSFT
+2025-04-20 23:23:58,184 [INFO] Selected chart type: Candlestick
+2025-04-20 23:23:58,187 [DEBUG] Selected MA periods: [20, 50]
+2025-04-20 23:23:58,188 [DEBUG] Rate limiting local requests, waiting 4.97s
+2025-04-20 23:24:03,165 [INFO] Updating data and charts
+2025-04-20 23:24:03,167 [DEBUG] Using Alpha Vantage params: function=TIME_SERIES_DAILY, output_size=compact, interval=None
+2025-04-20 23:24:03,168 [INFO] Fetching Alpha Vantage data for MSFT (function: TIME_SERIES_DAILY)
+2025-04-20 23:24:03,169 [DEBUG] Making Alpha Vantage API request with params: {'function': 'TIME_SERIES_DAILY', 'symbol': 'MSFT', 'apikey': 'F9H662T7ZC52LER5', 'outputsize': 'compact', 'datatype': 'json'}
+2025-04-20 23:24:03,171 [DEBUG] Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-04-20 23:24:04,096 [DEBUG] https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_DAILY&symbol=MSFT&apikey=F9H662T7ZC52LER5&outputsize=compact&datatype=json HTTP/1.1" 200 None
+2025-04-20 23:24:04,097 [DEBUG] Response keys: ['Information']
+2025-04-20 23:24:04,097 [ERROR] Expected time series key 'Time Series (Daily)' not found in response
+2025-04-20 23:24:04,098 [DEBUG] Response content: {"Information": "We have detected your API key as F9H662T7ZC52LER5 and our standard API rate limit is 25 requests per day. Please subscribe to any of the premium plans at https://www.alphavantage.co/premium/ to instantly remove all daily rate limits."}...
+2025-04-20 23:24:04,098 [ERROR] No data received for MSFT
+2025-04-20 23:24:04,114 [DEBUG] Request options: {'method': 'post', 'url': '/openai/v1/chat/completions', 'files': None, 'json_data': {'messages': [{'role': 'user', 'content': "You are a financial advisor specializing in stock market analysis.\nUSER QUESTION: microsoft  \n\nYour task:  \n1. Analyze the user's question related to stocks and financial markets\n2. Provide a helpful, informative response\n3. If the question is about specific stocks, give general information about the company and factors that typically affect its stock price\n4. Be concise and factual  \n5. Add appropriate financial disclaimers when giving any information that could be construed as investment advice\n6. If the question is not finance-related, still provide a helpful answer, but mention you specialize in financial topics\n"}], 'model': 'llama-3.3-70b-versatile', 'n': 1, 'stop': None, 'stream': False, 'temperature': 0.7}}
+2025-04-20 23:24:04,205 [DEBUG] Sending HTTP Request: POST https://api.groq.com/openai/v1/chat/completions
+2025-04-20 23:24:04,206 [DEBUG] connect_tcp.started host='api.groq.com' port=443 local_address=None timeout=None socket_options=None
+2025-04-20 23:24:04,720 [DEBUG] connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000001BF4347F590>
+2025-04-20 23:24:04,720 [DEBUG] start_tls.started ssl_context=<ssl.SSLContext object at 0x000001BF432CCB50> server_hostname='api.groq.com' timeout=None
+2025-04-20 23:24:04,799 [DEBUG] start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000001BF444AA150>
+2025-04-20 23:24:04,800 [DEBUG] send_request_headers.started request=<Request [b'POST']>
+2025-04-20 23:24:04,800 [DEBUG] send_request_headers.complete
+2025-04-20 23:24:04,801 [DEBUG] send_request_body.started request=<Request [b'POST']>
+2025-04-20 23:24:04,801 [DEBUG] send_request_body.complete
+2025-04-20 23:24:04,801 [DEBUG] receive_response_headers.started request=<Request [b'POST']>
+2025-04-20 23:24:05,918 [DEBUG] receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Sun, 20 Apr 2025 17:54:09 GMT'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'CF-Ray', b'933681523ea4a830-DEL'), (b'CF-Cache-Status', b'DYNAMIC'), (b'Cache-Control', b'private, max-age=0, no-store, no-cache, must-revalidate'), (b'Vary', b'Origin, Accept-Encoding'), (b'X-Groq-Region', b'gcp-asia-south1'), (b'X-Ratelimit-Limit-Requests', b'1000'), (b'X-Ratelimit-Limit-Tokens', b'12000'), (b'X-Ratelimit-Remaining-Requests', b'999'), (b'X-Ratelimit-Remaining-Tokens', b'11839'), (b'X-Ratelimit-Reset-Requests', b'1m26.4s'), (b'X-Ratelimit-Reset-Tokens', b'805ms'), (b'X-Request-Id', b'req_01jsa5c3wyfhcsgfnzh7pf75hm'), (b'Set-Cookie', b'__cf_bm=ct6nSnUi6XMhI7h_bqr94cuoiVtKQi_QodJxR_W7n4E-1745171649-1.0.1.1-u2_yjOSKzF1P5oa_thfjvjUMsZMkRQZmf23Fhn.rOeyeyhwzKzt6Jp.Xozo8p6yoYYPKlU_M1Pt3C4zZZzw2ftnRaVoyC8c3rEbLIRSSeyw; path=/; expires=Sun, 20-Apr-25 18:24:09 GMT; domain=.groq.com; HttpOnly; Secure; SameSite=None'), (b'Server', b'cloudflare'), (b'Content-Encoding', b'gzip'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2025-04-20 23:24:05,921 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-20 23:24:05,922 [DEBUG] receive_response_body.started request=<Request [b'POST']>
+2025-04-20 23:24:05,923 [DEBUG] receive_response_body.complete
+2025-04-20 23:24:05,924 [DEBUG] response_closed.started
+2025-04-20 23:24:05,924 [DEBUG] response_closed.complete
+2025-04-20 23:24:05,924 [DEBUG] HTTP Response: POST https://api.groq.com/openai/v1/chat/completions "200 OK" Headers({'date': 'Sun, 20 Apr 2025 17:54:09 GMT', 'content-type': 'application/json', 'transfer-encoding': 'chunked', 'connection': 'keep-alive', 'cf-ray': '933681523ea4a830-DEL', 'cf-cache-status': 'DYNAMIC', 'cache-control': 'private, max-age=0, no-store, no-cache, must-revalidate', 'vary': 'Origin, Accept-Encoding', 'x-groq-region': 'gcp-asia-south1', 'x-ratelimit-limit-requests': '1000', 'x-ratelimit-limit-tokens': '12000', 'x-ratelimit-remaining-requests': '999', 'x-ratelimit-remaining-tokens': '11839', 'x-ratelimit-reset-requests': '1m26.4s', 'x-ratelimit-reset-tokens': '805ms', 'x-request-id': 'req_01jsa5c3wyfhcsgfnzh7pf75hm', 'set-cookie': '__cf_bm=ct6nSnUi6XMhI7h_bqr94cuoiVtKQi_QodJxR_W7n4E-1745171649-1.0.1.1-u2_yjOSKzF1P5oa_thfjvjUMsZMkRQZmf23Fhn.rOeyeyhwzKzt6Jp.Xozo8p6yoYYPKlU_M1Pt3C4zZZzw2ftnRaVoyC8c3rEbLIRSSeyw; path=/; expires=Sun, 20-Apr-25 18:24:09 GMT; domain=.groq.com; HttpOnly; Secure; SameSite=None', 'server': 'cloudflare', 'content-encoding': 'gzip', 'alt-svc': 'h3=":443"; ma=86400'})
+2025-04-20 23:25:10,630 [DEBUG] close.started
+2025-04-20 23:25:10,631 [DEBUG] close.complete

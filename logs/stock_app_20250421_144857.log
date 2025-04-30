@@ -1,0 +1,65 @@
+2025-04-21 14:48:57,596 [INFO] Application starting up
+2025-04-21 14:48:57,597 [DEBUG] Configuring request session with retry strategy
+2025-04-21 14:48:57,597 [DEBUG] Setting up Streamlit page configuration
+2025-04-21 14:49:02,194 [INFO] Selected chart type: Candlestick
+2025-04-21 14:49:02,198 [DEBUG] Selected MA periods: [20, 50]
+2025-04-21 14:52:32,402 [INFO] Application starting up
+2025-04-21 14:52:32,402 [DEBUG] Configuring request session with retry strategy
+2025-04-21 14:52:32,404 [DEBUG] Setting up Streamlit page configuration
+2025-04-21 14:52:35,681 [INFO] Selected chart type: Candlestick
+2025-04-21 14:52:35,722 [DEBUG] Selected MA periods: [20, 50]
+2025-04-21 14:52:41,972 [INFO] Application starting up
+2025-04-21 14:52:41,972 [DEBUG] Configuring request session with retry strategy
+2025-04-21 14:52:41,973 [DEBUG] Setting up Streamlit page configuration
+2025-04-21 14:52:45,444 [INFO] Stock selection updated: MSFT
+2025-04-21 14:52:45,448 [INFO] Selected chart type: Candlestick
+2025-04-21 14:52:45,451 [DEBUG] Selected MA periods: [20, 50]
+2025-04-21 14:52:45,451 [DEBUG] Rate limiting local requests, waiting 5.27s
+2025-04-21 14:52:50,726 [INFO] Updating data and charts
+2025-04-21 14:52:50,727 [DEBUG] Using Alpha Vantage params: function=TIME_SERIES_DAILY, output_size=compact, interval=None
+2025-04-21 14:52:50,729 [INFO] Fetching Alpha Vantage data for MSFT (function: TIME_SERIES_DAILY)
+2025-04-21 14:52:50,730 [DEBUG] Making Alpha Vantage API request with params: {'function': 'TIME_SERIES_DAILY', 'symbol': 'MSFT', 'apikey': 'F9H662T7ZC52LER5', 'outputsize': 'compact', 'datatype': 'json'}
+2025-04-21 14:52:50,736 [DEBUG] Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-04-21 14:52:53,688 [DEBUG] https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_DAILY&symbol=MSFT&apikey=F9H662T7ZC52LER5&outputsize=compact&datatype=json HTTP/1.1" 200 None
+2025-04-21 14:52:53,891 [DEBUG] Response keys: ['Meta Data', 'Time Series (Daily)']
+2025-04-21 14:52:58,090 [DEBUG] https://www.alphavantage.co:443 "GET /query?function=GLOBAL_QUOTE&symbol=MSFT&apikey=F9H662T7ZC52LER5 HTTP/1.1" 200 None
+2025-04-21 14:52:59,319 [DEBUG] https://www.alphavantage.co:443 "GET /query?function=OVERVIEW&symbol=MSFT&apikey=F9H662T7ZC52LER5 HTTP/1.1" 200 None
+2025-04-21 14:52:59,320 [INFO] Successfully retrieved data for MSFT: 100 rows
+2025-04-21 14:52:59,322 [DEBUG] Data shape: (100, 5), Columns: ['Open', 'High', 'Low', 'Close', 'Volume']
+2025-04-21 14:52:59,322 [INFO] Successfully retrieved data for MSFT
+2025-04-21 14:52:59,325 [DEBUG] Displaying info for Microsoft Corporation
+2025-04-21 14:52:59,327 [DEBUG] Displaying key stats
+2025-04-21 14:52:59,332 [ERROR] Error displaying stats: Cannot specify ',' with 's'.
+2025-04-21 14:52:59,335 [DEBUG] Creating Candlestick chart
+2025-04-21 14:52:59,674 [DEBUG] Adding moving averages: [20, 50]
+2025-04-21 14:52:59,696 [DEBUG] Adding volume chart
+2025-04-21 14:53:20,189 [INFO] Application starting up
+2025-04-21 14:53:20,190 [DEBUG] Configuring request session with retry strategy
+2025-04-21 14:53:20,190 [DEBUG] Setting up Streamlit page configuration
+2025-04-21 14:53:23,479 [INFO] Stock selection updated: MSFT
+2025-04-21 14:53:23,483 [INFO] Selected chart type: Candlestick
+2025-04-21 14:53:23,486 [DEBUG] Selected MA periods: [20, 50]
+2025-04-21 14:53:23,490 [INFO] Updating data and charts
+2025-04-21 14:53:23,491 [DEBUG] Using Alpha Vantage params: function=TIME_SERIES_DAILY, output_size=compact, interval=None
+2025-04-21 14:53:23,499 [INFO] Fetching Alpha Vantage data for MSFT (function: TIME_SERIES_DAILY)
+2025-04-21 14:53:23,501 [DEBUG] Making Alpha Vantage API request with params: {'function': 'TIME_SERIES_DAILY', 'symbol': 'MSFT', 'apikey': 'F9H662T7ZC52LER5', 'outputsize': 'compact', 'datatype': 'json'}
+2025-04-21 14:53:23,503 [DEBUG] Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-04-21 14:53:26,880 [DEBUG] https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_DAILY&symbol=MSFT&apikey=F9H662T7ZC52LER5&outputsize=compact&datatype=json HTTP/1.1" 200 None
+2025-04-21 14:53:27,072 [DEBUG] Response keys: ['Meta Data', 'Time Series (Daily)']
+2025-04-21 14:53:27,686 [DEBUG] https://www.alphavantage.co:443 "GET /query?function=GLOBAL_QUOTE&symbol=MSFT&apikey=F9H662T7ZC52LER5 HTTP/1.1" 200 None
+2025-04-21 14:53:28,302 [DEBUG] https://www.alphavantage.co:443 "GET /query?function=OVERVIEW&symbol=MSFT&apikey=F9H662T7ZC52LER5 HTTP/1.1" 200 None
+2025-04-21 14:53:28,303 [INFO] Successfully retrieved data for MSFT: 100 rows
+2025-04-21 14:53:28,304 [DEBUG] Data shape: (100, 5), Columns: ['Open', 'High', 'Low', 'Close', 'Volume']
+2025-04-21 14:53:28,304 [INFO] Successfully retrieved data for MSFT
+2025-04-21 14:53:28,307 [DEBUG] Displaying info for Microsoft Corporation
+2025-04-21 14:53:28,309 [DEBUG] Displaying key stats
+2025-04-21 14:53:28,314 [ERROR] Error displaying stats: Cannot specify ',' with 's'.
+2025-04-21 14:53:28,317 [DEBUG] Creating Candlestick chart
+2025-04-21 14:53:28,364 [DEBUG] Adding moving averages: [20, 50]
+2025-04-21 14:53:28,369 [DEBUG] Adding volume chart
+2025-04-21 14:53:28,538 [INFO] Application starting up
+2025-04-21 14:53:28,538 [DEBUG] Configuring request session with retry strategy
+2025-04-21 14:53:28,540 [DEBUG] Setting up Streamlit page configuration
+2025-04-21 14:53:31,707 [INFO] Selected chart type: Candlestick
+2025-04-21 14:53:31,710 [DEBUG] Selected MA periods: [20, 50]
+2025-04-21 14:53:31,710 [DEBUG] Rate limiting local requests, waiting 6.78s

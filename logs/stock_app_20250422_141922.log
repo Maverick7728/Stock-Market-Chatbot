@@ -1,0 +1,142 @@
+2025-04-22 14:19:22,020 [INFO] Application starting up
+2025-04-22 14:19:22,021 [DEBUG] Configuring request session with retry strategy
+2025-04-22 14:19:22,022 [DEBUG] Setting up Streamlit page configuration
+2025-04-22 14:19:25,125 [INFO] Selected chart type: Candlestick
+2025-04-22 14:19:25,127 [DEBUG] Selected MA periods: [20, 50]
+2025-04-22 14:19:30,722 [INFO] Application starting up
+2025-04-22 14:19:30,723 [DEBUG] Configuring request session with retry strategy
+2025-04-22 14:19:30,723 [DEBUG] Setting up Streamlit page configuration
+2025-04-22 14:19:33,397 [INFO] Stock selection updated: AAPL
+2025-04-22 14:19:33,399 [INFO] Selected chart type: Candlestick
+2025-04-22 14:19:33,400 [DEBUG] Selected MA periods: [20, 50]
+2025-04-22 14:19:33,401 [DEBUG] Rate limiting local requests, waiting 6.73s
+2025-04-22 14:19:40,129 [INFO] Updating data and charts
+2025-04-22 14:19:40,129 [DEBUG] Using Alpha Vantage params: function=TIME_SERIES_DAILY, output_size=compact, interval=None
+2025-04-22 14:19:40,131 [INFO] Fetching Alpha Vantage data for AAPL (function: TIME_SERIES_DAILY)
+2025-04-22 14:19:40,131 [DEBUG] Making Alpha Vantage API request with params: {'function': 'TIME_SERIES_DAILY', 'symbol': 'AAPL', 'apikey': 'F9H662T7ZC52LER5', 'outputsize': 'compact', 'datatype': 'json'}
+2025-04-22 14:19:40,135 [DEBUG] Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-04-22 14:19:41,087 [DEBUG] https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_DAILY&symbol=AAPL&apikey=F9H662T7ZC52LER5&outputsize=compact&datatype=json HTTP/1.1" 200 None
+2025-04-22 14:19:41,312 [DEBUG] Response keys: ['Meta Data', 'Time Series (Daily)']
+2025-04-22 14:19:41,580 [DEBUG] https://www.alphavantage.co:443 "GET /query?function=GLOBAL_QUOTE&symbol=AAPL&apikey=F9H662T7ZC52LER5 HTTP/1.1" 200 None
+2025-04-22 14:19:41,839 [DEBUG] https://www.alphavantage.co:443 "GET /query?function=OVERVIEW&symbol=AAPL&apikey=F9H662T7ZC52LER5 HTTP/1.1" 200 None
+2025-04-22 14:19:41,840 [INFO] Successfully retrieved data for AAPL: 100 rows
+2025-04-22 14:19:41,840 [DEBUG] Data shape: (100, 5), Columns: ['Open', 'High', 'Low', 'Close', 'Volume']
+2025-04-22 14:19:41,841 [INFO] Successfully retrieved data for AAPL
+2025-04-22 14:19:41,842 [DEBUG] Displaying info for Apple Inc
+2025-04-22 14:19:41,844 [DEBUG] Displaying key stats
+2025-04-22 14:19:41,847 [ERROR] Error displaying stats: Cannot specify ',' with 's'.
+2025-04-22 14:19:41,850 [DEBUG] Creating Candlestick chart
+2025-04-22 14:19:42,072 [DEBUG] Adding moving averages: [20, 50]
+2025-04-22 14:19:42,086 [DEBUG] Adding volume chart
+2025-04-22 14:20:22,180 [INFO] Application starting up
+2025-04-22 14:20:22,180 [DEBUG] Configuring request session with retry strategy
+2025-04-22 14:20:22,181 [DEBUG] Setting up Streamlit page configuration
+2025-04-22 14:20:24,870 [INFO] Stock selection updated: AAPL
+2025-04-22 14:20:24,872 [INFO] Selected chart type: Candlestick
+2025-04-22 14:20:24,874 [DEBUG] Selected MA periods: [20, 50]
+2025-04-22 14:20:24,875 [INFO] Updating data and charts
+2025-04-22 14:20:24,875 [DEBUG] Using Alpha Vantage params: function=TIME_SERIES_DAILY, output_size=compact, interval=None
+2025-04-22 14:20:24,877 [INFO] Fetching Alpha Vantage data for AAPL (function: TIME_SERIES_DAILY)
+2025-04-22 14:20:24,877 [DEBUG] Making Alpha Vantage API request with params: {'function': 'TIME_SERIES_DAILY', 'symbol': 'AAPL', 'apikey': 'F9H662T7ZC52LER5', 'outputsize': 'compact', 'datatype': 'json'}
+2025-04-22 14:20:24,879 [DEBUG] Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-04-22 14:20:25,726 [DEBUG] https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_DAILY&symbol=AAPL&apikey=F9H662T7ZC52LER5&outputsize=compact&datatype=json HTTP/1.1" 200 None
+2025-04-22 14:20:25,933 [DEBUG] Response keys: ['Meta Data', 'Time Series (Daily)']
+2025-04-22 14:20:26,183 [DEBUG] https://www.alphavantage.co:443 "GET /query?function=GLOBAL_QUOTE&symbol=AAPL&apikey=F9H662T7ZC52LER5 HTTP/1.1" 200 None
+2025-04-22 14:20:26,426 [DEBUG] https://www.alphavantage.co:443 "GET /query?function=OVERVIEW&symbol=AAPL&apikey=F9H662T7ZC52LER5 HTTP/1.1" 200 None
+2025-04-22 14:20:26,427 [INFO] Successfully retrieved data for AAPL: 100 rows
+2025-04-22 14:20:26,427 [DEBUG] Data shape: (100, 5), Columns: ['Open', 'High', 'Low', 'Close', 'Volume']
+2025-04-22 14:20:26,428 [INFO] Successfully retrieved data for AAPL
+2025-04-22 14:20:26,429 [DEBUG] Displaying info for Apple Inc
+2025-04-22 14:20:26,430 [DEBUG] Displaying key stats
+2025-04-22 14:20:26,433 [ERROR] Error displaying stats: Cannot specify ',' with 's'.
+2025-04-22 14:20:26,436 [DEBUG] Creating Candlestick chart
+2025-04-22 14:20:26,456 [DEBUG] Adding moving averages: [20, 50]
+2025-04-22 14:20:26,460 [DEBUG] Adding volume chart
+2025-04-22 14:20:37,186 [INFO] Application starting up
+2025-04-22 14:20:37,188 [DEBUG] Configuring request session with retry strategy
+2025-04-22 14:20:37,188 [DEBUG] Setting up Streamlit page configuration
+2025-04-22 14:20:41,909 [INFO] Stock selection updated: AAPL
+2025-04-22 14:20:41,912 [INFO] Selected chart type: Candlestick
+2025-04-22 14:20:41,915 [DEBUG] Selected MA periods: [20, 50]
+2025-04-22 14:20:41,918 [INFO] Updating data and charts
+2025-04-22 14:20:41,918 [DEBUG] Using Alpha Vantage params: function=TIME_SERIES_DAILY, output_size=compact, interval=None
+2025-04-22 14:20:41,919 [INFO] Fetching Alpha Vantage data for AAPL (function: TIME_SERIES_DAILY)
+2025-04-22 14:20:41,920 [DEBUG] Making Alpha Vantage API request with params: {'function': 'TIME_SERIES_DAILY', 'symbol': 'AAPL', 'apikey': 'F9H662T7ZC52LER5', 'outputsize': 'compact', 'datatype': 'json'}
+2025-04-22 14:20:41,923 [DEBUG] Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-04-22 14:20:42,793 [DEBUG] https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_DAILY&symbol=AAPL&apikey=F9H662T7ZC52LER5&outputsize=compact&datatype=json HTTP/1.1" 200 None
+2025-04-22 14:20:42,984 [DEBUG] Response keys: ['Meta Data', 'Time Series (Daily)']
+2025-04-22 14:20:43,230 [DEBUG] https://www.alphavantage.co:443 "GET /query?function=GLOBAL_QUOTE&symbol=AAPL&apikey=F9H662T7ZC52LER5 HTTP/1.1" 200 None
+2025-04-22 14:20:43,469 [DEBUG] https://www.alphavantage.co:443 "GET /query?function=OVERVIEW&symbol=AAPL&apikey=F9H662T7ZC52LER5 HTTP/1.1" 200 None
+2025-04-22 14:20:43,470 [INFO] Successfully retrieved data for AAPL: 100 rows
+2025-04-22 14:20:43,470 [DEBUG] Data shape: (100, 5), Columns: ['Open', 'High', 'Low', 'Close', 'Volume']
+2025-04-22 14:20:43,471 [INFO] Successfully retrieved data for AAPL
+2025-04-22 14:20:43,472 [DEBUG] Displaying info for Apple Inc
+2025-04-22 14:20:43,474 [DEBUG] Displaying key stats
+2025-04-22 14:20:43,481 [ERROR] Error displaying stats: Cannot specify ',' with 's'.
+2025-04-22 14:20:43,485 [DEBUG] Creating Candlestick chart
+2025-04-22 14:20:43,522 [DEBUG] Adding moving averages: [20, 50]
+2025-04-22 14:20:43,527 [DEBUG] Adding volume chart
+2025-04-22 14:20:43,596 [DEBUG] Request options: {'method': 'post', 'url': '/openai/v1/chat/completions', 'files': None, 'json_data': {'messages': [{'role': 'user', 'content': "You are a financial advisor specializing in stock market analysis.\nUSER QUESTION: history about apple   \n\nYour task:  \n1. Analyze the user's question related to stocks and financial markets\n2. Provide a helpful, informative response\n3. If the question is about specific stocks, give general information about the company and factors that typically affect its stock price\n4. Be concise and factual  \n5. Add appropriate financial disclaimers when giving any information that could be construed as investment advice\n6. If the question is not finance-related, still provide a helpful answer, but mention you specialize in financial topics\n"}], 'model': 'deepseek-r1-distill-llama-70b', 'n': 1, 'stop': None, 'stream': False, 'temperature': 0.7}}
+2025-04-22 14:20:43,685 [DEBUG] Sending HTTP Request: POST https://api.groq.com/openai/v1/chat/completions
+2025-04-22 14:20:43,722 [DEBUG] connect_tcp.started host='api.groq.com' port=443 local_address=None timeout=None socket_options=None
+2025-04-22 14:20:43,737 [DEBUG] connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000002901A055880>
+2025-04-22 14:20:43,738 [DEBUG] start_tls.started ssl_context=<ssl.SSLContext object at 0x00000290177D03D0> server_hostname='api.groq.com' timeout=None
+2025-04-22 14:20:43,755 [DEBUG] start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000002901A0554C0>
+2025-04-22 14:20:43,756 [DEBUG] send_request_headers.started request=<Request [b'POST']>
+2025-04-22 14:20:43,757 [DEBUG] send_request_headers.complete
+2025-04-22 14:20:43,758 [DEBUG] send_request_body.started request=<Request [b'POST']>
+2025-04-22 14:20:43,758 [DEBUG] send_request_body.complete
+2025-04-22 14:20:43,759 [DEBUG] receive_response_headers.started request=<Request [b'POST']>
+2025-04-22 14:20:48,781 [DEBUG] receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Tue, 22 Apr 2025 08:50:52 GMT'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'CF-Ray', b'9343e0264ba254a1-DEL'), (b'CF-Cache-Status', b'DYNAMIC'), (b'Cache-Control', b'private, max-age=0, no-store, no-cache, must-revalidate'), (b'Vary', b'Origin, Accept-Encoding'), (b'X-Groq-Region', b'gcp-asia-south1'), (b'X-Ratelimit-Limit-Requests', b'1000'), (b'X-Ratelimit-Limit-Tokens', b'6000'), (b'X-Ratelimit-Remaining-Requests', b'999'), (b'X-Ratelimit-Remaining-Tokens', b'5837'), (b'X-Ratelimit-Reset-Requests', b'1m26.4s'), (b'X-Ratelimit-Reset-Tokens', b'1.63s'), (b'X-Request-Id', b'req_01jseb2n1ff3nttj70hw7d6g55'), (b'Set-Cookie', b'__cf_bm=ulQfUpCWWm3pTidCIxKRhe0NfDVkEd2rA1TozYM1XOE-1745311852-1.0.1.1-n1nbF654bHsuMUrwMpaI8nZHFAJMuLdTe0AQjVRDTd60RorOsaYdW2Ma2JctCFB0f5aXXVCFIEsYyi96xiHQLlJd7azFNBwBXPOXuSFchBE; path=/; expires=Tue, 22-Apr-25 09:20:52 GMT; domain=.groq.com; HttpOnly; Secure; SameSite=None'), (b'Server', b'cloudflare'), (b'Content-Encoding', b'gzip'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2025-04-22 14:20:48,782 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-22 14:20:48,783 [DEBUG] receive_response_body.started request=<Request [b'POST']>
+2025-04-22 14:20:48,783 [DEBUG] receive_response_body.complete
+2025-04-22 14:20:48,784 [DEBUG] response_closed.started
+2025-04-22 14:20:48,784 [DEBUG] response_closed.complete
+2025-04-22 14:20:48,785 [DEBUG] HTTP Response: POST https://api.groq.com/openai/v1/chat/completions "200 OK" Headers({'date': 'Tue, 22 Apr 2025 08:50:52 GMT', 'content-type': 'application/json', 'transfer-encoding': 'chunked', 'connection': 'keep-alive', 'cf-ray': '9343e0264ba254a1-DEL', 'cf-cache-status': 'DYNAMIC', 'cache-control': 'private, max-age=0, no-store, no-cache, must-revalidate', 'vary': 'Origin, Accept-Encoding', 'x-groq-region': 'gcp-asia-south1', 'x-ratelimit-limit-requests': '1000', 'x-ratelimit-limit-tokens': '6000', 'x-ratelimit-remaining-requests': '999', 'x-ratelimit-remaining-tokens': '5837', 'x-ratelimit-reset-requests': '1m26.4s', 'x-ratelimit-reset-tokens': '1.63s', 'x-request-id': 'req_01jseb2n1ff3nttj70hw7d6g55', 'set-cookie': '__cf_bm=ulQfUpCWWm3pTidCIxKRhe0NfDVkEd2rA1TozYM1XOE-1745311852-1.0.1.1-n1nbF654bHsuMUrwMpaI8nZHFAJMuLdTe0AQjVRDTd60RorOsaYdW2Ma2JctCFB0f5aXXVCFIEsYyi96xiHQLlJd7azFNBwBXPOXuSFchBE; path=/; expires=Tue, 22-Apr-25 09:20:52 GMT; domain=.groq.com; HttpOnly; Secure; SameSite=None', 'server': 'cloudflare', 'content-encoding': 'gzip', 'alt-svc': 'h3=":443"; ma=86400'})
+2025-04-22 14:25:30,849 [INFO] Application starting up
+2025-04-22 14:25:30,850 [DEBUG] Configuring request session with retry strategy
+2025-04-22 14:25:30,851 [DEBUG] Setting up Streamlit page configuration
+2025-04-22 14:25:35,817 [INFO] Stock selection updated: AAPL
+2025-04-22 14:25:35,820 [INFO] Selected chart type: Candlestick
+2025-04-22 14:25:35,823 [DEBUG] Selected MA periods: [20, 50]
+2025-04-22 14:25:35,826 [INFO] Updating data and charts
+2025-04-22 14:25:35,827 [DEBUG] Using Alpha Vantage params: function=TIME_SERIES_DAILY, output_size=compact, interval=None
+2025-04-22 14:25:35,830 [INFO] Fetching Alpha Vantage data for AAPL (function: TIME_SERIES_DAILY)
+2025-04-22 14:25:35,831 [DEBUG] Making Alpha Vantage API request with params: {'function': 'TIME_SERIES_DAILY', 'symbol': 'AAPL', 'apikey': 'F9H662T7ZC52LER5', 'outputsize': 'compact', 'datatype': 'json'}
+2025-04-22 14:25:35,835 [DEBUG] Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-04-22 14:25:36,738 [DEBUG] https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_DAILY&symbol=AAPL&apikey=F9H662T7ZC52LER5&outputsize=compact&datatype=json HTTP/1.1" 200 None
+2025-04-22 14:25:36,950 [DEBUG] Response keys: ['Meta Data', 'Time Series (Daily)']
+2025-04-22 14:25:37,230 [DEBUG] https://www.alphavantage.co:443 "GET /query?function=GLOBAL_QUOTE&symbol=AAPL&apikey=F9H662T7ZC52LER5 HTTP/1.1" 200 None
+2025-04-22 14:25:37,515 [DEBUG] https://www.alphavantage.co:443 "GET /query?function=OVERVIEW&symbol=AAPL&apikey=F9H662T7ZC52LER5 HTTP/1.1" 200 None
+2025-04-22 14:25:37,517 [INFO] Successfully retrieved data for AAPL: 100 rows
+2025-04-22 14:25:37,517 [DEBUG] Data shape: (100, 5), Columns: ['Open', 'High', 'Low', 'Close', 'Volume']
+2025-04-22 14:25:37,518 [INFO] Successfully retrieved data for AAPL
+2025-04-22 14:25:37,520 [DEBUG] Displaying info for Apple Inc
+2025-04-22 14:25:37,522 [DEBUG] Displaying key stats
+2025-04-22 14:25:37,527 [ERROR] Error displaying stats: Cannot specify ',' with 's'.
+2025-04-22 14:25:37,531 [DEBUG] Creating Candlestick chart
+2025-04-22 14:25:37,563 [DEBUG] Adding moving averages: [20, 50]
+2025-04-22 14:25:37,570 [DEBUG] Adding volume chart
+2025-04-22 14:25:37,646 [DEBUG] Request options: {'method': 'post', 'url': '/openai/v1/chat/completions', 'files': None, 'json_data': {'messages': [{'role': 'user', 'content': "You are a financial advisor specializing in stock market analysis.\nUSER QUESTION: provide the code for joining two string   \n\nYour task:  \n1. Analyze the user's question related to stocks and financial markets\n2. Provide a helpful, informative response\n3. If the question is about specific stocks, give general information about the company and factors that typically affect its stock price\n4. Be concise and factual  \n5. Add appropriate financial disclaimers when giving any information that could be construed as investment advice\n6. If the question is not finance-related, still provide a helpful answer, but mention you specialize in financial topics\n"}], 'model': 'deepseek-r1-distill-llama-70b', 'n': 1, 'stop': None, 'stream': False, 'temperature': 0.7}}
+2025-04-22 14:25:37,648 [DEBUG] Sending HTTP Request: POST https://api.groq.com/openai/v1/chat/completions
+2025-04-22 14:25:37,649 [DEBUG] connect_tcp.started host='api.groq.com' port=443 local_address=None timeout=None socket_options=None
+2025-04-22 14:25:37,680 [DEBUG] connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x0000029018943E60>
+2025-04-22 14:25:37,680 [DEBUG] start_tls.started ssl_context=<ssl.SSLContext object at 0x000002901773B650> server_hostname='api.groq.com' timeout=None
+2025-04-22 14:25:37,703 [DEBUG] start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000002901A055EB0>
+2025-04-22 14:25:37,703 [DEBUG] send_request_headers.started request=<Request [b'POST']>
+2025-04-22 14:25:37,704 [DEBUG] send_request_headers.complete
+2025-04-22 14:25:37,705 [DEBUG] send_request_body.started request=<Request [b'POST']>
+2025-04-22 14:25:37,705 [DEBUG] send_request_body.complete
+2025-04-22 14:25:37,707 [DEBUG] receive_response_headers.started request=<Request [b'POST']>
+2025-04-22 14:25:41,543 [DEBUG] receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Tue, 22 Apr 2025 08:55:45 GMT'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'CF-Ray', b'9343e7538a3f54cb-DEL'), (b'CF-Cache-Status', b'DYNAMIC'), (b'Cache-Control', b'private, max-age=0, no-store, no-cache, must-revalidate'), (b'Vary', b'Origin, Accept-Encoding'), (b'X-Groq-Region', b'gcp-asia-south1'), (b'X-Ratelimit-Limit-Requests', b'1000'), (b'X-Ratelimit-Limit-Tokens', b'6000'), (b'X-Ratelimit-Remaining-Requests', b'999'), (b'X-Ratelimit-Remaining-Tokens', b'5832'), (b'X-Ratelimit-Reset-Requests', b'1m26.4s'), (b'X-Ratelimit-Reset-Tokens', b'1.68s'), (b'X-Request-Id', b'req_01jsebbm3ffxta962nsct80hcy'), (b'Set-Cookie', b'__cf_bm=KhoN6F9te__pojke5yJaJF6SBBntXuWntHJqtSahHIc-1745312145-1.0.1.1-joLNTn8tdhF8Th6Y7q8sUsYFF0NWmKvZp2YTVFPO2TGEsDJrDedmOtrr3.IZxONaJRQwyliICjM4khK3w1VJMRxj_VcfCc7PKT.lYKZfclc; path=/; expires=Tue, 22-Apr-25 09:25:45 GMT; domain=.groq.com; HttpOnly; Secure; SameSite=None'), (b'Server', b'cloudflare'), (b'Content-Encoding', b'gzip'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2025-04-22 14:25:41,545 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-22 14:25:41,546 [DEBUG] receive_response_body.started request=<Request [b'POST']>
+2025-04-22 14:25:41,547 [DEBUG] receive_response_body.complete
+2025-04-22 14:25:41,547 [DEBUG] response_closed.started
+2025-04-22 14:25:41,547 [DEBUG] response_closed.complete
+2025-04-22 14:25:41,548 [DEBUG] HTTP Response: POST https://api.groq.com/openai/v1/chat/completions "200 OK" Headers({'date': 'Tue, 22 Apr 2025 08:55:45 GMT', 'content-type': 'application/json', 'transfer-encoding': 'chunked', 'connection': 'keep-alive', 'cf-ray': '9343e7538a3f54cb-DEL', 'cf-cache-status': 'DYNAMIC', 'cache-control': 'private, max-age=0, no-store, no-cache, must-revalidate', 'vary': 'Origin, Accept-Encoding', 'x-groq-region': 'gcp-asia-south1', 'x-ratelimit-limit-requests': '1000', 'x-ratelimit-limit-tokens': '6000', 'x-ratelimit-remaining-requests': '999', 'x-ratelimit-remaining-tokens': '5832', 'x-ratelimit-reset-requests': '1m26.4s', 'x-ratelimit-reset-tokens': '1.68s', 'x-request-id': 'req_01jsebbm3ffxta962nsct80hcy', 'set-cookie': '__cf_bm=KhoN6F9te__pojke5yJaJF6SBBntXuWntHJqtSahHIc-1745312145-1.0.1.1-joLNTn8tdhF8Th6Y7q8sUsYFF0NWmKvZp2YTVFPO2TGEsDJrDedmOtrr3.IZxONaJRQwyliICjM4khK3w1VJMRxj_VcfCc7PKT.lYKZfclc; path=/; expires=Tue, 22-Apr-25 09:25:45 GMT; domain=.groq.com; HttpOnly; Secure; SameSite=None', 'server': 'cloudflare', 'content-encoding': 'gzip', 'alt-svc': 'h3=":443"; ma=86400'})
+2025-04-22 14:25:41,680 [DEBUG] close.started
+2025-04-22 14:25:41,681 [DEBUG] close.complete
+2025-04-22 14:25:55,439 [DEBUG] close.started
+2025-04-22 14:25:55,440 [DEBUG] close.complete

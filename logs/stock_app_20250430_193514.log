@@ -1,0 +1,29 @@
+2025-04-30 19:35:14,965 [INFO] Application starting up
+2025-04-30 19:35:14,965 [DEBUG] Configuring request session with retry strategy
+2025-04-30 19:35:14,967 [DEBUG] Setting up Streamlit page configuration
+2025-04-30 19:35:16,003 [INFO] Application starting up
+2025-04-30 19:35:16,005 [DEBUG] Configuring request session with retry strategy
+2025-04-30 19:35:16,006 [DEBUG] Setting up Streamlit page configuration
+2025-04-30 19:35:23,016 [INFO] Selected chart type: Candlestick
+2025-04-30 19:35:23,020 [DEBUG] Selected MA periods: [20, 50]
+2025-04-30 19:35:23,044 [INFO] Selected chart type: Candlestick
+2025-04-30 19:35:23,083 [DEBUG] Selected MA periods: [20, 50]
+2025-04-30 19:35:28,515 [INFO] Application starting up
+2025-04-30 19:35:28,517 [DEBUG] Configuring request session with retry strategy
+2025-04-30 19:35:28,519 [DEBUG] Setting up Streamlit page configuration
+2025-04-30 19:35:33,733 [INFO] Stock selection updated: MSFT
+2025-04-30 19:35:33,736 [INFO] Selected chart type: Candlestick
+2025-04-30 19:35:33,739 [DEBUG] Selected MA periods: [20, 50]
+2025-04-30 19:35:33,739 [DEBUG] Rate limiting local requests, waiting 4.35s
+2025-04-30 19:37:01,396 [INFO] Application starting up
+2025-04-30 19:37:01,396 [DEBUG] Configuring request session with retry strategy
+2025-04-30 19:37:01,397 [DEBUG] Setting up Streamlit page configuration
+2025-04-30 19:37:06,675 [INFO] Selected chart type: Candlestick
+2025-04-30 19:37:06,678 [DEBUG] Selected MA periods: [20, 50]
+2025-04-30 19:37:09,596 [INFO] Application starting up
+2025-04-30 19:37:09,597 [DEBUG] Configuring request session with retry strategy
+2025-04-30 19:37:09,598 [DEBUG] Setting up Streamlit page configuration
+2025-04-30 19:37:14,850 [INFO] Stock selection updated: MSFT
+2025-04-30 19:37:14,853 [INFO] Selected chart type: Candlestick
+2025-04-30 19:37:14,857 [DEBUG] Selected MA periods: [20, 50]
+2025-04-30 19:37:14,858 [DEBUG] Rate limiting local requests, waiting 6.82s

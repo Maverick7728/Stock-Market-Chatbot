@@ -1,0 +1,29 @@
+2025-04-29 09:56:18,104 [INFO] Application starting up
+2025-04-29 09:56:18,104 [DEBUG] Configuring request session with retry strategy
+2025-04-29 09:56:18,106 [DEBUG] Setting up Streamlit page configuration
+2025-04-29 09:56:20,803 [INFO] Selected chart type: Candlestick
+2025-04-29 09:56:20,805 [DEBUG] Selected MA periods: [20, 50]
+2025-04-29 09:56:48,018 [INFO] Application starting up
+2025-04-29 09:56:48,019 [DEBUG] Configuring request session with retry strategy
+2025-04-29 09:56:48,019 [DEBUG] Setting up Streamlit page configuration
+2025-04-29 09:56:50,145 [INFO] Stock selection updated: GOOGL
+2025-04-29 09:56:50,147 [INFO] Selected chart type: Candlestick
+2025-04-29 09:56:50,148 [DEBUG] Selected MA periods: [20, 50]
+2025-04-29 09:56:50,149 [INFO] Updating data and charts
+2025-04-29 09:56:50,149 [DEBUG] Using Alpha Vantage params: function=TIME_SERIES_DAILY, output_size=compact, interval=None
+2025-04-29 09:56:50,150 [INFO] Fetching Alpha Vantage data for GOOGL (function: TIME_SERIES_DAILY)
+2025-04-29 09:56:50,150 [DEBUG] Making Alpha Vantage API request with params: {'function': 'TIME_SERIES_DAILY', 'symbol': 'GOOGL', 'apikey': 'F9H662T7ZC52LER5', 'outputsize': 'compact', 'datatype': 'json'}
+2025-04-29 09:56:50,157 [DEBUG] Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-04-29 09:56:51,135 [DEBUG] https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_DAILY&symbol=GOOGL&apikey=F9H662T7ZC52LER5&outputsize=compact&datatype=json HTTP/1.1" 200 None
+2025-04-29 09:56:51,342 [DEBUG] Response keys: ['Meta Data', 'Time Series (Daily)']
+2025-04-29 09:56:51,605 [DEBUG] https://www.alphavantage.co:443 "GET /query?function=GLOBAL_QUOTE&symbol=GOOGL&apikey=F9H662T7ZC52LER5 HTTP/1.1" 200 None
+2025-04-29 09:56:51,836 [DEBUG] https://www.alphavantage.co:443 "GET /query?function=OVERVIEW&symbol=GOOGL&apikey=F9H662T7ZC52LER5 HTTP/1.1" 200 None
+2025-04-29 09:56:51,837 [INFO] Successfully retrieved data for GOOGL: 100 rows
+2025-04-29 09:56:51,837 [DEBUG] Data shape: (100, 5), Columns: ['Open', 'High', 'Low', 'Close', 'Volume']
+2025-04-29 09:56:51,838 [INFO] Successfully retrieved data for GOOGL
+2025-04-29 09:56:51,839 [DEBUG] Displaying info for Alphabet Inc Class A
+2025-04-29 09:56:51,852 [DEBUG] Displaying key stats
+2025-04-29 09:56:51,855 [ERROR] Error displaying stats: Cannot specify ',' with 's'.
+2025-04-29 09:56:51,856 [DEBUG] Creating Candlestick chart
+2025-04-29 09:56:52,097 [DEBUG] Adding moving averages: [20, 50]
+2025-04-29 09:56:52,117 [DEBUG] Adding volume chart
