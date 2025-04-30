@@ -28,6 +28,22 @@ A Streamlit-based application that combines real-time stock market data with AI-
 - Groq API for AI model inference
 - Comprehensive error handling and rate limiting
 
+## Implementation Highlights
+
+- **Data Caching**: Optimizes API usage by storing recent stock data
+- **Responsive Design**: Adapts to different screen sizes and devices
+- **Advanced Error Handling**: Gracefully manages API limits and connectivity issues  
+- **Real-time Data Analysis**: Calculates technical indicators and performance metrics on the fly
+- **Data Visualization**: Presents complex financial data through intuitive interactive charts
+
+## Getting Started
+
+### Prerequisites
+- Python 3.8+
+- Streamlit
+- API keys for Alpha Vantage and Groq
+
+
 ## Note
 
 This application is for informational purposes only. Financial decisions should be made after consulting qualified professionals.
