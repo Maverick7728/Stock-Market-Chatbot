@@ -49,8 +49,11 @@ session = requests.Session()
 session.mount("https://", adapter)
 session.mount("http://", adapter)
 
-# Alpha Vantage API Configuration
-ALPHA_VANTAGE_API_KEY = "F9H662T7ZC52LER5" # Consider loading from env vars for security
+# Alpha Vantage API Configuration - Updated to use environment variables
+ALPHA_VANTAGE_API_KEY = os.getenv("ALPHA_VANTAGE_API_KEY")
+if not ALPHA_VANTAGE_API_KEY:
+    st.warning("Alpha Vantage API key not found in environment variables. Some features may not work correctly.")
+    logger.warning("ALPHA_VANTAGE_API_KEY environment variable not set")
 ALPHA_VANTAGE_BASE_URL = "https://www.alphavantage.co/query"
 
 # --- Session State Initialization ---
