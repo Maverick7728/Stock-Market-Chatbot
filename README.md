@@ -1,43 +1,33 @@
-# Stock Market Analysis Chatbot
+# Stock Market ChatBot 📊
 
-This is an AI-powered chatbot that helps you analyze stocks and answer questions about the market. It uses OpenAI's language model and real-time stock data from Yahoo Finance.
+A Streamlit-based application that combines real-time stock market data with AI-powered analysis.
 
 ## Features
 
-- Real-time stock data analysis
-- Interactive stock charts
-- Natural language processing for market analysis
-- User-friendly chat interface
-- Support for multiple stock symbols
-
-## Setup
-
-1. Clone this repository
-2. Install the required dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
-3. Create a `.env` file in the project root and add your OpenAI API key:
-   ```
-   OPENAI_API_KEY=your_api_key_here
-   ```
+- **Real-Time Stock Data**: Fetch up-to-date financial information from Alpha Vantage API
+- **Interactive Charts**: View Candlestick, Line, or OHLC charts with customizable technical indicators
+- **Multi-Stock Comparison**: Compare performance of up to 5 stocks simultaneously
+- **AI Analysis**: Powered by Groq's large language models including:
+  - Llama-3.3-70B
+  - Gemma-2-9B
+  - DeepSeek-R1-Distill-Llama-70B
+- **Context-Aware Responses**: AI assistant analyzes loaded stock data to provide relevant insights
+- **Detailed Company Information**: Access key statistics, market metrics, and company descriptions
 
 ## Usage
 
-1. Run the Streamlit app:
-   ```bash
-   streamlit run stock_chatbot.py
-   ```
-2. Open your web browser and navigate to the URL shown in the terminal (usually http://localhost:8501)
-3. Start asking questions about stocks!
+1. Select stocks from the sidebar (up to 5 for comparison)
+2. Choose chart type and technical indicators
+3. Customize time period and data range
+4. Ask the AI assistant questions about the loaded stocks or general financial topics
 
-## Example Questions
+## Technical Details
 
-- What's the current price of AAPL?
-- Show me the performance of MSFT over the last month
-- What's the market sentiment for GOOGL?
-- Compare the performance of AAPL and MSFT
+- Built with Streamlit, Plotly, Pandas, and LangChain
+- Alpha Vantage API for financial data (free tier: 5 calls/min, 100 calls/day)
+- Groq API for AI model inference
+- Comprehensive error handling and rate limiting
 
 ## Note
 
-Make sure you have a valid OpenAI API key and a stable internet connection to access real-time stock data. 
+This application is for informational purposes only. Financial decisions should be made after consulting qualified professionals.
