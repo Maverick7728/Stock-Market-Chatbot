@@ -955,4 +955,3 @@ st.markdown("""
 - Single stock details & Multi-stock comparison (up to 5)
 - Context-aware AI assistant for insights on loaded data & general finance
 """)
-st.caption(f"Log file: {log_filename}")
