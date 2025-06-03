@@ -1,0 +1,26 @@
+2025-06-03 08:00:32,543 [INFO] Application starting up
+2025-06-03 08:00:32,543 [DEBUG] Configuring request session with retry strategy
+2025-06-03 08:00:32,544 [DEBUG] Setting up Streamlit page configuration
+2025-06-03 08:00:33,408 [INFO] Stock input set to: AAPL
+2025-06-03 08:00:33,413 [INFO] Selected chart type: Candlestick
+2025-06-03 08:00:33,416 [DEBUG] Selected MA periods: [20, 50]
+2025-06-03 08:00:33,423 [INFO] Performing initial data load
+2025-06-03 08:00:33,424 [INFO] Updating data and charts
+2025-06-03 08:00:33,424 [DEBUG] Using Alpha Vantage params: function=TIME_SERIES_DAILY, output_size=compact, interval=None
+2025-06-03 08:00:33,462 [INFO] Fetching Alpha Vantage data for AAPL (function: TIME_SERIES_DAILY)
+2025-06-03 08:00:33,462 [DEBUG] Making Alpha Vantage API request with params: {'function': 'TIME_SERIES_DAILY', 'symbol': 'AAPL', 'apikey': '5WF4COK1UFPHRLIO', 'outputsize': 'compact', 'datatype': 'json'}
+2025-06-03 08:00:33,470 [DEBUG] Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-06-03 08:00:34,490 [DEBUG] https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_DAILY&symbol=AAPL&apikey=5WF4COK1UFPHRLIO&outputsize=compact&datatype=json HTTP/1.1" 200 None
+2025-06-03 08:00:34,695 [DEBUG] Response keys: ['Meta Data', 'Time Series (Daily)']
+2025-06-03 08:00:35,103 [DEBUG] https://www.alphavantage.co:443 "GET /query?function=GLOBAL_QUOTE&symbol=AAPL&apikey=5WF4COK1UFPHRLIO HTTP/1.1" 200 None
+2025-06-03 08:00:35,412 [DEBUG] https://www.alphavantage.co:443 "GET /query?function=OVERVIEW&symbol=AAPL&apikey=5WF4COK1UFPHRLIO HTTP/1.1" 200 None
+2025-06-03 08:00:35,413 [INFO] Successfully retrieved data for AAPL: 100 rows
+2025-06-03 08:00:35,413 [DEBUG] Data shape: (100, 5), Columns: ['Open', 'High', 'Low', 'Close', 'Volume']
+2025-06-03 08:00:35,414 [INFO] Successfully retrieved data for AAPL
+2025-06-03 08:00:35,416 [DEBUG] Displaying info for Apple Inc
+2025-06-03 08:00:35,455 [DEBUG] Displaying key stats
+2025-06-03 08:00:35,460 [ERROR] Error displaying stats: Cannot specify ',' with 's'.
+2025-06-03 08:00:35,465 [DEBUG] Creating Candlestick chart
+2025-06-03 08:00:35,774 [DEBUG] Adding moving averages: [20, 50]
+2025-06-03 08:00:35,794 [DEBUG] Adding volume chart
+2025-06-03 08:00:36,859 [INFO] Application UI fully rendered

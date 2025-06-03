@@ -1,0 +1,106 @@
+2025-06-03 07:52:45,104 [INFO] Application starting up
+2025-06-03 07:52:51,681 [INFO] AI Model selected: Llama-3.3-70B
+2025-06-03 07:52:51,685 [INFO] Selected chart type: Candlestick
+2025-06-03 07:52:51,693 [INFO] Cleared fetched data from session state.
+2025-06-03 07:53:01,760 [INFO] Application starting up
+2025-06-03 07:53:06,766 [INFO] AI Model selected: Llama-3.3-70B
+2025-06-03 07:53:06,772 [INFO] Stock selection updated: GOOGL
+2025-06-03 07:53:06,776 [INFO] Selected chart type: Candlestick
+2025-06-03 07:53:06,788 [INFO] Updating data and charts...
+2025-06-03 07:53:06,791 [INFO] Cleared fetched data from session state.
+2025-06-03 07:53:06,832 [INFO] Fetching Alpha Vantage data for GOOGL (function: TIME_SERIES_DAILY)
+2025-06-03 07:53:08,726 [INFO] Successfully retrieved data for GOOGL: 100 rows
+2025-06-03 07:53:08,726 [INFO] Successfully retrieved data and info for GOOGL
+2025-06-03 07:53:08,727 [INFO] Stored single-stock data for GOOGL in session state.
+2025-06-03 07:53:46,225 [INFO] Application starting up
+2025-06-03 07:53:51,161 [INFO] AI Model selected: Llama-3.3-70B
+2025-06-03 07:53:51,162 [INFO] Stock selection updated: GOOGL
+2025-06-03 07:53:51,166 [INFO] Selected chart type: Candlestick
+2025-06-03 07:53:51,169 [INFO] Updating data and charts...
+2025-06-03 07:53:51,170 [INFO] Cleared fetched data from session state.
+2025-06-03 07:53:51,174 [INFO] Fetching Alpha Vantage data for GOOGL (function: TIME_SERIES_DAILY)
+2025-06-03 07:53:53,003 [INFO] Successfully retrieved data for GOOGL: 100 rows
+2025-06-03 07:53:53,004 [INFO] Successfully retrieved data and info for GOOGL
+2025-06-03 07:53:53,005 [INFO] Stored single-stock data for GOOGL in session state.
+2025-06-03 07:53:53,134 [INFO] User prompt: current price value of googl 
+2025-06-03 07:53:53,134 [INFO] Context for LLM: Stock(s)=GOOGL, Has single data=True, Has multi data=False
+2025-06-03 07:53:53,769 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-03 07:54:20,368 [INFO] Application starting up
+2025-06-03 07:54:25,226 [INFO] AI Model selected: Llama-3.3-70B
+2025-06-03 07:54:25,228 [INFO] Stock selection updated: GOOGL,MSFT
+2025-06-03 07:54:25,232 [INFO] Selected chart type: Candlestick
+2025-06-03 07:54:25,240 [INFO] Updating data and charts...
+2025-06-03 07:54:25,241 [INFO] Cleared fetched data from session state.
+2025-06-03 07:54:25,242 [INFO] Multiple stocks selected for comparison: ['GOOGL', 'MSFT']
+2025-06-03 07:54:25,246 [INFO] Fetching comparison data for GOOGL
+2025-06-03 07:54:25,246 [INFO] Fetching Alpha Vantage data for GOOGL (function: TIME_SERIES_DAILY)
+2025-06-03 07:54:27,282 [INFO] Successfully retrieved data for GOOGL: 100 rows
+2025-06-03 07:54:27,283 [INFO] Successfully fetched comparison data for GOOGL
+2025-06-03 07:54:42,286 [INFO] Fetching comparison data for MSFT
+2025-06-03 07:54:42,288 [INFO] Fetching Alpha Vantage data for MSFT (function: TIME_SERIES_DAILY)
+2025-06-03 07:54:43,314 [WARNING] Could not retrieve detailed company overview for MSFT. Response: {'Information': 'We have detected your API key as 9IBVOTSW5KWH56KT and our standard API rate limit is 25 requests per day. Please subscribe to any of the premium plans at https://www.alphavantage.co/premium/ to instantly remove all daily rate limits.'}
+2025-06-03 07:54:43,315 [INFO] Successfully retrieved data for MSFT: 100 rows
+2025-06-03 07:54:43,315 [INFO] Successfully fetched comparison data for MSFT
+2025-06-03 07:54:44,319 [INFO] Stored multi-stock data for ['GOOGL', 'MSFT'] in session state.
+2025-06-03 07:55:17,872 [INFO] Application starting up
+2025-06-03 07:55:22,929 [INFO] AI Model selected: Llama-3.3-70B
+2025-06-03 07:55:22,930 [INFO] Stock selection updated: GOOGL,MSFT
+2025-06-03 07:55:22,934 [INFO] Selected chart type: Candlestick
+2025-06-03 07:55:22,939 [INFO] Updating data and charts...
+2025-06-03 07:55:22,940 [INFO] Cleared fetched data from session state.
+2025-06-03 07:55:22,941 [INFO] Multiple stocks selected for comparison: ['GOOGL', 'MSFT']
+2025-06-03 07:55:22,944 [INFO] Fetching comparison data for GOOGL
+2025-06-03 07:55:22,945 [INFO] Fetching Alpha Vantage data for GOOGL (function: TIME_SERIES_DAILY)
+2025-06-03 07:55:23,900 [ERROR] Could not find valid time series key in response for GOOGL
+2025-06-03 07:55:38,902 [INFO] Fetching comparison data for MSFT
+2025-06-03 07:55:38,903 [INFO] Fetching Alpha Vantage data for MSFT (function: TIME_SERIES_DAILY)
+2025-06-03 07:55:39,259 [ERROR] Could not find valid time series key in response for MSFT
+2025-06-03 07:55:40,265 [INFO] Cleared fetched data from session state.
+2025-06-03 07:55:40,275 [INFO] User prompt: compare the results of both the grpahs shown above and tell which company is better investing right now
+2025-06-03 07:55:40,275 [INFO] Context for LLM: Stock(s)=None, Has single data=False, Has multi data=False
+2025-06-03 07:55:41,002 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-03 07:56:29,802 [INFO] Application starting up
+2025-06-03 07:56:34,521 [INFO] AI Model selected: Llama-3.3-70B
+2025-06-03 07:56:34,525 [INFO] Selected chart type: Candlestick
+2025-06-03 07:56:34,532 [INFO] Cleared fetched data from session state.
+2025-06-03 07:56:38,829 [INFO] Application starting up
+2025-06-03 07:56:40,121 [INFO] Application starting up
+2025-06-03 07:56:45,795 [INFO] AI Model selected: Llama-3.3-70B
+2025-06-03 07:56:45,797 [INFO] Stock selection updated: MSFT,AMZN
+2025-06-03 07:56:45,800 [INFO] Selected chart type: Candlestick
+2025-06-03 07:56:45,805 [INFO] Updating data and charts...
+2025-06-03 07:56:45,806 [INFO] Cleared fetched data from session state.
+2025-06-03 07:56:45,807 [INFO] Multiple stocks selected for comparison: ['MSFT', 'AMZN']
+2025-06-03 07:56:45,810 [INFO] Fetching comparison data for MSFT
+2025-06-03 07:56:45,812 [INFO] Fetching Alpha Vantage data for MSFT (function: TIME_SERIES_DAILY)
+2025-06-03 07:56:46,642 [ERROR] Could not find valid time series key in response for MSFT
+2025-06-03 07:57:01,644 [INFO] Fetching comparison data for AMZN
+2025-06-03 07:57:01,645 [INFO] Fetching Alpha Vantage data for AMZN (function: TIME_SERIES_DAILY)
+2025-06-03 07:57:02,297 [ERROR] Could not find valid time series key in response for AMZN
+2025-06-03 07:57:03,303 [INFO] Cleared fetched data from session state.
+2025-06-03 07:57:26,197 [INFO] Application starting up
+2025-06-03 07:57:31,318 [INFO] AI Model selected: Llama-3.3-70B
+2025-06-03 07:57:31,319 [INFO] Stock selection updated: MSFT,AMZN
+2025-06-03 07:57:31,322 [INFO] Selected chart type: Candlestick
+2025-06-03 07:57:31,327 [INFO] Updating data and charts...
+2025-06-03 07:57:31,332 [INFO] Cleared fetched data from session state.
+2025-06-03 07:57:31,333 [INFO] Multiple stocks selected for comparison: ['MSFT', 'AMZN']
+2025-06-03 07:57:31,337 [INFO] Fetching comparison data for MSFT
+2025-06-03 07:57:31,338 [INFO] Fetching Alpha Vantage data for MSFT (function: TIME_SERIES_DAILY)
+2025-06-03 07:57:32,918 [INFO] Successfully retrieved data for MSFT: 100 rows
+2025-06-03 07:57:32,919 [INFO] Successfully fetched comparison data for MSFT
+2025-06-03 07:57:47,927 [INFO] Fetching comparison data for AMZN
+2025-06-03 07:57:47,945 [INFO] Fetching Alpha Vantage data for AMZN (function: TIME_SERIES_DAILY)
+2025-06-03 07:57:48,964 [INFO] Successfully retrieved data for AMZN: 100 rows
+2025-06-03 07:57:48,965 [INFO] Successfully fetched comparison data for AMZN
+2025-06-03 07:57:49,969 [INFO] Stored multi-stock data for ['MSFT', 'AMZN'] in session state.
+2025-06-03 07:58:07,356 [INFO] Application starting up
+2025-06-03 07:58:12,404 [INFO] AI Model selected: Llama-3.3-70B
+2025-06-03 07:58:12,406 [INFO] Stock selection updated: MSFT,AMZN
+2025-06-03 07:58:12,409 [INFO] Selected chart type: Candlestick
+2025-06-03 07:58:12,413 [INFO] Updating data and charts...
+2025-06-03 07:58:12,414 [INFO] Cleared fetched data from session state.
+2025-06-03 07:58:12,415 [INFO] Multiple stocks selected for comparison: ['MSFT', 'AMZN']
+2025-06-03 07:58:12,417 [INFO] Fetching comparison data for MSFT
+2025-06-03 07:58:12,419 [INFO] Fetching Alpha Vantage data for MSFT (function: TIME_SERIES_DAILY)
+2025-06-03 07:58:13,480 [ERROR] Could not find valid time series key in response for MSFT

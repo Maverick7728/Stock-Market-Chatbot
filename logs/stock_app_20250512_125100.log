@@ -1,0 +1,50 @@
+2025-05-12 12:51:00,249 [INFO] Application starting up
+2025-05-12 12:51:08,425 [INFO] AI Model selected: Llama-3.3-70B
+2025-05-12 12:51:08,429 [INFO] Selected chart type: Candlestick
+2025-05-12 12:51:08,436 [INFO] Cleared fetched data from session state.
+2025-05-12 12:52:02,122 [INFO] Application starting up
+2025-05-12 12:52:04,070 [INFO] Application starting up
+2025-05-12 12:52:06,745 [INFO] Application starting up
+2025-05-12 12:52:12,379 [INFO] AI Model selected: Llama-3.3-70B
+2025-05-12 12:52:12,381 [INFO] Stock selection updated: AAPL
+2025-05-12 12:52:12,384 [INFO] Selected chart type: Candlestick
+2025-05-12 12:52:12,433 [INFO] Updating data and charts...
+2025-05-12 12:52:12,437 [INFO] Cleared fetched data from session state.
+2025-05-12 12:52:12,441 [INFO] Fetching Alpha Vantage data for AAPL (function: TIME_SERIES_DAILY)
+2025-05-12 12:52:14,446 [INFO] Successfully retrieved data for AAPL: 100 rows
+2025-05-12 12:52:14,446 [INFO] Successfully retrieved data and info for AAPL
+2025-05-12 12:52:14,448 [INFO] Stored single-stock data for AAPL in session state.
+2025-05-12 12:53:14,716 [INFO] Application starting up
+2025-05-12 12:53:19,665 [INFO] AI Model selected: Llama-3.3-70B
+2025-05-12 12:53:19,667 [INFO] Stock selection updated: AAPL
+2025-05-12 12:53:19,669 [INFO] Selected chart type: Candlestick
+2025-05-12 12:53:19,675 [INFO] Updating data and charts...
+2025-05-12 12:53:19,677 [INFO] Cleared fetched data from session state.
+2025-05-12 12:53:19,679 [INFO] Fetching Alpha Vantage data for AAPL (function: TIME_SERIES_DAILY)
+2025-05-12 12:53:22,361 [INFO] Successfully retrieved data for AAPL: 100 rows
+2025-05-12 12:53:22,363 [INFO] Successfully retrieved data and info for AAPL
+2025-05-12 12:53:22,364 [INFO] Stored single-stock data for AAPL in session state.
+2025-05-12 12:53:22,499 [INFO] User prompt: AAPL stock market infomation 
+2025-05-12 12:53:22,500 [INFO] Context for LLM: Stock(s)=AAPL, Has single data=True, Has multi data=False
+2025-05-12 12:53:23,424 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-12 12:54:24,299 [INFO] Application starting up
+2025-05-12 12:54:26,248 [INFO] Application starting up
+2025-05-12 12:54:31,891 [INFO] AI Model selected: Llama-3.3-70B
+2025-05-12 12:54:31,893 [INFO] Stock selection updated: AAPL,AMZN,GOOGL
+2025-05-12 12:54:31,896 [INFO] Selected chart type: Candlestick
+2025-05-12 12:54:31,909 [INFO] Updating data and charts...
+2025-05-12 12:54:31,930 [INFO] Cleared fetched data from session state.
+2025-05-12 12:54:31,931 [INFO] Multiple stocks selected for comparison: ['AAPL', 'AMZN', 'GOOGL']
+2025-05-12 12:54:31,934 [INFO] Fetching comparison data for AAPL
+2025-05-12 12:54:31,935 [INFO] Fetching Alpha Vantage data for AAPL (function: TIME_SERIES_DAILY)
+2025-05-12 12:54:33,738 [INFO] Successfully retrieved data for AAPL: 100 rows
+2025-05-12 12:54:33,738 [INFO] Successfully fetched comparison data for AAPL
+2025-05-12 12:54:48,741 [INFO] Fetching comparison data for AMZN
+2025-05-12 12:54:48,741 [INFO] Fetching Alpha Vantage data for AMZN (function: TIME_SERIES_DAILY)
+2025-05-12 12:54:49,914 [INFO] Successfully retrieved data for AMZN: 100 rows
+2025-05-12 12:54:49,915 [INFO] Successfully fetched comparison data for AMZN
+2025-05-12 12:55:04,918 [INFO] Fetching comparison data for GOOGL
+2025-05-12 12:55:04,918 [INFO] Fetching Alpha Vantage data for GOOGL (function: TIME_SERIES_DAILY)
+2025-05-12 12:55:06,095 [INFO] Successfully retrieved data for GOOGL: 100 rows
+2025-05-12 12:55:06,095 [INFO] Successfully fetched comparison data for GOOGL
+2025-05-12 12:55:07,099 [INFO] Stored multi-stock data for ['AAPL', 'AMZN', 'GOOGL'] in session state.

@@ -1,0 +1,24 @@
+2025-05-12 15:56:35,870 [INFO] Application starting up
+2025-05-12 15:56:43,367 [INFO] AI Model selected: Llama-3.3-70B
+2025-05-12 15:56:43,372 [INFO] Selected chart type: Candlestick
+2025-05-12 15:56:43,383 [INFO] Cleared fetched data from session state.
+2025-05-12 15:56:48,655 [INFO] Application starting up
+2025-05-12 15:56:53,592 [INFO] AI Model selected: Llama-3.3-70B
+2025-05-12 15:56:53,594 [INFO] Stock selection updated: MSFT
+2025-05-12 15:56:53,597 [INFO] Selected chart type: Candlestick
+2025-05-12 15:56:53,602 [INFO] Updating data and charts...
+2025-05-12 15:56:53,604 [INFO] Cleared fetched data from session state.
+2025-05-12 15:56:53,629 [INFO] Fetching Alpha Vantage data for MSFT (function: TIME_SERIES_DAILY)
+2025-05-12 15:56:56,287 [INFO] Successfully retrieved data for MSFT: 100 rows
+2025-05-12 15:56:56,288 [INFO] Successfully retrieved data and info for MSFT
+2025-05-12 15:56:56,289 [INFO] Stored single-stock data for MSFT in session state.
+2025-05-12 15:58:26,150 [INFO] Application starting up
+2025-05-12 15:58:31,192 [INFO] AI Model selected: Llama-3.3-70B
+2025-05-12 15:58:31,194 [INFO] Stock selection updated: MSFT
+2025-05-12 15:58:31,197 [INFO] Selected chart type: Candlestick
+2025-05-12 15:58:31,201 [INFO] Updating data and charts...
+2025-05-12 15:58:31,203 [INFO] Cleared fetched data from session state.
+2025-05-12 15:58:31,205 [INFO] Fetching Alpha Vantage data for MSFT (function: TIME_SERIES_DAILY)
+2025-05-12 15:58:32,941 [INFO] Successfully retrieved data for MSFT: 100 rows
+2025-05-12 15:58:32,942 [INFO] Successfully retrieved data and info for MSFT
+2025-05-12 15:58:32,942 [INFO] Stored single-stock data for MSFT in session state.

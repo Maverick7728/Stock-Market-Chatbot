@@ -1,0 +1,14 @@
+2025-05-05 15:02:15,249 [INFO] Application starting up
+2025-05-05 15:02:21,324 [INFO] AI Model selected: Llama-3.3-70B
+2025-05-05 15:02:21,329 [INFO] Selected chart type: Candlestick
+2025-05-05 15:02:21,337 [INFO] Cleared fetched data from session state.
+2025-05-05 15:02:37,975 [INFO] Application starting up
+2025-05-05 15:02:42,844 [INFO] AI Model selected: Llama-3.3-70B
+2025-05-05 15:02:42,846 [INFO] Stock selection updated: AMZN
+2025-05-05 15:02:42,849 [INFO] Selected chart type: Candlestick
+2025-05-05 15:02:42,854 [INFO] Updating data and charts...
+2025-05-05 15:02:42,855 [INFO] Cleared fetched data from session state.
+2025-05-05 15:02:42,893 [INFO] Fetching Alpha Vantage data for AMZN (function: TIME_SERIES_DAILY)
+2025-05-05 15:02:44,658 [INFO] Successfully retrieved data for AMZN: 100 rows
+2025-05-05 15:02:44,659 [INFO] Successfully retrieved data and info for AMZN
+2025-05-05 15:02:44,661 [INFO] Stored single-stock data for AMZN in session state.

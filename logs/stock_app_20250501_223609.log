@@ -1,0 +1,114 @@
+2025-05-01 22:36:09,995 [INFO] Application starting up
+2025-05-01 22:36:12,939 [INFO] AI Model selected: Llama-3.3-70B
+2025-05-01 22:36:12,941 [INFO] Selected chart type: Candlestick
+2025-05-01 22:36:12,944 [INFO] Cleared fetched data from session state.
+2025-05-01 22:36:18,473 [INFO] Application starting up
+2025-05-01 22:36:20,715 [INFO] AI Model selected: Llama-3.3-70B
+2025-05-01 22:36:20,715 [INFO] Stock selection updated: AAPL
+2025-05-01 22:36:20,716 [INFO] Selected chart type: Candlestick
+2025-05-01 22:36:20,718 [INFO] Updating data and charts...
+2025-05-01 22:36:20,720 [INFO] Cleared fetched data from session state.
+2025-05-01 22:36:20,724 [INFO] Fetching Alpha Vantage data for AAPL (function: TIME_SERIES_DAILY)
+2025-05-01 22:36:22,110 [INFO] Successfully retrieved data for AAPL: 100 rows
+2025-05-01 22:36:22,110 [INFO] Successfully retrieved data and info for AAPL
+2025-05-01 22:36:22,110 [INFO] Stored single-stock data for AAPL in session state.
+2025-05-01 22:37:00,794 [INFO] Application starting up
+2025-05-01 22:37:03,594 [INFO] AI Model selected: Llama-3.3-70B
+2025-05-01 22:37:03,595 [INFO] Stock selection updated: AAPL
+2025-05-01 22:37:03,596 [INFO] Selected chart type: Candlestick
+2025-05-01 22:37:03,598 [INFO] Updating data and charts...
+2025-05-01 22:37:03,598 [INFO] Cleared fetched data from session state.
+2025-05-01 22:37:03,599 [INFO] Fetching Alpha Vantage data for AAPL (function: TIME_SERIES_DAILY)
+2025-05-01 22:37:05,444 [INFO] Successfully retrieved data for AAPL: 100 rows
+2025-05-01 22:37:05,444 [INFO] Successfully retrieved data and info for AAPL
+2025-05-01 22:37:05,445 [INFO] Stored single-stock data for AAPL in session state.
+2025-05-01 22:37:05,501 [INFO] User prompt: what is the highest share price os appl company 
+2025-05-01 22:37:05,502 [INFO] Context for LLM: Stock(s)=AAPL, Has single data=True, Has multi data=False
+2025-05-01 22:37:12,351 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-01 22:37:48,969 [INFO] Application starting up
+2025-05-01 22:37:51,368 [INFO] AI Model selected: Llama-3.3-70B
+2025-05-01 22:37:51,369 [INFO] Stock selection updated: AAPL
+2025-05-01 22:37:51,370 [INFO] Selected chart type: Candlestick
+2025-05-01 22:37:51,372 [INFO] Updating data and charts...
+2025-05-01 22:37:51,373 [INFO] Cleared fetched data from session state.
+2025-05-01 22:37:51,374 [INFO] Fetching Alpha Vantage data for AAPL (function: TIME_SERIES_DAILY)
+2025-05-01 22:37:52,944 [INFO] Successfully retrieved data for AAPL: 100 rows
+2025-05-01 22:37:52,945 [INFO] Successfully retrieved data and info for AAPL
+2025-05-01 22:37:52,945 [INFO] Stored single-stock data for AAPL in session state.
+2025-05-01 22:37:52,995 [INFO] User prompt: no, the answers seems wrong, 
+2025-05-01 22:37:52,995 [INFO] Context for LLM: Stock(s)=AAPL, Has single data=True, Has multi data=False
+2025-05-01 22:38:03,506 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 500 Internal Server Error"
+2025-05-01 22:38:03,506 [INFO] Retrying request to /openai/v1/chat/completions in 0.473289 seconds
+2025-05-01 22:38:07,888 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 503 Service Unavailable"
+2025-05-01 22:38:07,888 [ERROR] Error invoking LLM: Error code: 503 - {'error': {'message': 'Service Unavailable', 'type': 'internal_server_error'}}
+Traceback (most recent call last):
+  File "C:\Users\manan\OneDrive\Desktop\GenAI project\alpha_vantage.py", line 211, in get_model_response
+    response = model.invoke(prompt)
+               ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\manan\OneDrive\Desktop\GenAI project\venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 307, in invoke
+    self.generate_prompt(
+  File "C:\Users\manan\OneDrive\Desktop\GenAI project\venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 843, in generate_prompt
+    return self.generate(prompt_messages, stop=stop, callbacks=callbacks, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\manan\OneDrive\Desktop\GenAI project\venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 683, in generate
+    self._generate_with_cache(
+  File "C:\Users\manan\OneDrive\Desktop\GenAI project\venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 908, in _generate_with_cache
+    result = self._generate(
+             ^^^^^^^^^^^^^^^
+  File "C:\Users\manan\OneDrive\Desktop\GenAI project\venv\Lib\site-packages\langchain_groq\chat_models.py", line 498, in _generate
+    response = self.client.create(messages=message_dicts, **params)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\manan\OneDrive\Desktop\GenAI project\venv\Lib\site-packages\groq\resources\chat\completions.py", line 322, in create
+    return self._post(
+           ^^^^^^^^^^^
+  File "C:\Users\manan\OneDrive\Desktop\GenAI project\venv\Lib\site-packages\groq\_base_client.py", line 1225, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\manan\OneDrive\Desktop\GenAI project\venv\Lib\site-packages\groq\_base_client.py", line 917, in request
+    return self._request(
+           ^^^^^^^^^^^^^^
+  File "C:\Users\manan\OneDrive\Desktop\GenAI project\venv\Lib\site-packages\groq\_base_client.py", line 1005, in _request
+    return self._retry_request(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\manan\OneDrive\Desktop\GenAI project\venv\Lib\site-packages\groq\_base_client.py", line 1054, in _retry_request
+    return self._request(
+           ^^^^^^^^^^^^^^
+  File "C:\Users\manan\OneDrive\Desktop\GenAI project\venv\Lib\site-packages\groq\_base_client.py", line 1020, in _request
+    raise self._make_status_error_from_response(err.response) from None
+groq.InternalServerError: Error code: 503 - {'error': {'message': 'Service Unavailable', 'type': 'internal_server_error'}}
+2025-05-01 22:38:14,680 [INFO] Application starting up
+2025-05-01 22:38:16,915 [INFO] AI Model selected: deepseek-r1-distill-llama-70b
+2025-05-01 22:38:16,916 [INFO] Stock selection updated: AAPL
+2025-05-01 22:38:16,917 [INFO] Selected chart type: Candlestick
+2025-05-01 22:38:16,919 [INFO] Updating data and charts...
+2025-05-01 22:38:16,919 [INFO] Cleared fetched data from session state.
+2025-05-01 22:38:16,920 [INFO] Fetching Alpha Vantage data for AAPL (function: TIME_SERIES_DAILY)
+2025-05-01 22:38:18,568 [INFO] Successfully retrieved data for AAPL: 100 rows
+2025-05-01 22:38:18,569 [INFO] Successfully retrieved data and info for AAPL
+2025-05-01 22:38:18,569 [INFO] Stored single-stock data for AAPL in session state.
+2025-05-01 22:38:53,996 [INFO] Application starting up
+2025-05-01 22:38:56,409 [INFO] AI Model selected: deepseek-r1-distill-llama-70b
+2025-05-01 22:38:56,410 [INFO] Stock selection updated: AAPL
+2025-05-01 22:38:56,412 [INFO] Selected chart type: Candlestick
+2025-05-01 22:38:56,414 [INFO] Updating data and charts...
+2025-05-01 22:38:56,414 [INFO] Cleared fetched data from session state.
+2025-05-01 22:38:56,415 [INFO] Fetching Alpha Vantage data for AAPL (function: TIME_SERIES_DAILY)
+2025-05-01 22:38:58,251 [INFO] Successfully retrieved data for AAPL: 100 rows
+2025-05-01 22:38:58,251 [INFO] Successfully retrieved data and info for AAPL
+2025-05-01 22:38:58,252 [INFO] Stored single-stock data for AAPL in session state.
+2025-05-01 22:38:58,306 [INFO] User prompt: what is the high prcie of AAPL share in the past 6 months 
+2025-05-01 22:38:58,307 [INFO] Context for LLM: Stock(s)=AAPL, Has single data=True, Has multi data=False
+2025-05-01 22:39:00,955 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-01 22:40:16,443 [INFO] Application starting up
+2025-05-01 22:40:18,658 [INFO] AI Model selected: deepseek-r1-distill-llama-70b
+2025-05-01 22:40:18,659 [INFO] Stock selection updated: AAPL
+2025-05-01 22:40:18,660 [INFO] Selected chart type: Candlestick
+2025-05-01 22:40:18,662 [INFO] Updating data and charts...
+2025-05-01 22:40:18,663 [INFO] Cleared fetched data from session state.
+2025-05-01 22:40:18,664 [INFO] Fetching Alpha Vantage data for AAPL (function: TIME_SERIES_DAILY)
+2025-05-01 22:40:20,254 [INFO] Successfully retrieved data for AAPL: 100 rows
+2025-05-01 22:40:20,254 [INFO] Successfully retrieved data and info for AAPL
+2025-05-01 22:40:20,255 [INFO] Stored single-stock data for AAPL in session state.
+2025-05-01 22:40:20,306 [INFO] User prompt: but according to the graph shown above the highest price went up to 260 on 26 dec ?
+2025-05-01 22:40:20,306 [INFO] Context for LLM: Stock(s)=AAPL, Has single data=True, Has multi data=False
+2025-05-01 22:40:57,398 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"

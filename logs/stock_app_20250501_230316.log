@@ -1,0 +1,8 @@
+2025-05-01 23:03:16,842 [INFO] Application starting up
+2025-05-01 23:03:19,146 [INFO] AI Model selected: Llama-3.3-70B
+2025-05-01 23:03:19,149 [INFO] Selected chart type: Candlestick
+2025-05-01 23:03:19,152 [INFO] Cleared fetched data from session state.
+2025-05-01 23:03:49,498 [INFO] Application starting up
+2025-05-01 23:03:51,318 [INFO] AI Model selected: Llama-3.3-70B
+2025-05-01 23:03:51,320 [INFO] Selected chart type: Candlestick
+2025-05-01 23:03:51,323 [INFO] Cleared fetched data from session state.

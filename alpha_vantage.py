@@ -225,7 +225,7 @@ Provide your response now.
 # Set page config
 logger.debug("Setting up Streamlit page configuration")
 st.set_page_config(
-    page_title="Stock Market ChatBot",
+    page_title="STOCK AI",
     page_icon="📈",
     layout="wide",
     initial_sidebar_state="expanded"
@@ -249,7 +249,7 @@ st.markdown("""
 available_models = initialize_models()
 
 # Title and description
-st.title("📊 Stock Market ChatBot")
+st.title("📊 STOCK AI")
 st.markdown("""
 This app retrieves stock price data using Alpha Vantage, visualizes it, and provides AI-powered insights *based on the loaded data*.
 Select stock(s), time period, and chart type. Then ask the AI assistant about the displayed information or general financial topics.
@@ -464,7 +464,7 @@ def get_alpha_vantage_data(symbol, function, output_size="compact", interval=Non
         logger.error(f"Unexpected error fetching {symbol}: {str(e)}", exc_info=True)
         return None, f"Unexpected error fetching {symbol}: {str(e)}"
 
-# --- [calculate_bollinger_bands function - unchanged] ---
+# calculate_bollinger_bands function - unchanged
 def calculate_bollinger_bands(data, window=20, num_std=2):
     """Calculate Bollinger Bands"""
     logger.debug(f"Calculating Bollinger Bands with window={window}, std={num_std}")
@@ -474,7 +474,7 @@ def calculate_bollinger_bands(data, window=20, num_std=2):
     lower_band = rolling_mean - (rolling_std * num_std)
     return rolling_mean, upper_band, lower_band
 
-# --- [format_number function - unchanged] ---
+# format_number function - unchanged
 def format_number(num):
     """Format large numbers for display"""
     if num is None or num == "N/A" or not isinstance(num, (int, float)):

@@ -1,0 +1,44 @@
+2025-05-05 14:55:06,212 [INFO] Application starting up
+2025-05-05 14:55:06,214 [INFO] Application starting up
+2025-05-05 14:55:13,975 [INFO] AI Model selected: Llama-3.3-70B
+2025-05-05 14:55:13,982 [INFO] Selected chart type: Candlestick
+2025-05-05 14:55:13,990 [INFO] Cleared fetched data from session state.
+2025-05-05 14:56:48,838 [INFO] Application starting up
+2025-05-05 14:56:54,026 [INFO] AI Model selected: Llama-3.3-70B
+2025-05-05 14:56:54,029 [INFO] Stock selection updated: MSFT
+2025-05-05 14:56:54,032 [INFO] Selected chart type: Candlestick
+2025-05-05 14:56:54,039 [INFO] Updating data and charts...
+2025-05-05 14:56:54,041 [INFO] Cleared fetched data from session state.
+2025-05-05 14:56:54,044 [INFO] Fetching Alpha Vantage data for MSFT (function: TIME_SERIES_DAILY)
+2025-05-05 14:56:55,927 [INFO] Successfully retrieved data for MSFT: 100 rows
+2025-05-05 14:56:55,928 [INFO] Successfully retrieved data and info for MSFT
+2025-05-05 14:56:55,929 [INFO] Stored single-stock data for MSFT in session state.
+2025-05-05 14:58:46,166 [INFO] Application starting up
+2025-05-05 14:58:51,172 [INFO] AI Model selected: Llama-3.3-70B
+2025-05-05 14:58:51,175 [INFO] Stock selection updated: MSFT
+2025-05-05 14:58:51,178 [INFO] Selected chart type: Candlestick
+2025-05-05 14:58:51,183 [INFO] Updating data and charts...
+2025-05-05 14:58:51,185 [INFO] Cleared fetched data from session state.
+2025-05-05 14:58:51,189 [INFO] Fetching Alpha Vantage data for MSFT (function: TIME_SERIES_DAILY)
+2025-05-05 14:58:53,143 [INFO] Successfully retrieved data for MSFT: 100 rows
+2025-05-05 14:58:53,144 [INFO] Successfully retrieved data and info for MSFT
+2025-05-05 14:58:53,145 [INFO] Stored single-stock data for MSFT in session state.
+2025-05-05 14:58:53,282 [INFO] User prompt: what the price of AAPL
+2025-05-05 14:58:53,283 [INFO] Context for LLM: Stock(s)=MSFT, Has single data=True, Has multi data=False
+2025-05-05 14:58:54,783 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-05 14:59:05,956 [INFO] Application starting up
+2025-05-05 14:59:10,908 [INFO] AI Model selected: Llama-3.3-70B
+2025-05-05 14:59:10,912 [INFO] Stock selection updated: MSFT,GOOGL
+2025-05-05 14:59:10,915 [INFO] Selected chart type: Candlestick
+2025-05-05 14:59:10,920 [INFO] Updating data and charts...
+2025-05-05 14:59:10,920 [INFO] Cleared fetched data from session state.
+2025-05-05 14:59:10,921 [INFO] Multiple stocks selected for comparison: ['MSFT', 'GOOGL']
+2025-05-05 14:59:10,926 [INFO] Fetching comparison data for MSFT
+2025-05-05 14:59:10,929 [INFO] Fetching Alpha Vantage data for MSFT (function: TIME_SERIES_DAILY)
+2025-05-05 14:59:12,967 [INFO] Successfully retrieved data for MSFT: 100 rows
+2025-05-05 14:59:12,968 [INFO] Successfully fetched comparison data for MSFT
+2025-05-05 14:59:27,970 [INFO] Fetching comparison data for GOOGL
+2025-05-05 14:59:27,971 [INFO] Fetching Alpha Vantage data for GOOGL (function: TIME_SERIES_DAILY)
+2025-05-05 14:59:29,149 [INFO] Successfully retrieved data for GOOGL: 100 rows
+2025-05-05 14:59:29,150 [INFO] Successfully fetched comparison data for GOOGL
+2025-05-05 14:59:30,154 [INFO] Stored multi-stock data for ['MSFT', 'GOOGL'] in session state.

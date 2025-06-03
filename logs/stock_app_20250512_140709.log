@@ -1,0 +1,96 @@
+2025-05-12 14:07:09,444 [INFO] Application starting up
+2025-05-12 14:07:12,075 [INFO] AI Model selected: Llama-3.3-70B
+2025-05-12 14:07:12,077 [INFO] Selected chart type: Candlestick
+2025-05-12 14:07:12,080 [INFO] Cleared fetched data from session state.
+2025-05-12 14:11:58,429 [INFO] Application starting up
+2025-05-12 14:12:00,540 [INFO] AI Model selected: Llama-3.3-70B
+2025-05-12 14:12:00,542 [INFO] Stock selection updated: AAPL
+2025-05-12 14:12:00,543 [INFO] Selected chart type: Candlestick
+2025-05-12 14:12:00,545 [INFO] Updating data and charts...
+2025-05-12 14:12:00,545 [INFO] Cleared fetched data from session state.
+2025-05-12 14:12:00,557 [INFO] Fetching Alpha Vantage data for AAPL (function: TIME_SERIES_DAILY)
+2025-05-12 14:12:02,250 [INFO] Successfully retrieved data for AAPL: 100 rows
+2025-05-12 14:12:02,251 [INFO] Successfully retrieved data and info for AAPL
+2025-05-12 14:12:02,252 [INFO] Stored single-stock data for AAPL in session state.
+2025-05-12 14:13:54,354 [INFO] Application starting up
+2025-05-12 14:13:55,987 [INFO] Application starting up
+2025-05-12 14:13:58,168 [INFO] AI Model selected: Llama-3.3-70B
+2025-05-12 14:13:58,170 [INFO] Stock selection updated: AAPL
+2025-05-12 14:13:58,171 [INFO] Selected chart type: Candlestick
+2025-05-12 14:13:58,173 [INFO] Updating data and charts...
+2025-05-12 14:13:58,173 [INFO] Cleared fetched data from session state.
+2025-05-12 14:13:58,174 [INFO] Fetching Alpha Vantage data for AAPL (function: TIME_SERIES_DAILY)
+2025-05-12 14:13:59,633 [INFO] Successfully retrieved data for AAPL: 100 rows
+2025-05-12 14:13:59,634 [INFO] Successfully retrieved data and info for AAPL
+2025-05-12 14:13:59,634 [INFO] Stored single-stock data for AAPL in session state.
+2025-05-12 14:14:03,947 [INFO] Application starting up
+2025-05-12 14:14:06,086 [INFO] AI Model selected: Llama-3.3-70B
+2025-05-12 14:14:06,087 [INFO] Stock selection updated: AAPL,MSFT
+2025-05-12 14:14:06,088 [INFO] Selected chart type: Candlestick
+2025-05-12 14:14:06,090 [INFO] Rate limiting: Waiting 7.1s before next potential API call.
+2025-05-12 14:14:06,091 [INFO] Updating data and charts...
+2025-05-12 14:14:06,091 [INFO] Cleared fetched data from session state.
+2025-05-12 14:14:06,091 [INFO] Multiple stocks selected for comparison: ['AAPL', 'MSFT']
+2025-05-12 14:14:06,093 [INFO] Fetching comparison data for AAPL
+2025-05-12 14:14:06,093 [INFO] Fetching Alpha Vantage data for AAPL (function: TIME_SERIES_DAILY)
+2025-05-12 14:14:07,819 [INFO] Successfully retrieved data for AAPL: 100 rows
+2025-05-12 14:14:07,820 [INFO] Successfully fetched comparison data for AAPL
+2025-05-12 14:14:22,821 [INFO] Fetching comparison data for MSFT
+2025-05-12 14:14:22,821 [INFO] Fetching Alpha Vantage data for MSFT (function: TIME_SERIES_DAILY)
+2025-05-12 14:14:23,801 [WARNING] Could not retrieve detailed company overview for MSFT. Response: {'Information': 'We have detected your API key as F9H662T7ZC52LER5 and our standard API rate limit is 25 requests per day. Please subscribe to any of the premium plans at https://www.alphavantage.co/premium/ to instantly remove all daily rate limits.'}
+2025-05-12 14:14:23,801 [INFO] Successfully retrieved data for MSFT: 100 rows
+2025-05-12 14:14:23,801 [INFO] Successfully fetched comparison data for MSFT
+2025-05-12 14:14:24,804 [INFO] Stored multi-stock data for ['AAPL', 'MSFT'] in session state.
+2025-05-12 14:16:25,048 [INFO] Application starting up
+2025-05-12 14:16:27,103 [INFO] AI Model selected: Llama-3.3-70B
+2025-05-12 14:16:27,104 [INFO] Stock selection updated: AAPL,MSFT
+2025-05-12 14:16:27,105 [INFO] Selected chart type: Candlestick
+2025-05-12 14:16:27,107 [INFO] Updating data and charts...
+2025-05-12 14:16:27,107 [INFO] Cleared fetched data from session state.
+2025-05-12 14:16:27,108 [INFO] Multiple stocks selected for comparison: ['AAPL', 'MSFT']
+2025-05-12 14:16:27,109 [INFO] Fetching comparison data for AAPL
+2025-05-12 14:16:27,109 [INFO] Fetching Alpha Vantage data for AAPL (function: TIME_SERIES_DAILY)
+2025-05-12 14:16:28,746 [INFO] Successfully retrieved data for AAPL: 100 rows
+2025-05-12 14:16:28,747 [INFO] Successfully fetched comparison data for AAPL
+2025-05-12 14:16:43,748 [INFO] Fetching comparison data for MSFT
+2025-05-12 14:16:43,749 [INFO] Fetching Alpha Vantage data for MSFT (function: TIME_SERIES_DAILY)
+2025-05-12 14:16:44,719 [INFO] Successfully retrieved data for MSFT: 100 rows
+2025-05-12 14:16:44,719 [INFO] Successfully fetched comparison data for MSFT
+2025-05-12 14:16:45,722 [INFO] Stored multi-stock data for ['AAPL', 'MSFT'] in session state.
+2025-05-12 14:16:45,751 [INFO] User prompt: price of infy 
+2025-05-12 14:16:45,752 [INFO] Context for LLM: Stock(s)=['AAPL', 'MSFT'], Has single data=False, Has multi data=True
+2025-05-12 14:16:46,670 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-12 14:18:19,292 [INFO] Application starting up
+2025-05-12 14:18:21,299 [INFO] AI Model selected: Llama-3.3-70B
+2025-05-12 14:18:21,300 [INFO] Stock selection updated: AAPL
+2025-05-12 14:18:21,301 [INFO] Selected chart type: Candlestick
+2025-05-12 14:18:21,303 [INFO] Updating data and charts...
+2025-05-12 14:18:21,303 [INFO] Cleared fetched data from session state.
+2025-05-12 14:18:21,304 [INFO] Fetching Alpha Vantage data for AAPL (function: TIME_SERIES_DAILY)
+2025-05-12 14:18:21,827 [ERROR] Could not find valid time series key in response for AAPL
+2025-05-12 14:18:21,827 [ERROR] Data fetch failed or returned empty for AAPL. Message: API Limit Reached for AAPL. Free tier has limitations. Please wait and try again.
+2025-05-12 14:18:21,828 [INFO] Cleared fetched data from session state.
+2025-05-12 14:21:34,688 [INFO] Application starting up
+2025-05-12 14:21:36,562 [INFO] AI Model selected: Llama-3.3-70B
+2025-05-12 14:21:36,564 [INFO] Selected chart type: Candlestick
+2025-05-12 14:21:36,566 [INFO] Cleared fetched data from session state.
+2025-05-12 14:21:39,600 [INFO] Application starting up
+2025-05-12 14:21:41,714 [INFO] AI Model selected: Llama-3.3-70B
+2025-05-12 14:21:41,714 [INFO] Stock selection updated: MSFT
+2025-05-12 14:21:41,716 [INFO] Selected chart type: Candlestick
+2025-05-12 14:21:41,717 [INFO] Updating data and charts...
+2025-05-12 14:21:41,719 [INFO] Cleared fetched data from session state.
+2025-05-12 14:21:41,720 [INFO] Fetching Alpha Vantage data for MSFT (function: TIME_SERIES_DAILY)
+2025-05-12 14:21:43,680 [INFO] Successfully retrieved data for MSFT: 100 rows
+2025-05-12 14:21:43,681 [INFO] Successfully retrieved data and info for MSFT
+2025-05-12 14:21:43,681 [INFO] Stored single-stock data for MSFT in session state.
+2025-05-12 14:22:09,752 [INFO] Application starting up
+2025-05-12 14:22:11,815 [INFO] AI Model selected: Llama-3.3-70B
+2025-05-12 14:22:11,816 [INFO] Stock selection updated: MSFT
+2025-05-12 14:22:11,818 [INFO] Selected chart type: OHLC
+2025-05-12 14:22:11,819 [INFO] Updating data and charts...
+2025-05-12 14:22:11,820 [INFO] Cleared fetched data from session state.
+2025-05-12 14:22:11,820 [INFO] Fetching Alpha Vantage data for MSFT (function: TIME_SERIES_DAILY)
+2025-05-12 14:22:13,565 [INFO] Successfully retrieved data for MSFT: 100 rows
+2025-05-12 14:22:13,566 [INFO] Successfully retrieved data and info for MSFT
+2025-05-12 14:22:13,566 [INFO] Stored single-stock data for MSFT in session state.

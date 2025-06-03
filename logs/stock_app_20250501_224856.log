@@ -1,0 +1,31 @@
+2025-05-01 22:48:56,556 [INFO] Application starting up
+2025-05-01 22:48:58,841 [INFO] AI Model selected: Llama-3.3-70B
+2025-05-01 22:48:58,842 [INFO] Selected chart type: Candlestick
+2025-05-01 22:48:58,846 [INFO] Cleared fetched data from session state.
+2025-05-01 22:49:11,939 [INFO] Application starting up
+2025-05-01 22:49:14,586 [INFO] AI Model selected: Llama-3.3-70B
+2025-05-01 22:49:14,587 [INFO] Stock selection updated: AAPL
+2025-05-01 22:49:14,588 [INFO] Selected chart type: Candlestick
+2025-05-01 22:49:14,591 [INFO] Updating data and charts...
+2025-05-01 22:49:14,592 [INFO] Cleared fetched data from session state.
+2025-05-01 22:49:14,593 [INFO] Fetching Alpha Vantage data for AAPL (function: TIME_SERIES_DAILY)
+2025-05-01 22:49:16,777 [INFO] Successfully retrieved data for AAPL: 100 rows
+2025-05-01 22:49:16,777 [INFO] Successfully retrieved data and info for AAPL
+2025-05-01 22:49:16,778 [INFO] Stored single-stock data for AAPL in session state.
+2025-05-01 22:49:43,355 [INFO] Application starting up
+2025-05-01 22:49:45,567 [INFO] AI Model selected: Llama-3.3-70B
+2025-05-01 22:49:45,568 [INFO] Stock selection updated: AAPL
+2025-05-01 22:49:45,569 [INFO] Selected chart type: Candlestick
+2025-05-01 22:49:45,571 [INFO] Updating data and charts...
+2025-05-01 22:49:45,572 [INFO] Cleared fetched data from session state.
+2025-05-01 22:49:45,573 [INFO] Fetching Alpha Vantage data for AAPL (function: TIME_SERIES_DAILY)
+2025-05-01 22:49:47,037 [INFO] Successfully retrieved data for AAPL: 100 rows
+2025-05-01 22:49:47,037 [INFO] Successfully retrieved data and info for AAPL
+2025-05-01 22:49:47,038 [INFO] Stored single-stock data for AAPL in session state.
+2025-05-01 22:49:47,100 [INFO] User prompt: what is the highest price went for the stock of AAPL within the past 6 months ?
+2025-05-01 22:49:47,101 [INFO] Context for LLM: Stock(s)=AAPL, Has single data=True, Has multi data=False
+2025-05-01 22:53:00,145 [INFO] Application starting up
+2025-05-01 22:53:11,250 [INFO] Application starting up
+2025-05-01 22:53:13,263 [INFO] AI Model selected: Llama-3.3-70B
+2025-05-01 22:53:13,265 [INFO] Selected chart type: Candlestick
+2025-05-01 22:53:13,268 [INFO] Cleared fetched data from session state.
