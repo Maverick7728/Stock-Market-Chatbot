@@ -6,8 +6,8 @@ A Streamlit-based application that combines real-time stock market data with AI-
 
 - **Real-Time Stock Data**: Fetch up-to-date financial information from Alpha Vantage API
 - **Interactive Charts**: View Candlestick, Line, or OHLC charts with customizable technical indicators
-- **Multi-Stock Comparison**: Compare performance of up to 5 stocks simultaneously
-- **AI Analysis**: Powered by Groq's large language models including:
+- **Multi-Stock Comparison**: Compare the performance of up to 5 stocks simultaneously
+- **AI Analysis**: Powered by Groq's large language models, including:
   - Llama-3.3-70B
   - Gemma-2-9B
   - DeepSeek-R1-Distill-Llama-70B
@@ -19,7 +19,7 @@ A Streamlit-based application that combines real-time stock market data with AI-
 
 1. Select stocks from the sidebar (up to 5 for comparison)
 2. Choose chart type and technical indicators
-3. Customize time period and data range
+3. Customize period and data range
 4. Ask the AI assistant questions about the loaded stocks or general financial topics
 5. Chat continuously without worrying about data refreshing unnecessarily
 
@@ -50,7 +50,7 @@ A Streamlit-based application that combines real-time stock market data with AI-
 
 ### Environment Setup
 1. Clone this repository
-2. Create a `.env` file with the following keys:
+2. Create a .env file with the following keys:
    ```
    ALPHA_VANTAGE_API_KEY=your_alpha_vantage_api_key
    GROQ_API_KEY=your_groq_api_key
@@ -75,4 +75,4 @@ A Streamlit-based application that combines real-time stock market data with AI-
 
 ## Note
 
-This application is for informational purposes only and does not constitute financial advice. Financial decisions should be made after consulting qualified professionals.
+This application is meant for informational purposes only and does not constitute financial advice. Financial decisions should be made after consulting qualified professionals.
